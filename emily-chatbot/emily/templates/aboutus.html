@@ -57,38 +57,7 @@
     <script src="/static/js/bootstrap.js"></script>
 
 
-    <script>
-
-
-      jQuery(document).ready(function() {
-
-        $("#submit-button").click(function(e) {
-          e.preventDefault();
-
-
-          $.ajax({
-              type: "POST",
-              url: "/chatbot",
-              data: {
-                  question: $("#question").val()
-              },
-              success: function(result) {
-                $("#response").append("<br>Me: "+$("#question").val()+ "<br> Karabo: "+result.response);
-                $("#question").val("")
-              },
-              error: function(result) {
-                  alert('error');
-              }
-          });
-
-
-
-        });
-
-      });
-
-
-    </script>
+ 
 
   </body>
 </html>
