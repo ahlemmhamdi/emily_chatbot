@@ -1,0 +1,51 @@
+{
+    "intents": [
+      {"tag": "salut",
+       "patterns": ["Salut", "Comment allez-vous", "Est-ce que quelqu'un est là-bas ?", "Hey", "Hola", "Bonjour", "Hi"],
+       "responses": ["Salut", "oui, comment puis-je aider", "", "Bonjour :)", "Hola", "Hey","Bonne journée"]
+      },
+      {"tag": "au revoir",
+       "patterns": ["Bye", "A plus tard", "Au revoir", "Ok bye", "Bye Bye"],
+       "responses": ["À bientôt!", "Bonne journée", "Bien sûr au revoir", "Plus tard mec", "A tout moment!","Heureux de vous aider!"]
+      },
+      {"tag": "merci",
+       "patterns": ["Merci", "C'est utile", "Super, merci", "Merci de m'avoir aidé"],
+       "responses": ["Heureux de vous aider!", "A tout moment!", "Mon plaisir", "Vous êtes le bienvenu", "Bien sûr mec"]
+      },
+      {"tag": "pas de réponse",
+       "patterns": [],
+       "responses": ["Désolé, je ne peux pas vous comprendre", "S'il vous plaît, donnez-moi plus d'informations", "Je ne suis pas sûr de comprendre", "Je suis toujours là mec"]
+       },
+       {"tag": "nom",
+        "patterns": ["Quel est ton nom", "Dis-moi ton nom", "Qui es-tu", "Parle-moi de toi", "Tu es","ton nom"],
+        "responses": ["Je suis Emily", "Mon nom est Emily", "Vous pouvez m'appeler Emily", "Je suis Emily", "Emily est mon nom"]
+        },
+        {"tag": "vivre l'instant",
+            "patterns": ["Vivre l'instant présent, est-ce point fort ?","Quelle est la force de vivre au présent ?","instant present et force","l'objectif en relation du l'instant present "],
+            "responses": ["Il me semble que, dans la vie, l’équilibre consiste à être attentif à la fois au chemin et au but. Si je ne regarde que le chemin, je vais n’importe où, mais si je ne pense qu’au but, je ne vois pas où je me situe, au présent, sur le chemin."]
+        },
+        {"tag": "vivre au present",
+            "patterns": ["À quels moments je sente vraiment que je suis  vivre dans le présent ?","Quand je sens vraiment vivant maintenant ?","comment vivre dans le present ?"],
+            "responses": ["Quand je joue au théâtre, parce que le public ne voit que ce que je lui donne ici et maintenant, donc si je n’y suis pas, c’est raté ! Mais aussi quand je suis avec les chevaux, et les animaux en général, car eux ne pensent pas à ce qu’ils vont faire après ou à ce qu’ils ont fait avant : ils sont là, ici et maintenant. Si je n’y suis pas également, ils le sentent et la relation en pâtit. Puis, au théâtre comme à cheval, quand on est trop obnubilé par le but à atteindre – par exemple créer une émotion au théâtre ; ou obtenir, à cheval, un mouvement spécifique de l’animal –, on risque de ne pas faire, au présent, ce qu’il faut pour l’obtenir. Si l’on est un bon « technicien », ça peut marcher une fois, peut-être deux, mais pas à chaque fois."]
+        },
+        {"tag": "la psychologie sociale ",
+            "patterns": ["Quelle est la définition de la psychologie sociale ?","la psychologie sociale","c quoi la psychologie sociale"],
+            "responses": [" Elle s’intéresse à étudier les influences du psychisme sur les relations que nous entretenons avec autrui."]
+        },
+        {"tag": "niveaux analyse",
+            "patterns": ["Combien de niveaux d'analyse existent en psychologie sociale ?","niveaux d'analyse en psychologie sociale"],
+            "responses": ["4"]
+        },
+        {"tag": "methodes utilise ",
+            "patterns": ["Quelles sont les méthodes utilisés pour la psychologie sociale ?"," méthodes utilisés dans la psychologie sociale"],
+            "responses": ["Clinique, Expérimentale, Enquête, Recherche action"]
+        },
+        {"tag": "umeur",
+        "patterns": ["Quelles sont les 4 caractéristiques de la rumeur ?"],
+        "responses": ["Instabilité, Implication, Négativité du message, Attribution "]
+        }
+    
+    ]
+}
+
+
