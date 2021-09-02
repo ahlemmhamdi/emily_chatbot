@@ -35,8 +35,22 @@ def chatbotResponse():
         the_question = request.form['question']
 
         response = processor.chatbot_response(the_question)
-
     return jsonify({"response": response })
+
+@app.route('/auth/signup', methods=[ "POST"])
+def signup():
+
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        password = request.form['password']
+        response={'name':name,'email':email}
+    #sa
+    return jsonify({"user": response })
+  
+
+
+
 
 
 
