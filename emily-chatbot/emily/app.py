@@ -13,7 +13,23 @@ def index():
 
 @app.route('/login', methods=["GET", "POST"])
 def login():
-    return render_template('login.html', **locals())
+    if request.method == 'GET':
+     name = request.form['name']
+     password = request.form['password']
+    response={'name':name}
+    return jsonify({"user": response })
+    
+
+@app.route('/auth/signup', methods=[ "POST"])
+def signup():
+
+    if request.method == 'POST':
+        name = request.form['name']
+        email = request.form['email']
+        password = request.form['password']
+        response={'name':name,'email':email}
+
+    return jsonify({"user": response })
 
 @app.route('/register', methods=["GET", "POST"])
 def register():
