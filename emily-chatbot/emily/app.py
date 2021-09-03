@@ -53,22 +53,7 @@ def chatbotResponse():
         response = processor.chatbot_response(the_question)
     return jsonify({"response": response })
 
-@app.route('/auth/signup', methods=[ "POST"])
-def signup():
-
-    if request.method == 'POST':
-        name = request.form['name']
-        email = request.form['email']
-        password = request.form['password']
-        response={'name':name,'email':email}
-    #sa
-    return jsonify({"user": response })
-  
-
-
-
-
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='8888', debug=True)
+    app.run(host='0.0.0.0', port='8888', debug=True,use_reloader=True)
