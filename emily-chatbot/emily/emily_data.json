@@ -606,6 +606,502 @@
             "responses": [
                 "Vous devriez consulter parce qu’il est essentiel de revoir votre médication. En effet, certains des médicaments utilisés pour traiter la maladie bipolaire (maniaco-dépression) entraînent un risque de malformations pour le bébé. Un suivi en psychiatrie est aussi recommandé pendant toute votre grossesse et quelques semaines après l’accouchement. « La grossesse augmente le risque de rechute de la maladie bipolaire, souligne la psychiatre spécialisée en périnatalité, Marie-Josée Poulin. De plus, les femmes bipolaires sont beaucoup plus à risque de faire une dépression postpartum et même une psychose postpartum, un problème très grave. »"
             ]
+        },
+        {
+            "tag": "maladie mentale déficience intellectuelle  intimement liées.",
+            "patterns": [
+                "La maladie mentale et la déficience intellectuelle sont intimement liées?"
+            ],
+            "responses": [
+                "non,la maladie mentale et la déficience intellectuelle sont deux états complètement différents, qu’il ne faut pas confondre."
+            ]
+        },
+        {
+            "tag": "majorité personnes souffrant  troubles mentaux  consultent pas.",
+            "patterns": [
+                "La majorité des personnes souffrant de troubles mentaux ne consultent pas?"
+            ],
+            "responses": [
+                "oui, Les préjugés entourant la maladie mentale incitent près de 2/3 des personnes atteintes à ne pas chercher l’aide dont elles ont tant besoin. De plus, 42% des gens aux prises avec un problème de santé mentale ne l’ont pas dit à leur famille de peur d’être jugés."
+            ]
+        },
+        {
+            "tag": "personnes touchées maladie mentale  plus pauvres  moins intelligentes ",
+            "patterns": [
+                "Les personnes touchées par la maladie mentale sont en général plus pauvres et moins intelligentes"
+            ],
+            "responses": [
+                " Faux,la maladie mentale touche sans discrimination des individus de toute provenance et condition sociale."
+            ]
+        },
+        {
+            "tag": "maladie mentale  principale cause absentéisme travail",
+            "patterns": [
+                "La maladie mentale est la principale cause d’absentéisme au travail"
+            ],
+            "responses": [
+                "C'est vrai,Près de 50 % des absences en milieu de travail sont liées à la maladie mentale, un problème grandissant qui se doit d’être attaqué de front."
+            ]
+        },
+        {
+            "tag": " majorité  crimes violents  commis personnes souffrant maladie mentale",
+            "patterns": [
+                "La majorité des crimes violents sont commis par des personnes souffrant de maladie mentale"
+            ],
+            "responses": [
+                "pas vrai , Bien que les croyances populaires et la couverture médiatique des tels crimes puissent le laisser supposer, les personnes souffrant de maladie mentales ne sont pas enclines à commettre des crimes violents."
+            ]
+        },
+        {
+            "tag": "ne peut rien faire  personne souffrant maladie mentale",
+            "patterns": [
+                "On ne peut rien faire pour une personne souffrant de maladie mentale"
+            ],
+            "responses": [
+                "carrément pas vrai ,  Les proches d’une personne souffrant de maladie mentale jouent un rôle de premier plan dans le rétablissement de celle-ci. Le soutien d’un proche, d’un ami ou d’un collègue peut faire toute la différence."
+            ]
+        },
+        {
+            "tag": "antidépresseurs créer dépendance",
+            "patterns": [
+                "Les antidépresseurs créent une dépendance."
+            ],
+            "responses": [
+                "non, il existe à ce jour aucune preuve que les antidépresseurs créent une dépendance."
+            ]
+        },
+        {
+            "tag": "dépression faire plus victimes   accidents de la route",
+            "patterns": [
+                "La dépression fait plus de victimes que les accidents de la route "
+            ],
+            "responses": [
+                "décès de malheureusement, Le nombre de suicides reliés à la dépression dépasse le nombre de r les routes du Québec. En effet, 80% des gens qui se sont suicidés souffraient de dépression."
+            ]
+        },
+        {
+            "tag": "calmer  crise de nerf",
+            "patterns": [
+                "Comment calmer une crise de nerf ?"
+            ],
+            "responses": [
+                "Pour calmer une crise de nerfs, il faut l'accueillir quand elle se déclare et ne pas la réprimer. Vous pouvez tout à fait pleurer, crier, taper dans un coussin, écrire, sortir courir, trouvez ce qui vous fait du bien pour gérer vos émotions. Et quand la crise est là, prenez une grande inspiration et respirer calmement pour tenter de retrouver le calme, recommande Valérie Sengler. Et d'ajouter Les médicaments ne sont pas forcément la bonne solution car s'ils soulagent sur le moment, ils ne permettent pas de traiter la cause en profondeur. Il est important de consulter un thérapeute afin d'identifier ce qui n'est pas dit et de mettre des mots sur cette douleur explosive. Il est également possible de pratiquer une séance d'EMDR  afin de voir ce qui se passe dans le corps au moment de la crise de nerf"
+            ]
+        },
+        {
+            "tag": "Crise  nerf  bébé ",
+            "patterns": [
+                "Crise de nerf chez le bébé : que faire ?"
+            ],
+            "responses": [
+                "On entend souvent des parents décrire des crises de nerfs chez des bébés de 2 ans à 6 ans. Comme l'explique Valérie Sengler, à ces âges-là, ce sont surtout des manifestations normales du développement de l'enfant. A deux ans, un enfant attend qu'on lui fixe des limites afin de l'aider à dépasser le <stade animal>, stade où il n'a incorporé aucun interdit, il tape, hurle. En lui donnant les règles, il intègre <la loi> et devient ainsi un humain. Les impressionnantes crises que peuvent faire les enfants sont donc souvent le signe que la loi n'a pas encore été intégrée. Les enfants doivent comprendre qu'ils ne peuvent pas de cette manière se rouler par terre, crier, taper, etc L'adulte qui par comparaison a intégré la loi, va se conduire en citoyen respectueux de l'Autre."
+            ]
+        },
+        {
+            "tag": "Crise nerf cadolescent Neurasthénie",
+            "patterns": [
+                "Crise de nerf chez l'adolescent : que faire ?",
+                "Neurasthénie de l'adolescent : que faire ? "
+            ],
+            "responses": [
+                "Comme chez les enfants, les crises de nerfs chez les adolescents sont souvent le signe d'un besoin de cadre et de règles.Les adolescents peuvent également ressentir un trop plein d'émotion. Les parents doivent rester attentifs et parler avec leurs enfants. Ils ne doivent pas hésiter à solliciter un professionnel si le comportement de leur adolescent devient inquiétant  car la présence d'un tiers va permettre à l'adolescent de s'exprimer en toute liberté, recommande la spécialiste."
+            ]
+        },
+        {
+            "tag": "Crise  nerf ossesse : ",
+            "patterns": [
+                "Crise de nerf pendant la grossesse : que faire ?"
+            ],
+            "responses": [
+                "La grossesse est une période particulière où l'afflux hormonal peut engendrer certaines réactions.Pendant la grossesse, nombre de femmes sont très connectées à leur insconscient. De ce fait, chez certaines d'entre elles, cette période peut-être compliquée et engendrer une résurgence de vécus douloureux survenus dans l'enfance, il est alors utile pour vivre sa grossesse sereinement de consulter un psychanalyste"
+            ]
+        },
+        {
+            "tag": "qu'est-ce choc émotionnel ",
+            "patterns": [
+                " qu'est-ce qu'un choc émotionnel ?",
+                "c quoi choc émotionnel ?"
+            ],
+            "responses": [
+                "En psychologie, le choc émotionnel résulte d'un évènement traumatisant qui submerge la faculté que possède un individu à faire face aux émotions qu'il ressent lorsque celui-ci survient. Le traumatisme psychique ainsi vécu peut engendrer des séquelles importantes à plus ou moins long terme. Il faut savoir que le choc émotionnel est l'un des facteurs favorisants l'apparition de la dépression. Il peut être déclenché à la suite d'un deuil, d'une déception amoureuse, d'un problème familial, d'un accident. Dans la plupart des cas, le choc est provoqué par un évènement négatif."
+            ]
+        },
+        {
+            "tag": " étapes choc émotionnel ",
+            "patterns": [
+                "quelles sont les étapes d'un choc émotionnel ?"
+            ],
+            "responses": [
+                "physiologiques qui nous préparent à l'action (fuite ou combat). Lorsque nous sommes confrontés à une situation traumatisante, cette réaction de stress est dépassée et inadaptée. Schématiquement, cela se traduit par 3 grandes types de réactions explique le Dr Gérard Macqueron. La présence de ces symptômes doit alerter car ils indiquent une évolution vers un état post traumatique:1.La sidération psychique : la victime en état de choc, stupéfaite, immobile est incapable d'agir et de raisonner. 2.L'agitation désordonnée : la personne s'agite de manière inefficace, crie, court sans but. 3.La dissociation psychique : Le sujet paraît agir de manière adaptée mais fonctionne en fait sur un mode automatique sans aucune réflexion. C'est comme s'il était présent physiquement mais absent psychiquement."
+            ]
+        },
+        {
+            "tag": "causes  choc émotionnel ",
+            "patterns": [
+                "Quelles sont les causes du choc émotionnel ? "
+            ],
+            "responses": [
+                "Ce sont souvent les événements qui confrontent brutalement à la mort ou à une menace de mort ainsi que les violences sexuelles qui sont susceptibles d'entraîner un choc émotionnel.Pour autant, il n'y a pas de rapport entre la gravité objective d'un évènement et les conséquences de cet évènement sur l'équilibre psychique d'une personne, nuance le psychiatre. Ce qui importe n'est pas tant ce qu'il s'est effectivement passé mais ce qu'a ressenti l'individu. Cela explique que des témoins, de soignants ou des proches peuvent aussi être traumatisés, explique notre interlocuteur."
+            ]
+        },
+        {
+            "tag": " les conséquences choc émotionnel pour la santé    ",
+            "patterns": [
+                "Quelles sont les conséquences du choc émotionnel pour la santé ?  "
+            ],
+            "responses": [
+                "Le choc émotionnel disparaît généralement en quelques heures voire quelques jours. Lorsque ces symptômes persistent un mois après l'événement, on parle d'un syndrome de stress post-traumatique.Sans prise en charge, cet état peut devenir chronique et se compliquer par l'apparition d'autres pathologies comme des troubles de l'humeur, une dépression, des modifications de la personnalité, l'alcoolisme ou la toxicomanie, précise le spécialiste."
+            ]
+        },
+        {
+            "tag": " faire  consulter  choc émotionnel",
+            "patterns": [
+                "Que faire et qui consulter en cas de choc émotionnel?"
+            ],
+            "responses": [
+                "La prise en charge du choc émotionnel repose sur différents piliers : outre le fait d'être entouré affectivement, il est important de verbaliser, de mettre des mots sur ce qui a été vécu mais aussi de dormir et de s'hydrater, indique le Dr Gérard Macqueron. En parallèle, il faut consulter un psychiatre ou un psychologue spécialisé dans le psycho traumatisme avec des techniques telles que : EMDR, thérapie cognitive et comportementale (TCC) ou encore hypnose. Selon l'état émotionnel du patient, des antidépresseurs peuvent être prescrits."
+            ]
+        },
+        {
+            "tag": "qu'est-ce qu'un Trouble Anxieux Généralisé",
+            "patterns": [
+                "qu'est-ce qu'un Trouble Anxieux Généralisé ? "
+            ],
+            "responses": [
+                "Le Trouble Anxieux Généralisé (TAG) fait partie de la catégorie des troubles anxieux. Selon le manuel diagnostic et statistique des troubles mentaux (DSM-5), il se caractérise par la présence d'une anxiété et de soucis excessifs survenant la plupart du temps durant au moins 6 mois, explique le Dr Pierre-Louis Sunhary de Verville, Interne en Psychiatrie. La personne éprouve des difficultés à contrôler ses préoccupations"
+            ]
+        },
+        {
+            "tag": "diagnostic  le trouble anxieux généralisé symptômes ",
+            "patterns": [
+                "comment diagnostic  le trouble anxieux généralisé ? "
+            ],
+            "responses": [
+                "Pour que le diagnostic soit posé, au moins trois symptômes parmi les suivants doivent être présents la plupart du temps depuis 6 mois :agitation/sensation d'être survolté ou à bout,fatigabilité,difficultés de concentration ou trous de mémoire,irritabilité,tension musculaire, perturbation du sommeil (difficultés à l'endormissement, réveils nocturnes fréquents, sommeil agité, sensation subjective de sommeil inefficace)."
+            ]
+        },
+        {
+            "tag": "Phobie sociale blemmophobie ",
+            "patterns": [
+                " definition du phobie sociale svp?",
+                "c est quoi la Phobie sociale ?"
+            ],
+            "responses": [
+                "La phobie sociale ou blemmophobie désigne un trouble anxieux qui se caractérise par une peur intense du regard des autres."
+            ]
+        },
+        {
+            "tag": " Symptômes du phobie sociale ",
+            "patterns": [
+                "c est quoi Symptômes du phobie sociale ?"
+            ],
+            "responses": [
+                "La phobie sociale se caractérise par plusieurs appréhensions :la peur du rejet,la peur de l'échec,la peur d'être ridicule,la peur d'être perçu comme anormal,la peur de perdre le contrôle..."
+            ]
+        },
+        {
+            "tag": "les causes du phobie sociale ?",
+            "patterns": [
+                "les causes du phobie sociale ?"
+            ],
+            "responses": [
+                "Les racines de la phobie sociale sont multiples:un terrain familial anxieux,une personnalité introvertie (attention toutefois à ne pas confondre timidité et phobie sociale),un manque de compétences relationnelles et émotionnelles, une remise en question de soi dévalorisante,des exigences inatteignables,un vécu traumatique de harcèlement scolaire ou de maltraitance..."
+            ]
+        },
+        {
+            "tag": " traitements  vaincre  phobie sociale hypnose état hypnotique Thérapie cognitive et comportementale (TTC)",
+            "patterns": [
+                "quels traitements pour vaincre une phobie sociale ?"
+            ],
+            "responses": [
+                "L'hypnose ou l'état hypnotique :favorise la mobilisation des ressources naturelles pour apaiser l'hypersensibilité, pour améliorer le rapport aux contextes sociaux phobogènes et augmenter le sentiment d'habileté relationnelle.Thérapie cognitive et comportementale (TTC) :Un entraînement régulier à l'affirmation de soi, à la transformation de ses perceptions mentales et une pratique quotidienne de pleine présence à sa respiration, à ses sensations, et à ses émotions favorisent la régulation des manifestations phobiques dans un contexte social. Ces ateliers issus des thérapies cognitives et comportementales se déroulent soit en individuel avec un accompagnement dynamique du psychologue, soit en groupe, avec des mises en situation comme le jeu de l'éloquence.En complément à la thérapie cognitive et comportementale, des exercices de sophrologie et de cohérence cardiaque, favorables à la progression de l'estime et de la confiance en soi, peuvent être proposés,précise la psychologue.Groupe de parole:Une participation ponctuelle ou régulière à un groupe de parole autour de la question de l'anxiété sociale réduit considérablement le sentiment d'être l'unique personne à subir les manifestations phobiques, de mieux contextualiser et évaluer l'intensité des difficultés relationnelles et de profiter des expériences et des progrès des participants afin de trouver des réponses adaptées à ses réels besoins, souligne Édith Rosset."
+            ]
+        },
+        {
+            "tag": " tests faire  phobie sociale ",
+            "patterns": [
+                "Quels tests faire pour  phobie sociale ?",
+                "Quels tests nécessaires en cas  phobie sociale ?"
+            ],
+            "responses": [
+                "A partir de tests validés scientifiquement, le psychologue peut évaluer l'intensité des manifestations de la phobie sociale avant et après les entraînements thérapeutiques. Les échelles fréquemment utilisées sont :L'échelle d'anxiété sociale de Liebowitz (Social Anxiety Scale ou LSAS),Le questionnaire des conduites interpersonnelles (QCI, Arrindell et al., 1984, 1987),L'échelle d'affirmation de soi de Rathus"
+            ]
+        },
+        {
+            "tag": " la crise de la quarantaine crise du milieu de vie ",
+            "patterns": [
+                "qu'est-ce que la crise de la quarantaine  ?",
+                "c quoi crise du milieu de vie?"
+            ],
+            "responses": [
+                "Entre 35 et 50 ans, certaines personnes éprouvent un certain mal-être existentiel qui se traduit par une impression de stagner, d'être perpétuellement insatisfait(e) ou de sentir enfermé(e) dans une routine qui ne leur convient plus. C'est ce qu'on appelle <la crise de la quarantaine> ou <crise du milieu de vie>. Hommes et femmes peuvent être concernés. La durée de cette crise et les symptômes sont variables d'une personne à l'autre : certains vont tout remettre en question (couple, vie de famille, vie professionnelle, loisirs...), d'autres vont chercher un nouveau sens à leur vie et vont avoir envie de gros changements."
+            ]
+        },
+        {
+            "tag": "sauver sa vie de couple  cas de crise quarantaine crise du milieu de vie",
+            "patterns": [
+                "Comment sauver sa vie de couple en cas de crise quarantaine ?",
+                "Comment sauver sa vie de couple en cas de crise du milieu de vie ?"
+            ],
+            "responses": [
+                "La crise de la quarantaine est souvent marquée par une remise en question de son couple. Peut se créer ainsi un décalage entre les deux partenaires. Le conjoint se sent souvent démuni face à celui ou celle qui traverse une crise de la quarantaine et ne sait pas comment agir pour l'aider. Il peut également avoir peur de se retrouver seul, que son conjoint le quitte, parte avec quelqu'un d'autre ou connaisse une relation extra-conjugale. De son côté, la personne <en crise> vit avec l'impression que son conjoint ne la comprend pas, se sent étouffé(e) et souhaite bien souvent donner du piment à sa vie. Pour autant, fuir sa vie actuelle sur un coup de tête n'est pas une solution sur le long terme. Au début comme tout ce qui est nouveau, ce changement de vie peut paraître excitant et peut vous donner l'impression que votre mal-être a disparu, mais cette euphorie ne dure généralement qu'un certain temps et les doutes reviennent tôt ou tard. Dans tous les cas, la solution vient rarement de l'extérieur, mais de vous-même. Il faut essayer au maximum de prendre du recul et de se poser les bonnes questions pour être le plus en phase avec soi-même. De quoi ai-je réellement envie ? Avec qui me sentirais-je le (la) plus heureux (se) ? Seul(e) ou en couple ? Si je ne suis plus avec la personne avec laquelle je vis, serais-je plus épanoui(e) ou au contraire, me sentirais-je incomplet(e) ? Quels sont mes désirs les plus profonds ? Mon conjoint m'empêche-t-il de les assouvir ? Est-il un frein à la concrétisation de mes projets ?... Ces différentes réponses vous permettront d'y voir plus clair, de faire le bilan de votre vie actuelle et de trouver des petits ajustements qui vous aideront à être plus épanoui(e)."
+            ]
+        },
+        {
+            "tag": "conseils couple retenir crise de quarantaine crise du milieu de vie",
+            "patterns": [
+                "donnez moi  des conseils couple à retenir en  crise de quarantaine?",
+                "donnez moi  des conseils couple à retenir en crise du milieu de vie?"
+            ],
+            "responses": [
+                "1.Consacrez des temps de dialogue avec votre conjoint : parlez-lui le plus sincèrement possible, communiquez vos doutes et vos peurs, faites-lui part de vos envies qui selon vous, pourrait permettre de retrouver un mieux-être à deux, et demandez-lui ce qu'il en pense.2.Ne reportez pas la faute sur votre conjoint : cette remise en cause émane de vous et votre mal-être est personnel. Votre conjoint est un soutien précieux, mais le gros du travail doit venir de vous.3.Remettez le couple un peu plus au centre de la sphère familiale : on priorise souvent les enfants au détriment de notre couple et de la vie à deux. Or, avant d'être des parents, vous êtes avant tout deux personnes qui s'aiment et qui ont décidé de faire de jolis projets ensemble.4.Surtout, ne prenez pas des décisions que vous pourrez ensuite regretter. Pesez toujours le pour et le contre et faites mûrir vos décisions afin de ne pas franchir les limites fixées dans votre couple. Et ce, même si cela prend du temps et nécessite une grande patience."
+            ]
+        },
+        {
+            "tag": "conseils  sortir la crise de la quarantaine  crise du milieu de vie ",
+            "patterns": [
+                "donnez moi des conseils pour sortir de la crise de la quarantaine ?",
+                "donnez moi des conseils pour sortir de lacrise du milieu de vie?"
+            ],
+            "responses": [
+                "1.Accepter le mal-être et ne plus le subir :n'ayez pas peur de verbaliser vos angoisses ou vos frustrations et essayez d'en chercher les causes. Posez-vous les bonnes questions en y répondant avec honnêteté : est-ce que je me sens utile dans mon travail ? Ai-je accompli trop de choses trop vite ? Suis-je vraiment épanoui(e) dans mon couple ? Et dans mon poste actuel ?...2.En parler:selon le niveau de malaise et l'intensité des manifestations, la personne pourra réussir à trouver du réconfort auprès d'un proche (ami, membre de la famille du même âge idéalement qui auront sans doute les mêmes doutes ou préoccupations) ou de son conjoint. Il peut également éprouver le besoin d'en discuter avec une personne neutre comme un psychologue pour travailler sur ses émotions,sur ses manifestations anxieuses ou aller en profondeur de sa propre histoire,conseille la psychologue.3.Lister ses accomplissements. On a souvent tendance à pointer du doigt ce qu'on a mal fait et à se concentrer sur ses échecs. Or,il est important de rester bienveillant avec soi-même, d'accepter ses erreurs et de souligner ce que l'on pense avoir réussi dans la vie, développe notre interlocutrice.",
+                "1.Accepter que le temps passe. Il faut se le dire : il y a potentiellement des rêves ou des projets qu'on ne pourra plus réaliser et il y a un deuil à faire par rapport à ça. Toutefois, dites-vous qu'il y a 1 001 façon de construire une vie épanouissante.Dans tous les cas, il faut retrouver du plaisir pour mettre à distance la frustration : il est encore temps de vivre des passions nouvelles et de concrétiser des désirs inassouvis, rassure Johanna Rozenblum. Les injonctions de la société peuvent parfois être aliénantes et peser sur notre mal-être : il faut se libérer le plus possible de ces schémas sociétaux et prendre les décisions qui sont en accord avec nos valeurs et nos aspirations profondes, pas celles qui sont dictées par la société.2.Faire des projets, c'est important pour avoir la sensation d'être proactif et de ne pas subir sa vie.Pour certains, cela consistera à changer de travail, à vivre dans un nouveau pays, se marier, avoir un enfant, faire un projet immobilier... Pour d'autres, il sera question de consacrer plus du temps à des activités personnelles, rencontrer de nouvelles personnes ou prendre du temps à la réalisation de n'importe quel projet en attente (participer à une association, s'engager politiquement, faire un long voyage...), liste la psychologue."
+            ]
+        },
+        {
+            "tag": " la crise de la trentaine ? ",
+            "patterns": [
+                "C'est quoi la crise de la trentaine ? "
+            ],
+            "responses": [
+                "La crise de la trentaine n'est pas une pathologie, c'est un état émotionnel transitoire qui a vocation à s'améliorer avec le temps définit Johanna Rozenblum, psychologue.C'est une forme de remise en question, un tiraillement entre ce que nous projetions de notre vie à 30 ans et le bilan, parfois acerbe, que l'on peut faire de notre vie réelle."
+            ]
+        },
+        {
+            "tag": "les causes de la crise de la trentaine la vie fantasmée  la réalité Rupture séparation ",
+            "patterns": [
+                "quelles sont les causes de la crise de la trentaine ? "
+            ],
+            "responses": [
+                "La principale cause d'une crise de la trentaine réside dans le décalage entre la vie fantasmée et la réalité qui peut parfois susciter une forme de souffrance psychique. En somme, si à 30 ans, le bilan de votre vie n'est pas celui que vous vous imaginiez, cela peut déclencher une crise, une remise en question.Selon l'impact du malaise, les personnes vont réagir différemment. Certains vont prendre de la distance et développer une forme d'acceptation lorsque d'autres passeront par une vraie remise en question qui pourra avoir des conséquences sur les sphères sociales, privées et professionnelles : une rupture, un changement total de travail…"
+            ]
+        },
+        {
+            "tag": " les signes et symptômes  la crise de la trentaine",
+            "patterns": [
+                "Quels sont les signes et symptômesde la crise de la trentaine ?"
+            ],
+            "responses": [
+                "Il y a globalement deux manifestations classiques d'une crise de la trentaine selon Johanna Rozenblum :Le repli sur soi, lorsque la tristesse ou la morosité sont au premier plan.Une forme plus théâtrale avec remise en question et prise de décisions, parfois excessives, comme par exemple plaquer son travail pour changer de pays et partir à l'inconnu sur un coup de tête ou rompre avant son mariage pour avoir le sentiment de rester libre."
+            ]
+        },
+        {
+            "tag": "Combien temps dure la crise de trentaine ",
+            "patterns": [
+                "Combien de temps dure la crise de trentaine ?"
+            ],
+            "responses": [
+                "La durée d'une crise de la trentaine dépend de la prise en charge de cette période particulière indique la psychologue.Se préoccuper de son bien-être et travailler à comprendre ce qui crée la souffrance permettra d'avancer en pleine conscience et de restaurer un équilibre émotionnel qui fera sortir de la crise plus rapidement.En effet, Johanna Rozenblum explique que lorsqu'on est dans le déni et que l'on ne perçoit pas les signaux qui indiquent une souffrance ou une grande remise en question, on ne travaille pas à comprendre se qui crée le malaise.Les émotions négatives peuvent alors se chroniciser et le trouble s'installer. C'est en verbalisant avec un proche ou si besoin un psychologue, que l'on peut trouver un éclairage, une compréhension de ce que l'on traverse pour prendre les bonnes décisions et ne pas agir sur un coup de tête."
+            ]
+        },
+        {
+            "tag": " particularités la femme dans la crise de trentaine ",
+            "patterns": [
+                "Quelles particularités chez la femme dans la crise de trentaine ?"
+            ],
+            "responses": [
+                "La crise de la trentaine chez la femme n'est pas la même que chez l'homme.Chez les femmes, la crise commence souvent par une période de doute et de bilan, parfois de perte de repère : ce qui semblait être évident ne l'est plus.Il s'agit d'une prise de conscience du parcours de notre vie, et, chez la femme, on retrouve souvent des questions liées à la parentalité, à la maternité, ou à l'épanouissement professionnel."
+            ]
+        },
+        {
+            "tag": " particularités chomme dans la crise de trentaine",
+            "patterns": [
+                "Quelles particularités chez l'homme dans la crise de trentaine ?"
+            ],
+            "responses": [
+                "Pour les hommes, c'est différent.La crise de la trentaine est une première 'crise de la culture de la jeunesse' qui se traduit par la peur d'entrer subitement dans un monde d'adultes avec des responsabilités .Ainsi, certains hommes peuvent avoir l'impression de ne pas avoir assez profité de leur jeunesse, et décident donc de rattraper le temps perdu."
+            ]
+        },
+        {
+            "tag": "test la crise de trentaine ",
+            "patterns": [
+                "Quel test faire dans la crise de trentaine "
+            ],
+            "responses": [
+                "Il n'y a pas de test psychométrique en psychologie car il ne s'agit pas d'un trouble mental."
+            ]
+        },
+        {
+            "tag": "Crise de la trentaine en couple ",
+            "patterns": [
+                "Crise de la trentaine en couple : c'est quoi ? "
+            ],
+            "responses": [
+                "Il s'agit d'une crise de la trentaine ressentie par une ou deux personnes au sein d'un même couple. Elle a un impact dans le couple car elle amène à une remise en question de soi-même mais aussi de sa relation.Ce qui peut causer la crise au sein du couple, c'est souvent le décalage entre ce que nous projetons de faire à l'avenir et la situation actuelle, ce qui amène à prendre des décisions pour s'accomplir tel qu'on l'envisage explique Johanna Rozenblum.Par exemple si l'un se projette dans la parentalité et dans la stabilité professionnelle tandis que l'autre envisage de voyager et remet à plus tard le désir d'enfant."
+            ]
+        },
+        {
+            "tag": " surmonter sortir une crise de la trentaine ",
+            "patterns": [
+                "Comment surmonter une crise de la trentaine ? "
+            ],
+            "responses": [
+                "Sortir de la crise demande un travail sur soi-même, une introspection, qui peut se faire seul ou accompagné grâce à l'aide d'un psychologue.Il faut d'abord faire le bilan pour comprendre ce qui ne nous convient plus, puis se demander de quoi on a besoin pour retrouver une forme d'épanouissement et être en adéquation avec ses projections dans l'avenir."
+            ]
+        },
+        {
+            "tag": " une dépression saisonnière ",
+            "patterns": [
+                " qu'est-ce qu'une dépression saisonnière ?"
+            ],
+            "responses": [
+                "La dépression saisonnière est une forme de dépression qui intervient à certains moments de l'année. Elle survient à l'automne lorsque la lumière du jour commence à diminuer, dure jusqu'au printemps, s'amende en été et reprend à chaque automne.Elle touche des personnes qui sont très sensibles à la luminosité. Dès lors que celle-ci commence à diminuer, vers le mois d'octobre ou de novembre, elles vont présenter les mêmes symptômes que la dépression classique. La différence, c'est que sa survenue chez elles est liée à la luminosité qui joue très clairement sur leur moral , commente le Pr Bénédicte Gohier. On parle aussi de <blues de l'hiver> ou de <déprime hivernale>"
+            ]
+        },
+        {
+            "tag": "les causes dépression saisonnière ",
+            "patterns": [
+                "Quelles sont les causes du dépression saisonnière ?"
+            ],
+            "responses": [
+                "La dépression saisonnière est directement liée à la baisse de la lumière du jour. Les personnes qui y sont sujettes sont particulièrement sensibles à la mélatonine, un neuromédiateur dans le cerveau qui permet d'avoir un rythme circadien pertinent.Or, la mélatonine étant activée par l'impact lumineux sur la rétine, leur horloge biologique interne se retrouve déréglée, ce qui conduit progressivement à cette forme de dépression. Par exemple, ce sont des patients qui supportent très mal le décalage horaire. "
+            ]
+        },
+        {
+            "tag": " les symptômes dépression saisonnière?",
+            "patterns": [
+                "Quels sont les symptômes du dépression saisonnière ?"
+            ],
+            "responses": [
+                "Les symptômes sont ceux de la dépression : Des troubles de l'humeur,L'irritabilité ,Le manque d'envie,Une fatigue intense,Une tristesse permanente,Une baisse de libido,Une dévalorisation de soi,Des troubles de la concentration"
+            ]
+        },
+        {
+            "tag": " Différence  une dépression classique  une  dépression saisonnière",
+            "patterns": [
+                "quel est la Différence entre une dépression classique et une  dépression saisonnière?"
+            ],
+            "responses": [
+                "La principale caractéristique de ce type de dépression, c'est qu'elle survient toujours à la même saison, explique la spécialiste. Dans la dépression classique, on observe un ralentissement général, des problèmes de sommeil entraînant parfois de l'insomnie ainsi qu'un manque d'appétit. Alors que chez les patients atteints de dépression saisonnière, c'est plutôt le contraire qui peut se produire, ils vont avoir tendance à se réfugier dans le sommeil et à manger davantage"
+            ]
+        },
+        {
+            "tag": "saison dépression saisonnière ",
+            "patterns": [
+                "À quelle saison dépression saisonnière ?"
+            ],
+            "responses": [
+                "La dépression saisonnière s'installe à l'automne ou au début de l'hiver et dure jusqu'au printemps."
+            ]
+        },
+        {
+            "tag": " dépression saisonnière Qui et quand consulter ",
+            "patterns": [
+                "en cas de dépression saisonnière Qui et quand consulter ?"
+            ],
+            "responses": [
+                "Un médecin généraliste va pouvoir faire le diagnostic de dépression mais pas forcément celui de dépression saisonnière alors que la subtilité du traitement est vraiment très particulière, incluant des séances de luminothérapie et une psychothérapie, remarque le Pr Gohier. Il est donc préférable de consulter un psychiatre dont c'est la spécialité dès lors que la dépression influe sur la vie quotidienne"
+            ]
+        },
+        {
+            "tag": "dépression saisonnière  faire  diagnostic  test",
+            "patterns": [
+                "en cas de dépression saisonnière comment peut  faire le diagnostic et test"
+            ],
+            "responses": [
+                "Le diagnostic est effectué à partir de questions très simples. Il est posé lorsque les symptômes durent depuis plus de deux semaines et qu'ils entravent considérablement la vie quotidienne"
+            ]
+        },
+        {
+            "tag": " lutter contre dépression saisonnière ",
+            "patterns": [
+                "Que je fais  pour lutter contre dépression saisonnière ?"
+            ],
+            "responses": [
+                "Le traitement de la dépression saisonnière repose sur l'association psychothérapie et luminothérapie, essentielle pour compenser le manque de luminosité sur la rétine. Des séances sont mises en place le matin à partir du mois d'octobre ou de novembre lorsqu'il fait plus sombre, jusqu'au printemps.Il est également recommandé de marcher le matin pour prendre la lumière du jour au maximum. La vitamine D ayant aussi un impact sur le moral, les capacités de concentration, d'attention et de mémoire, on en prescrit une cure au début de l'hiver.Parfois sont associés des traitements médicamenteux lorsque la dépression est très sévère. "
+            ]
+        },
+        {
+            "tag": "  la mélancolie grave de dépression ",
+            "patterns": [
+                " qu'est-ce que la mélancolie ?"
+            ],
+            "responses": [
+                "La mélancolie est aujourd'hui considérée comme une forme extrêmement grave de dépression, qui s'inscrit relativement souvent dans un trouble bipolaire.Concrètement, le trouble bipolaire se caractérise par une alternance entre des épisodes dépressifs majeurs, et des épisodes maniaques, c'est-à-dire d'agitation, d'excitation, d'accélération générale de la pensée des actions menées, d'impossibilité de se poser, de réfléchir, de dormir voire parfois même de manger. La mélancolie n'est pas toujours en alternance avec ces épisodes maniaques mais cela est fréquent car, quand un patient est mélancolique ou très gravement déprimé, les dosages forts d'antidépresseurs peuvent faire basculer dans des états opposés de manie, explique le Dr Véronica Olivieri-Daniel. Dans le cas de la mélancolie, les états dépressifs sont d'une gravité telle que le risque de suicide est quasiment permanent. "
+            ]
+        },
+        {
+            "tag": "La mélancolie  une maladie véritable souffre suicide grave de dépression",
+            "patterns": [
+                "La mélancolie est-elle une maladie ?"
+            ],
+            "responses": [
+                "Loin d'être un simple coup de blues comme beaucoup l'imaginent, la mélancolie est une véritable maladie qui peut mener celui qui en souffre jusqu'au suicide.La mélancolie est une maladie dans la mesure où elle constitue une forme grave de dépression qui s'inscrit dans un type de personnalité dit psychotique, c'est-à-dire un fonctionnement qui tend à une dépressivité permanente, et dans lequel le lien avec la réalité est souvent altéré, commente la psychologue clinicienne."
+            ]
+        },
+        {
+            "tag": "mélancolie délirante mélancolie anxieuse",
+            "patterns": [
+                "c'est quoi la mélancolie délirante?"
+            ],
+            "responses": [
+                "La mélancolie délirante, également appelée mélancolie anxieuse, se caractérise par une anxiété débordante, une agitation accrue, une perte de l'estime de soi, un profond désespoir, une culpabilité intense et des pensées suicidaires. Dans cette forme de mélancolie, tous les signes de la maladie sont exacerbés, elle est donc plus grave que sa forme classique."
+            ]
+        },
+        {
+            "tag": "mélancolie souriante",
+            "patterns": [
+                "c'est quoi la mélancolie souriante?"
+            ],
+            "responses": [
+                "Le terme de mélancolie souriante n'est pas employé par les psychologues, psychiatres et psychanalystes. Ce type de dépression se traduit par la capacité du sujet à se sentir mieux temporairement, lorsque des événements positifs surviennent dans sa vie. La mélancolie souriante touche les personnes qui, en apparence, semblent heureuses, alors qu'en réalité, elles sont rongées par la dépression.Je ne connais pas le terme de mélancolie souriante. Une chose est sûre, il ne faut pas s'imaginer des gens qui pleurent ou qui se désespèrent. La mélancolie est plutôt une sorte d'annihilation, de perte absolue et totale d'envie de vivre, d'incapacité à imaginer autre chose que des situations morbides, douloureuses, catastrophiques. Ce n'est pas l'expression symptomatique qui détermine une pathologie, c'est son fond. Autrement dit, on peut être gravement mélancolique sans jamais pleurer"
+            ]
+        },
+        {
+            "tag": "les symptômes mélancolie souriante",
+            "patterns": [
+                "Quels sont les symptômes du mélancolie souriante?"
+            ],
+            "responses": [
+                "Une personne atteinte de mélancolie est dans un état de grande souffrance psychologique, entrainant un dégout généralisé de l'existence. Les symptômes les plus révélateurs de la mélancolie sont une perte majeure de l'élan vital, l'absence de réaction aux stimulations agréables, un laisser-aller important avec anorexie et amaigrissement, une culpabilisation importante, une humeur dépressive marquée. La mélancolie peut engendrer, en cas d'évolution chronique, une diminution des capacités intellectuelles, voire même pousser au suicide. <Dans les états mélancoliques, un désespoir total, l'impossibilité de croire à la guérison, des idées délirantes de catastrophe, de fin de vie ou de fin du monde surviennent>, ajoute le Dr Véronica Olivieri-Daniel. "
+            ]
+        },
+        {
+            "tag": "la cause de la mélancolie ",
+            "patterns": [
+                "Quelle est la cause de la mélancolie ?"
+            ],
+            "responses": [
+                "La mélancolie survient souvent à la suite d'un événement traumatique. Mais la plupart du temps, la maladie était déjà préexistante, et l'événement en question a permis de la révéler."
+            ]
+        },
+        {
+            "tag": "la mélancolie Quand et qui consulter un psychiatre symptômes",
+            "patterns": [
+                "en cas de la mélancolie quand et qui consulter ?"
+            ],
+            "responses": [
+                "La dépression mélancolique nécessite une prise en charge rapide, dès les premiers symptômes, afin de favoriser les chances de guérison. Dès lors que la dévalorisation de soi, le découragement, la perte d'intérêt pour soi et les autres, l'incapacité à se projeter, la tristesse, l'agitation et autres signes caractéristiques de la mélancolie entravent les activités du quotidien, il est nécessaire de consulter un psychiatre."
+            ]
+        },
+        {
+            "tag": "le diagnostic de la mélancolie personnalité épisodes dépressifs répétition",
+            "patterns": [
+                "Quel est le diagnostic de la mélancolie ?"
+            ],
+            "responses": [
+                "La mélancolie ne passe jamais inaperçue, mais il n'existe pas de diagnostic à proprement parler. Cette dépression sévère s'inscrit au sein d'une personnalité qui fait des épisodes dépressifs à répétition, qui a toujours eu un fonctionnement de type dépressivité, et qui a du mal à s'inscrire dans la vie, à se projeter dans quelque chose de bon, indique le Dr Véronica Olivieri-Daniel. On ne devient pas mélancolique du jour au lendemain, cela s'inscrit dans un tableau complexe de dépression majeure, associée à une personnalité définie comme borderline ou psychotique"
+            ]
+        },
+        {
+            "tag": " traitements de la mélancolie hospitalisation  antidépresseur sismothérapie",
+            "patterns": [
+                "Quels sont les traitements de la mélancolie ?"
+            ],
+            "responses": [
+                "Cette  forme de dépression nécessite une hospitalisation en urgence et la mise en place d'un traitement antidépresseur. Dans certaines formes de mélancolie, notamment celles avec un versant délirant ou un phénomène de stupeur avec immobilité et mutisme, un traitement appelé sismothérapie ou électroconvulsivothérapie utilisant des stimulations électriques délivrées sur le crâne peut être envisagé en urgence."
+            ]
         }
+       
     ]
 }
