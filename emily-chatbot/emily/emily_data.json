@@ -1,51 +1,611 @@
 {
     "intents": [
-      {"tag": "salut",
-       "patterns": ["Salut", "Comment allez-vous", "Est-ce que quelqu'un est là-bas ?", "Hey", "Hola", "Bonjour", "Hi"],
-       "responses": ["Salut", "oui, comment puis-je aider", "", "Bonjour :)", "Hola", "Hey","Bonne journée"]
-      },
-      {"tag": "au revoir",
-       "patterns": ["Bye", "A plus tard", "Au revoir", "Ok bye", "Bye Bye"],
-       "responses": ["À bientôt!", "Bonne journée", "Bien sûr au revoir", "Plus tard mec", "A tout moment!","Heureux de vous aider!"]
-      },
-      {"tag": "merci",
-       "patterns": ["Merci", "C'est utile", "Super, merci", "Merci de m'avoir aidé"],
-       "responses": ["Heureux de vous aider!", "A tout moment!", "Mon plaisir", "Vous êtes le bienvenu", "Bien sûr mec"]
-      },
-      {"tag": "pas de réponse",
-       "patterns": [],
-       "responses": ["Désolé, je ne peux pas vous comprendre", "S'il vous plaît, donnez-moi plus d'informations", "Je ne suis pas sûr de comprendre", "Je suis toujours là mec"]
-       },
-       {"tag": "nom",
-        "patterns": ["Quel est ton nom", "Dis-moi ton nom", "Qui es-tu", "Parle-moi de toi", "Tu es","ton nom"],
-        "responses": ["Je suis Emily", "Mon nom est Emily", "Vous pouvez m'appeler Emily", "Je suis Emily", "Emily est mon nom"]
+        {
+            "tag": "salut",
+            "patterns": [
+                "Salut",
+                "Comment allez-vous",
+                "Est-ce que quelqu'un est là-bas ?",
+                "Hey",
+                "Hola",
+                "Bonjour",
+                "Hi"
+            ],
+            "responses": [
+                "Salut",
+                "oui, comment puis-je aider",
+                "",
+                "Bonjour :)",
+                "Hola",
+                "Hey",
+                "Bonne journée"
+            ]
         },
-        {"tag": "vivre l'instant",
-            "patterns": ["Vivre l'instant présent, est-ce point fort ?","Quelle est la force de vivre au présent ?","instant present et force","l'objectif en relation du l'instant present "],
-            "responses": ["Il me semble que, dans la vie, l’équilibre consiste à être attentif à la fois au chemin et au but. Si je ne regarde que le chemin, je vais n’importe où, mais si je ne pense qu’au but, je ne vois pas où je me situe, au présent, sur le chemin."]
+        {
+            "tag": "au revoir",
+            "patterns": [
+                "Bye",
+                "A plus tard",
+                "Au revoir",
+                "Ok bye",
+                "Bye Bye"
+            ],
+            "responses": [
+                "À bientôt!",
+                "Bonne journée",
+                "Bien sûr au revoir",
+                "Plus tard ",
+                "A tout moment!",
+                "Heureux de vous aider!"
+            ]
         },
-        {"tag": "vivre au present",
-            "patterns": ["À quels moments je sente vraiment que je suis  vivre dans le présent ?","Quand je sens vraiment vivant maintenant ?","comment vivre dans le present ?"],
-            "responses": ["Quand je joue au théâtre, parce que le public ne voit que ce que je lui donne ici et maintenant, donc si je n’y suis pas, c’est raté ! Mais aussi quand je suis avec les chevaux, et les animaux en général, car eux ne pensent pas à ce qu’ils vont faire après ou à ce qu’ils ont fait avant : ils sont là, ici et maintenant. Si je n’y suis pas également, ils le sentent et la relation en pâtit. Puis, au théâtre comme à cheval, quand on est trop obnubilé par le but à atteindre – par exemple créer une émotion au théâtre ; ou obtenir, à cheval, un mouvement spécifique de l’animal –, on risque de ne pas faire, au présent, ce qu’il faut pour l’obtenir. Si l’on est un bon « technicien », ça peut marcher une fois, peut-être deux, mais pas à chaque fois."]
+        {
+            "tag": "merci",
+            "patterns": [
+                "Merci",
+                "C'est utile",
+                "Super, merci",
+                "Merci de m'avoir aidé"
+            ],
+            "responses": [
+                "Heureux de vous aider!",
+                "A tout moment!",
+                "Mon plaisir",
+                "Vous êtes le bienvenu",
+                "Bien sûr "
+            ]
         },
-        {"tag": "la psychologie sociale ",
-            "patterns": ["Quelle est la définition de la psychologie sociale ?","la psychologie sociale","c quoi la psychologie sociale"],
-            "responses": [" Elle s’intéresse à étudier les influences du psychisme sur les relations que nous entretenons avec autrui."]
+        {
+            "tag": "pas de réponse",
+            "patterns": [],
+            "responses": [
+                "Désolé, je ne peux pas vous comprendre",
+                "S'il vous plaît, donnez-moi plus d'informations",
+                "Je ne suis pas sûr de comprendre",
+                "Je suis toujours là mec"
+            ]
         },
-        {"tag": "niveaux analyse",
-            "patterns": ["Combien de niveaux d'analyse existent en psychologie sociale ?","niveaux d'analyse en psychologie sociale"],
-            "responses": ["4"]
+        {
+            "tag": "nom",
+            "patterns": [
+                "Quel est ton nom",
+                "Dis-moi ton nom",
+                "Qui es-tu",
+                "Parle-moi de toi",
+                "Tu es",
+                "ton nom"
+            ],
+            "responses": [
+                "Je suis Emily",
+                "Mon nom est Emily",
+                "Vous pouvez m'appeler Emily",
+                "Je suis Emily",
+                "Emily est mon nom"
+            ]
         },
-        {"tag": "methodes utilise ",
-            "patterns": ["Quelles sont les méthodes utilisés pour la psychologie sociale ?"," méthodes utilisés dans la psychologie sociale"],
-            "responses": ["Clinique, Expérimentale, Enquête, Recherche action"]
+        {
+            "tag": "vivre l'instant",
+            "patterns": [
+                "Vivre l'instant présent, est-ce point fort ?",
+                "Quelle est la force de vivre au présent ?",
+                "instant present et force",
+                "l'objectif en relation du l'instant present "
+            ],
+            "responses": [
+                "Il me semble que, dans la vie, l’équilibre consiste à être attentif à la fois au chemin et au but. Si je ne regarde que le chemin, je vais n’importe où, mais si je ne pense qu’au but, je ne vois pas où je me situe, au présent, sur le chemin."
+            ]
         },
-        {"tag": "umeur",
-        "patterns": ["Quelles sont les 4 caractéristiques de la rumeur ?"],
-        "responses": ["Instabilité, Implication, Négativité du message, Attribution "]
+        {
+            "tag": "vivre au present",
+            "patterns": [
+                "À quels moments je sente vraiment que je suis  vivre dans le présent ?",
+                "Quand je sens vraiment vivant maintenant ?",
+                "comment vivre dans le present ?"
+            ],
+            "responses": [
+                "Quand je joue au théâtre, parce que le public ne voit que ce que je lui donne ici et maintenant, donc si je n’y suis pas, c’est raté ! Mais aussi quand je suis avec les chevaux, et les animaux en général, car eux ne pensent pas à ce qu’ils vont faire après ou à ce qu’ils ont fait avant : ils sont là, ici et maintenant. Si je n’y suis pas également, ils le sentent et la relation en pâtit. Puis, au théâtre comme à cheval, quand on est trop obnubilé par le but à atteindre – par exemple créer une émotion au théâtre ; ou obtenir, à cheval, un mouvement spécifique de l’animal –, on risque de ne pas faire, au présent, ce qu’il faut pour l’obtenir. Si l’on est un bon « technicien », ça peut marcher une fois, peut-être deux, mais pas à chaque fois."
+            ]
+        },
+        {
+            "tag": "la psychologie sociale ",
+            "patterns": [
+                "Quelle est la définition de la psychologie sociale ?",
+                "la psychologie sociale",
+                "c quoi la psychologie sociale"
+            ],
+            "responses": [
+                " Elle s’intéresse à étudier les influences du psychisme sur les relations que nous entretenons avec autrui."
+            ]
+        },
+        {
+            "tag": "niveaux analyse",
+            "patterns": [
+                "Combien de niveaux d'analyse existent en psychologie sociale ?",
+                "niveaux d'analyse en psychologie sociale"
+            ],
+            "responses": [
+                "4"
+            ]
+        },
+        {
+            "tag": "methodes utilise ",
+            "patterns": [
+                "Quelles sont les méthodes utilisés pour la psychologie sociale ?",
+                " méthodes utilisés dans la psychologie sociale"
+            ],
+            "responses": [
+                "Clinique, Expérimentale, Enquête, Recherche action"
+            ]
+        },
+        {
+            "tag": "umeur",
+            "patterns": [
+                "Quelles sont les 4 caractéristiques de l'umeur ?"
+            ],
+            "responses": [
+                "Instabilité, Implication, Négativité du message, Attribution "
+            ]
+        },
+        {
+            "tag": "problème rôles avec partenaire",
+            "patterns": [
+                "elle ne pourra pas assumer tous les rôles",
+                "ma partenaire ne pourra pas assumer tous les rôles",
+                "ma copine ne pourra pas jouer tous les rôles",
+                "j'ai un probleme avec ma partenaire ,Il ne pourra pas jouer tous les rôles"
+            ],
+            "responses": [
+                "On attend beaucoup de lui ou d’elle: qu’il ou elle soit notre âme sœur, notre meilleur-e ami-e, notre partenaire sexuel-le, notre binôme parental, qu’il ou elle nous offre un œil critique, nous conseille sur nos finances et notre carrière. Mais la vérité, c’est qu’il est presque impossible pour un être humain de remplir toutes ces fonctions Différentes personnes peuvent répondre à ces besoins, y compris vous-même”, précise-t-elle. “Si vous êtes extraverti-e et marié-e à un-e introverti-e, par exemple, il y a des chances que vous ayez besoin de quelques amis en plus de votre compagnon ou de votre compagne. Cela ne veut pas dire que vous ne pouvez pas sortir ensemble mais qu’il vous faut trouver une autre façon de satisfaire votre besoin d’extraversion."
+            ]
+        },
+        {
+            "tag": "problème téléphone avec partenaire",
+            "patterns": [
+                "téléphone de ma partenaire s'immiscer dans notre relation de couple",
+                "je suis triste dans ma vie ,téléphone de  ma partenaire s'immiscer dans notre relation de couple,s'il vous plait emily aide moi",
+                "le téléphone de  ma partenaire represente un grand probleme dans notre vie "
+            ],
+            "responses": [
+                " Au début d’une relation, votre téléphone est un intermédiaire bienvenu: vous vous écrivez des textos toute la nuit, et vous vous envoyez des emojis trop mignons avec des cœurs pendant la journée. Mais plus le temps passe, plus votre smartphone peut perturber la communication,Pour montrer à votre compagnon ou votre compagne que les moments en tête-à-tête sont plus importants à vos yeux que le temps passé devant l’écran, faîtes-lui la surprise de ranger votre téléphone et proposez-lui une conversation déconnectée.Concentrez-vous vraiment sur ce qu’il ou elle a à dire conseille-t-elle. Rappelez-vous que si ce qu’il ou elle dit est suffisamment important pour qu’il ou elle vous en parle cela mérite votre attention la plus complète."
+            ]
+        },
+        {
+            "tag": "relation sexuelle",
+            "patterns": [
+                "ma partenaire n'est pas toujours génial au lit ",
+                "Mon partenaire n'est pas toujours bon au lit",
+                "mon ex ne me satisfait plus sexuellement"
+            ],
+            "responses": [
+                "Préparez-vous à des parties de jambes en l’air un peu ternes à un certain stade de votre relation: changements liés au désir, emplois du temps incompatibles ou calendrier trop chargé, il est normal que la vie sexuelle soit reléguée au second plan au bout d’un moment. Pour surmonter cette dépression dans la sphère intime, le Dr Wachter conseille aux couples de se concentrer sur le toucher, même si cela ne mène pas forcément à des ébats torrides.Selon elle le manque d’intimité traduit souvent la présence de problèmes plus graves. Les couples doivent arrêter de considérer l’amour physique comme l’objectif ultime et approcher les choses de manière plus simple, en se prenant la main, en s’embrassant ou en se faisant des massages. Plus vous traitez l’autre comme un ami que vous prenez le temps de connaître sous tous ses aspects plus il y a de chances de raviver la flamme entre vous."
+            ]
+        },
+        {
+            "tag":"problémzs objectifs couples",
+            "patterns": [
+                "ma chérie  ne réussit pas à remplir tous nos objectifs couples.",
+                "Mon amant n'a pas atteint tous nos objectifs relationnels."
+            ],
+            "responses": [
+                "Vous vous êtes sûrement lancé-e dans cette relation avec plein d’idées préconçues sur l’amour: vous pensiez ne jamais passer trois nuits séparés l’un de l’autre, comme vos parents, ou vous espériez connaître sur le bout des doigts le langage amoureux de l’autre.Même le fait d’avoir des objectifs dans sa relation est une bonne chose, il est aussi probable que certains d’entres eux ne puissent être remplis.Mais voyez le bon côté des choses: sur quelques points, il est probable que votre relation dépasse certaines de vos attentes. “Il faut juste que vos attentes restent du côté du désir et non du besoin”, conseille-t-elle.  "
+            ]
+        },
+        {
+            "tag": "mauvaises habitudes",
+            "patterns": [
+                " elle ne se débarrassera pas de ses mauvaises habitudes.",
+                "il ne se débarrassera pas de ses mauvaises habitudes.",
+                "Mon proche n'arrivent pas à se débarrasser de leurs mauvaises habitudes."
+            ],
+            "responses": [
+                "Vous avez pété un plomb la première fois où elle a passé la nuit chez vous et laissé des cheveux dans la douche. Dans un monde idéal, vous lui feriez poliment la remarque une ou deux fois et elle rectifierait le tir sans tarder. Mais nous ne vivons pas dans un monde idéal. Aimer votre compagnon ou votre compagne, c’est aussi accepter ses mauvaises habitudes, selon Stephanie Buehler, psychologue et sexologue en Californie du Sud. Pour illustrer ses propos, elle utilise un exemple tiré de sa vie personnelle:Mon mari, à qui j’ai dit oui il y a trente ans, mange souvent une banane le matin et jette la peau dans l’évier. Il a beau m’avoir entrainée à mettre mes sachets de thé usés dans la poubelle et pas dans l’évier parce que ça le rendait fou, il fait la même chose avec sa peau de banane. C’est là qu’intervient l’amour, tout comme la compassion. Cela doit être difficile pour mon mari de se rappeler de mettre sa peau à la poubelle. J’ai de la compassion pour lui. Je l’aime. Je continue donc de le lui rappeler mais je m’occupe aussi de la peau de banane pour lui. C’est aussi ça, le mariage."
+            ]
+        },
+        {
+            "tag": "problèmes d'argent difficultés cause d'argent relation",
+            "patterns": [
+                "nous avons des problèmes d'argent entre nous ",
+                "j'ai plusieurs difficultés avec ma partenaire  a cause d'argent "
+            ],
+            "responses": [
+                "Les Beatles avaient tort quand ils chantaient “All you need is love”. On doit aussi être capable de naviguer sur les eaux tumultueuses des finances du couple, indique Amanda Deverich, spécialiste du mariage et de la famille, basée à Williamsburg, en Virginie.“De ce que j’ai vu, les angoisses liées à l’argent sont l’une des causes principales de la dépression chez les hommes, et la dépression entraîne souvent un éloignement dans le couple tout en rendant les choses plus difficiles à résoudre. Pour contrer les facteurs de stress liés à l’argent, faites face aux problèmes ensemble et résolvez-les au fur et à mesure, suggère-t-elle. “Si vous ne le faites pas, l’un de vous deux deviendra responsable des finances, et le déséquilibre engendré par cet état de fait entraînera lui-même rancœur et distance.” "
+            ]
+        },
+        {
+            "tag": "monogamie attire aux autres fidéle partenaire copine",
+            "patterns": [
+                "La monogamie est parfois source de tensions pour moi",
+                "je trouve des difficultés dans la monogamie, parfois je suis attires   aux autres personnes",
+                "comment reste fidéle a mon partenaire"
+            ],
+            "responses": [
+                "Rester fidèle est difficile. Vous vous sentirez inévitablement attiré-e par d’autres personnes, vous vous demanderez si vous avez bien fait de vous engager avec un seul homme ou une seule femme, et il est assez probable que l’un d’entre vous, voire les deux, soit tenté-e par une aventure romantique ou sexuelle. L’infidélité est moins rare que l’on ne croît, indique le Dr Buehler.Cependant, il est important de se souvenir que la monogamie, même si elle est difficile, en vaut vraiment la peine. A condition que ce soit ce que vous voulez tous deux.“Parlez-en franchement, parce que c’est un choix restrictif et probablement contre nature”, conclut le Dr Buehler. “Mais se rendre au travail en voiture tous les matins est aussi peu naturel, et pourtant nous le faisons quand même parce que, comme la monogamie, ça a ses avantages.” "
+            ]
+        },
+        {
+            "tag": "exercices estime de moi meme ",
+            "patterns": [
+                "donne moi des exercices m'aide à estime de moi meme",
+                "comment estimer moi même , s'il vous plait donne moi  exercice pour pratiquer "
+            ],
+            "responses": [
+                "ok t'inquiète pas, juste faire le pratique, l'exercice :lorsque l’on a besoin d’un renseignement, se faire violence et aller parler à des inconnus pour demander l’heure par exemple ou une direction dans le métro. Un bon moyen de lutter contre une timidité excessive.",
+                "ok bb, lister dans sa tête ou sur une feuille toutes les « fiertés » de votre vie. Votre diplôme avec mention, vos enfants magnifiques, votre vie de couple épanouie, vos amis formidables… De même avec vos qualités morales et physiques : votre capacité d’écoute, votre intelligence, vos intuition, vos longues jambes et filiformes…",
+                "ok cheri,pour avoir confiance en vous : apprenez à dire non ! Votre avis personnel doit être respecté autant que celui des autres et si vous ne souhaitez pas faire quelque chose, vous avez le droit de refuser. De manière intelligente bien sûr, tout particulièrement dans le monde du travail. Il ne s’agit pas de répondre « non » de manière agressive ou à tout va, mais d’expliquer à votre interlocuteur pourquoi vous ne souhaitez pas répondre positivement à sa demande. L’important étant d’arrêter de faire passer systématiquement votre opinion (ou vos désirs) après celle des autres."
+            ]
+        },
+        {
+            "tag": "la confianse de soi",
+            "patterns": [
+                "comment obtenir la confiance de soi"
+            ],
+            "responses": [
+                "La confiance en soi, c'est comme un muscle. Il faut la travailler au quotidien pour l'aider à se développer. Et cela passe par des petites phrases à se répéter tous les jours.par exemple <Je suis belle>Voilà une petite phrase à se répéter tous les matins devant le miroir. La confiance en soi passe avant tout par le fait de s'accepter. Et franchement, qu'est-ce qu'un peu de cellulite ou des rides naissantes, face à votre regard de braise, vos jolies courbes ou votre port de tête ? Focalisez-vous sur ce qui vous plaît chez vous, et surtout : aimez-vous !",
+                "Une rupture amoureuse, un problème au travail, une période de chômage qui se prolonge ou une simple dispute avec l'un de nos proches peuvent jouer sur notre moral et notre estime de soi.La solution ? Se répéter quelques mantras qui font du bien, et qui permettent de relever, l'air de rien, le niveau de la journée.exemple:<Je ne suis pas parfaite. Et alors ?>  La perfection est ennuyeuse. Et surtout, c'est un jugement particulièrement subjectif ! Pas besoin d'être parfaite, de rentrer dans tous les moules que la société veut nous imposer (taille mannequin, femme toujours souriante, super-épouse, super-maman, bosseuse invétérée...) pour être bien dans sa peau. Après tout, ce sont (aussi) nos petits défauts qui font notre charme."
+            ]
+        },
+        {
+            "tag": "amour propre la confiance lestime de soi",
+            "patterns": [
+                "L’amour propre, la confiance et l’estime de soi, qu’est-ce que cela signifie réellement ?",
+                "c quoi signifie  L'amour propre, la confiance et l'estime de soi?"
+            ],
+            "responses": [
+                "Ann Cuyvers, experte en développement personnel:L’amour de soi est pour moi la base essentielle en matière de développement personnel. Si vous vous aimez, vous serez plus heureuse, et cela renforcera vos relations avec les autres. L’acceptation de soi signifie simplement que l’on aime qui l’on est, physiquement et mentalement, avec nos qualités et nos défauts. Qu’on accepte nos bons comme nos mauvais côtés, nos forces comme nos faiblesses, nos joies comme nos peines. Quand nous intégrons le fait que, comme tout le monde, nous ne sommes pas parfaites, nous sommes alors capables de dire: ‘Je m’aime comme je suis’. Nous parvenons à mettre en avant nos qualités, tout en étant consciente de nos défauts."
+            ]
+        },
+        {
+            "tag": "aimer tout le temps tous les jours",
+            "patterns": [
+                "Faut-il s'aimer tout le temps à 100 % ou peut-on avoir des jours “sans” ?",
+                "Est - il nécessaire d' amour tout tout de l' heure ou est il possible d' avoir « off » jours?"
+            ],
+            "responses": [
+                "On peut, bien sûr, avoir des jours ‘sans’. Mais, c’est possible aussi de s’aimer en toute circonstance. Certains jours, on se sent bien dans sa peau alors que d’autres, il nous arrive de perdre toute notre confiance. Accepter le fait de vivre des moments difficiles fait aussi partie du processus d’acceptation de soi. Si vous vous aimez, alors vous serez la personne idéale pour vous remonter le moral, vous trouverez en vous la consolation nécessaire quand vous traversez des périodes sombres."
+            ]
+        },
+        {
+            "tag": "aimer soi même  aimer les autres",
+            "patterns": [
+                "Pourquoi dit-on qu’il faut s’aimer soi-même avant de pouvoir aimer les autres ?",
+                "Pourquoi est ce que nous est dit que nous devons d' abord aimer nous - mêmes avant que nous pouvons aimer les autres?"
+            ],
+            "responses": [
+                "Si vous êtes heureuse, alors vous serez capable de rendre les autres heureux. Et l’inverse est vrai aussi. Les autres ne pourront vous rendre heureuse que si vous êtes ouverte à l’amour et au bonheur.",
+                " Vous êtes la seule à pouvoir faire en sorte de vous accepter telle que vous êtes. Ce n’est pas la responsabilité de votre partenaire, de vos amis, de votre famille, ni de qui que ce soit d’autre. N’attendez pas cela des autres. C’est difficile d’être en couple avec quelqu’un qui a constamment besoin que l’on renforce son estime d’elle-même. Si vous n’êtes pas ouverte au bonheur et à l’amour parce que vous estimez que vous ne le méritez pas, même quand vous sentirez qu’on vous apprécie, ce ne sera jamais assez. Votre partenaire ne peut pas compenser votre manque d’amour propre. Si vous ne vous aimez pas, vous ne vous offrirez pas non plus ce que vous méritez. Et vous courrez le risque de tomber amoureuse de quelqu’un qui ne vous respecte pas. Car si vous ne vous respectez pas vous-même, pourquoi quelqu’un d’autre le ferait? En conclusion, c’est important d’accepter qui l’on est. C’est la condition nécessaire pour aimer les autres. Pouvoir être soi-même avec la personne qui partage notre vie, c’est indispensable pour qu’une relation fonctionne.”"
+            ]
+        },
+        {
+            "tag": "^pourquoi cherche lamour bonheur necessaire",
+            "patterns": [
+                "Et pourtant, on cherche tous l'amour, comme si c’était indispensable à notre bonheur. Pourquoi ?",
+                "Malgré cela, nous tous cherchons l' amour comme s'il était nécessaire pour notre bonheur.Pourquoi est- ce?"
+            ],
+            "responses": [
+                "Ce n’est pas parce qu’on a une haute estime de soi qu’on ne veut pas que quelqu’un d’autre nous aime, bien sûr. Mais, votre histoire d’amour ne peut pas être l’unique chose qui vous rende heureuse, même si une relation saine et épanouie peut largement contribuer à votre bonheur. C’est également parfaitement normal d’être flattée quand quelqu’un nous complimente.",
+                " L’amour de soi ne signifie pas qu’on n’apprécie plus l’amour des autres. S’aimer soi, c’est justement être ouvert à ce que l’autre a à nous offrir. Mais l’amour ne doit pas venir uniquement de votre partenaire. Cherchez du réconfort auprès de vos amis, de votre famille… L’amour entre femmes, entre sœurs, peut aussi être très fort. Car on se comprend, on s’encourage, et cela ne fait que renforcer notre confiance en nous"
+            ]
+        },
+        {
+            "tag": " cultiver estime de soi améliorée estime de soi",
+            "patterns": [
+                "Comment cultiver son estime de soi?",
+                "Comment peut un de la personne estime de soi être améliorée?"
+            ],
+            "responses": [
+                "L’idée n’est pas d’avoir « zéro défaut », mais de ne plus transformer ses complexes en obsessions. D’être capable de constater ses faiblesses sans s’en vouloir ni s’en punir, et de travailler tranquillement à les faire évoluer, sans oublier ses qualités. Il y a deux manières d’améliorer son estime de soi : en travaillant le lien à soi et le lien aux autres. La première passe par une chose à la fois très simple et très compliquée : l’acceptation de soi. Ce n’est pas de la résignation, c’est la capacité de faire avec ce que l’on est. Elle ne remplace pas l’action, mais la rend plus efficace. Ensuite, on progresse par le « jardinage de soi », des petites initiatives mises bout à bout, comme cesser de prétendre aller bien quand on va mal, essayer la sincérité et constater que l’on n’en est pas moins aimé. Pour développer son lien avec les autres, il faut apprendre à faire bon usage de leur regard sur nous, savoir admettre que leur désapprobation nous atteint, savoir entendre les compliments et les démonstrations d’amitié. Cultiver l’estime de soi est un travail de longue haleine, voire de toute une vie. Mais la pratique régulière est vite payante : les grands voyages sont faits de petits pas.",
+                "Ne vous comparez pas avec d’autres personnes parce que chaque personne est différente. Ne prenez pas trop au sérieux les commentaires négatifs des personnes qui ne vous connaissent pas vraiment.",
+                "Ne confondez pas l’estime de soi avec le fait d’être arrogant ou égoïste. Le fait d’avoir de l’estime de soi vous met dans une position dans laquelle vous comprenez et acceptez que chaque personne est différente.",
+                "Identifiez vos craintes et vos erreurs et faites-y face. Nous faisons tous des erreurs, mais le plus important est de trouver une solution et d’apprendre de ces erreurs.",
+                "Apprenez à dire NON et à exprimer vos opinions et vos désirs sans crainte, toujours dans un langage clair, sans offenser la personne avec laquelle vous parlez.Selon un proverbe Indien, “Il y a tant de bon dans le pire et tant de mal dans le meilleur qu’il est absurde de condamner personne”"
+            ]
+        },
+        {
+            "tag": "confience en soi  en moi problemes physiques corps ",
+            "patterns": [
+                "je manque  la confiance en moi même à cause de problème physique",
+                "j'ai des problèmes psychiques avec mon corps "
+            ],
+            "responses": [
+                "un relooking peut être une solution efficace. Souvent, les femmes qui bénéficient d’un relooking affirment retrouver en partie leur assurance grâce à de petits changements physiques. Car, si de prime abord, cette solution peut paraître superficielle, elle permet pourtant de se voir d’un autre œil. Tout particulièrement après une grossesse ou suite à une prise ou une perte de poids importante."
+            ]
+        },
+        {
+            "tag": "confience en soi   moi timidité extrême un stress récalcitrant difficultés  communication",
+            "patterns": [
+                "je manque  la confiance en moi même à cause  d’une timidité extrême et d’un stress récalcitrant",
+                "je trouve plusieurs difficultés lors de communication avec les autres"
+            ],
+            "responses": [
+                "contacter un coach de vie peut aider à retrouver confiance. Ce dernier vous poussera à faire ce que vous n’osez habituellement pas réaliser par manque de confiance et vous encouragera à sortir de votre zone de confort."
+            ]
+        },
+        {
+            "tag": "les signes  la bonne voie ",
+            "patterns": [
+                "A quoi voit-on que l’on est sur la bonne voie ?",
+                "Qu'est - ce que les signes ne nous avons que nous sommes sur la bonne voie?"
+            ],
+            "responses": [
+                "Il n’implique jamais de la mensonge, du vol ou de la violence, sous aucune forme. Parmi les valeurs qui permettent la réussite, l’honnêteté et la vertu ont une place de premier plan.",
+                "Il permet de servir et inspirer les autres. Le semple fait de se mettre au service des autres va vous permettre de les inspirer. Dans aucun cas on se retrouve dans une situation où on exploite ou on profite de quelqu’un.",
+                "Il implique une vision long terme. Le chemin peut être très très long ; il peut être le chemin d’une vie entière. Mais la joie et la sérénité que l’on ressent d’ être sur le bon chemin plus que compense l’effort de la marche. Des pics passagers d’excitation, et sauter sans cesse d’une chose à l’autre sont des signes que l’on est pas sur le bon chemin.",
+                "On est en accord avec la nature et les cycles naturels. Pour avancer dans la bonne direction et de manière équilibrée, il faut respecter ces rythmes naturels. Le printemps est le moment de lancer des projets, de créer quelque chose de nouveau ; l’été est le moment de socialiser, de connecter avec les autres, l’automne est le moment pour laisser derrière soi de vielles habitudes, et l’hiver est le moment de prendre le temps de la réflexion, et de recharger sa batterie."
+            ]
+        },
+        {
+            "tag": "varier changer estime de soi ",
+            "patterns": [
+                "L’estime de soi peut-elle varier avec le temps?",
+                "Est-il possible que l'estime de soi change avec le temps ?"
+            ],
+            "responses": [
+                "En effet, l’estime de soi varie tout au long de la vie, en fonction de votre situation personnelle, du travail, de votre état émotionnel, etc.vous pouvons dire que quand il y a une concordance entre ce que vous pensez,ce que vous ressentez  et ce que vous faites,votre estime de vous-même est plus élevée."
+            ]
+        },
+        {
+            "tag": " importance  estime de soi",
+            "patterns": [
+                "Quelle importance a l’estime de soi?",
+                "Quel importance ne auto-Estimé ont?"
+            ],
+            "responses": [
+                "il est très important d’avoir une bonne estime de soi. La faible estime de soi est un facteur qui déclenche souvent d’autres problèmes tels que l’insécurité, l’anxiété, la dépression, des troubles alimentaires, l’alcoolisme, les obsessions, etc.",
+                "l est très vital d'avoir une bonne estime de soi. La faible estime de soi est un facteur qui déclenche souvent d'autres problèmes tels que l'insécurité, l'anxiété, la dépression, des inconveniences alimentaires, l'alcoolisme, les fixations , etc."
+            ]
+        },
+        {
+            "tag": " mauvais estime de soi confiance de soi",
+            "patterns": [
+                "Est-il mauvais d’avoir beaucoup d’estime de soi?",
+                "confiance de soi en relation de l’égoïsme"
+            ],
+            "responses": [
+                "Avoir une bonne estime de soi ne signifie pas être égoïste. Certaines personnes confondent l’estime de soi avec l’égoïsme et il s’agit de choses différentes.L’égoïsme est le fait de penser constamment à nous, indépendamment de ce que les autres pensent, ressentent ou attendent de nous.A l’inverse, un bon niveau d’estime de soi nous pousse à nous considérer comme unique et différent, avec nos qualités et nos défauts.",
+                "Les personnes ayant une bonne estime de soi prennent des risques, font des erreurs et apprennent de celles-ci. Elles prennent en compte les opinions des autres, mais toujours en défendant leurs droits, leurs idées et leurs opinions.Elles ont confiance en elles-mêmes et s’il y a une chose qu’elles n’aiment pas ou qui ne leur convient pas, elles essaient de la corriger."
+            ]
+        },
+        {
+            "tag": " faible estime de sois ",
+            "patterns": [
+                "Comment puis-je savoir si j’ai une faible estime de moi?",
+                "comment je connais si j'ai une faible estime de moi"
+            ],
+            "responses": [
+                "Une faible estime de soi peut être détectée lorsque vous considérez que les autres sont mieux que vous et que vous n’avez que des défauts (avec un peu de chance, quelques vertus mais en supprimant tous leurs mérites).vous ne donnez pas votre avis de peur du rejet, vous recherchez l’approbation d’une tierce personne, vous évitez les responsabilités, vous ressentez de l’insécurité, vous ne vous croyez pas capable de faire bien les choses, vous avez peur de l’échec, etc."
+            ]
+        },
+        {
+            "tag": "évaluer niveau estime de soi",
+            "patterns": [
+                "Comment puis-je évaluer mon niveau d’estime de soi?",
+                "Comment évaluer mon niveau d'estime de soi ?"
+            ],
+            "responses": [
+                "Par exemple, vous pouvez faire une liste de vos qualités et de vos défauts. Il est important que vous essayiez d’atteindre un équilibre entre les deux listes.Personne n’est parfait et tous personnes ont  des qualités positives et des aspects à améliorer.",
+                "Il est important de garder à l’esprit que nous nous développons dans des contextes différents (amis, travail, famille, connaissances, inconnus, etc.) et il est possible que vous vous comportiez de la même manière dans chacun de ces contextes.Analysez ces comportements de manière attentive et cherchez leurs qualités. Rappelez-vous qu’une même qualité peut être positive pour vous tandis que pour d’autres elle peut être considérée comme neutre, voire négative. Vous pouvez également effectuer un test professionnel d’estime de soi, comme celui de Rosenberg."
+            ]
+        },
+        {
+            "tag": "raisons penir autre silence",
+            "patterns": [
+                "c est quoi les raisons qui peuvent pousser certaines personnes à en punir d’autres via le silence?",
+                "Qu'est-ce qui peut pousser certaines personnes à en punir d'autres par le silence ?"
+            ],
+            "responses": [
+                "parmi les principales raisons : 1.Il est préférable de cesser de parler à une personne plutôt que de participer à une dispute où sont échangées des insultes. 2.Cette personne n'écoute pas : plus je lui demande de changer, moins elle en tient compte. Alors, mieux vaut ne plus rien dire. A quoi bon ?",
+                "parmi les principales raisons :1.Il doit me présenter ses excuses pour ce qu’il m’a fait (ou m’a dit, ou ne m’a pas fait, ou ne m’a pas dit). Tant qu’il ne l’aura pas fait, je ne lui parlerai pas.2.Pourquoi parler si en arrive toujours au même point ? Mieux vaut arrêter de parler pour voir s’il comprend que je ne céderai pas."
+            ]
+        },
+        {
+            "tag": "optimisme forme inconsciente monde",
+            "patterns": [
+                "L'optimisme, dans notre monde, n'est-ce pas une forme d’inconscience ?",
+                "L'optimisme n'est-il pas une forme inconsciente dans notre monde ?"
+            ],
+            "responses": [
+                "Nous vivons dans un monde inquiet, qui redoute notamment les conséquences des découvertes technologiques pour la survie de la planète. Mais si on y réfléchit, le monde a toujours eu des raisons de s’inquiéter : les guerres, les grandes épidémies… Ce qui distingue les optimistes, quand ils regardent vers l’avenir, c’est qu’ils voient d’abord les progrès possibles ; les pessimistes, eux, ne voient que les dangers."
+            ]
+        },
+        {
+            "tag": "naît devient optimiste",
+            "patterns": [
+                "est ce que  naît-on optimiste, ou le devient-on ?",
+                "est ce que  nous avons Naît optimiste"
+            ],
+            "responses": [
+                "Les études sur les traits de caractère révèlent que l’optimisme est à 25 % génétique. Par ailleurs, la neuro-imagerie a mis en évidence, chez les optimistes, un niveau d’activation plus élevé de certaines zones profondes du cerveau en lien avec le cortex préfrontal. Mais le facteur le plus important, c’est l’attitude parentale : il a été démontré que, dès l’âge de cinq ans, un enfant élevé dans la pensée positive, la confiance en soi et une suffisante joie de vivre prend conscience des bénéfices de l’optimisme."
+            ]
+        },
+        {
+            "tag": "éducation des clés optimisme ",
+            "patterns": [
+                "est ce que l'éducation est une clé de l'optimisme ?",
+                "y a t il une relation entre l'éducation et l'optimiste?"
+            ],
+            "responses": [
+                "Incontestablement. Une des grandes différences entre les optimistes et les pessimistes est que, confrontés à une difficulté, les optimistes trouvent une explication limitée à l’événement en cause, alors que les pessimistes ont tendance à généraliser dans le sens du “Tout va mal, tout ira toujours mal ; avec moi, tout ne peut qu’aller mal…”. Pour ne pas pousser les enfants vers le pessimisme, il faut donc éviter d’encourager cette propension à la généralisation. Si un enfant a commis une bêtise, il convient évidemment de le lui faire remarquer, mais sans accompagner cette remontrance de commentaires du genre : “C’est toujours pareil avec toi”, “Tu ne fais jamais attention”, etc. Mieux vaut insister sur le fait qu’il s’agit d’une erreur ponctuelle et qu’il fera mieux la prochaine fois."
+            ]
+        },
+        {
+            "tag": "  bébé conjoint triste vie en noir  ",
+            "patterns": [
+                "J’ai un bébé en santé et un conjoint que j’aime, mais je suis triste et je vois la vie en noir. Qu’est-ce qui m’arrive?"
+            ],
+            "responses": [
+                "Environ 13 % des nouvelles mamans souffrent de dépression postpartum dans le premier mois suivant l’accouchement. Parmi les symptômes possibles : une grande tristesse, de l’irritabilité, une perte d’intérêt ou de plaisir pour les activités habituelles, des difficultés de sommeil, de la fatigue, un sentiment de vide, des pensées suicidaires, etc. « La dépression postpartum nécessite une attention médicale immédiate, insiste la psychiatre Marie-Josée Poulin, chef du programme de psychiatrie périnatale de l’Institut universitaire en santé mentale de Québec. La nouvelle mère n’ose pas toujours demander de l’aide, car elle a honte d’être malheureuse. » Si le conjoint ou d’autres proches voient que la maman va mal, il est important de l’amener à consulter. La dépression postpartum n’a rien à voir avec le baby blues, une légère déprime passagère qui touche jusqu’à 80 % des femmes et qui apparaît souvent au troisième jour après l’accouchement. « La nouvelle mère est de mauvaise humeur et pleure sans trop savoir pourquoi. Toutefois, elle n’a pas d’idées noires et elle est capable de s’occuper de son bébé », explique la psychologue Nancy Verreault. Par ailleurs, il existe une maladie rare et très grave : la psychose postpartum. Elle se déclare dans les jours suivant l’accouchement et se manifeste par de la confusion, des hallucinations, du délire et de l’agressivité. La mère doit être vite conduite à l’hôpital, car sa sécurité et celle de son enfant sont compromises."
+            ]
+        },
+        {
+            "tag": "conjointe souffre dépression santé mentale enfant",
+            "patterns": [
+                "Comment aider ma conjointe qui souffre de dépression? Sa santé mentale peut-elle affecter notre enfant?"
+            ],
+            "responses": [
+                "Il est avant tout important de reconnaître la souffrance de votre partenaire. « Si vous diminuez l’importance de ce qu’elle ressent, elle se sentira encore plus coupable et incompétente, avertit la Dre Marie-Josée Poulin. La dépression peut alors empirer. » Il est conseillé de l’écouter sans la juger, puis de l’encourager à consulter et de lui demander comment vous pouvez l’aider.« Une mère dépressive est moins disponible pour son enfant, dit la Dre Andrée-Anne Marcoux, pédopsychiatre au Pavillon Albert-Prévost de l’Hôpital du Sacré-Coeur de Montréal. Par exemple, elle a du mal à le réconforter, à lui donner de l’affection, à l’aider à gérer ses émotions ou à lui offrir la stimulation nécessaire au bon développement de son cerveau. Cela peut aussi nuire au lien d’attachement entre la mère et son enfant. » Il est donc important de donner à votre enfant beaucoup d’amour et d’attention le temps que sa maman aille mieux."
+            ]
+        },
+        {
+            "tag": "nouveau papa trouve difficile",
+            "patterns": [
+                "Je suis un nouveau papa et je trouve cela plus difficile que je le pensais. Devrais-je consulter?"
+            ],
+            "responses": [
+                "N’hésitez surtout pas! Une mauvaise santé mentale pourrait nuire à votre couple et au développement de votre bébé. Des études montrent que les pères dépressifs ont moins d’interactions positives avec leur tout-petit, ce qui pourrait entraîner des problèmes émotifs et de comportement chez l’enfant. Cela pourrait aussi nuire au lien d’attachement entre le père et son enfant. La dépression touche environ 10 % des pères avant ou après la naissance du bébé. « Les hommes ont tendance à exprimer leur détresse par de la colère, de l’impatience et de l’énervement plutôt que par de la tristesse et des pleurs comme le font les femmes, signale Nancy Verreault, psychologue. Cette différence explique que les hommes eux-mêmes et leur entourage ne voient pas toujours qu’il s’agit d’une dépression. »"
+            ]
+        },
+        {
+            "tag": "conjoint souffre maladie mentale enfant risque atteint",
+            "patterns": [
+                "Mon conjoint souffre d’une maladie mentale. Est-ce que notre enfant risque d’en être atteint?"
+            ],
+            "responses": [
+                "Votre enfant est plus à risque de développer un problème de santé mentale, mais ça ne signifie pas qu’il en aura un. La plupart des maladies mentales ont une part génétique. L’enfant n’hérite pas de la maladie, mais il est plus à risque de la développer. « Cependant, si la maladie du parent n’est pas soignée ou stabilisée, cela ajoute un facteur de risque. En raison de ses symptômes, le parent peut avoir de la difficulté à offrir à son enfant l’attention et le milieu sécurisant dont il a besoin », indique la pédopsychiatre Andrée-Anne Marcoux. Comme cette situation fait vivre à l’enfant beaucoup de stress, cela le rend encore plus vulnérable à la maladie mentale."
+            ]
+        },
+        {
+            "tag": "inquiète toujours enfant souffre anxiété",
+            "patterns": [
+                "Je m’inquiète toujours pour mon enfant. Est-ce que je souffre d’anxiété?"
+            ],
+            "responses": [
+                "Il est normal de s’inquiéter de temps en temps pour son enfant. L’anxiété devient toutefois un problème quand on n’arrive pas à la contrôler, qu’elle nous envahit et qu’elle nous empêche de fonctionner dans notre vie de tous les jours, explique la psychiatre Marie- Josée Poulin. Il s’agit alors d’anxiété généralisée ou pathologique.L’anxiété généralisée s’accompagne souvent d’autres symptômes : fatigue, irritabilité, difficultés à dormir et à se concentrer, agitation, palpitations au coeur, tremblements, nausées, etc. Si vous croyez en souffrir, n’hésitez pas à consulter."
+            ]
+        },
+        {
+            "tag": "maman deux jeunes enfants bout desouffle risque faire un burnout",
+            "patterns": [
+                "Je suis la maman de deux jeunes enfants et je suis à bout de souffle. Suis-je à risque de faire un burnout?"
+            ],
+            "responses": [
+                "« Déjà, mener de front le travail et la vie de famille, c’est essoufflant. Mais certaines femmes s’épuisent encore davantage à tenter d’être des mères parfaites, constate la psychologue Nancy Verreault. Elles idéalisent leur rôle maternel. Cela peut mener à des déceptions, car la vie de parent n’est pas toujours facile. » Des mamans en viennent à ressentir une fatigue physique et mentale intense, accompagnée de stress. C’est le burnout maternel. Comment prévenir cette situation? La clé, c’est de prendre des moments de détente et d’essayer d’avoir des attentes moins élevées. Vous gagnerez à écouter vos limites et à partager autant que possible les tâches et les responsabilités parentales avec votre conjoint. Si vous êtes une maman seule, n’hésitez pas à demander de l’aide à votre entourage."
+            ]
+        },
+        {
+            "tag": "soeur trouble de personnalité inquiète aider",
+            "patterns": [
+                "Ma soeur a un trouble de personnalité limite et je m’inquiète pour elle. Comment l’aider?"
+            ],
+            "responses": [
+                "Qu’il s’agisse d’un trouble de personnalité limite (aussi appelé TPL ou borderline) ou d’un autre problème de santé mentale, vous pouvez l’encourager à consulter ou à poursuivre ses traitements, lui offrir du répit en vous occupant de son enfant ou en l’aidant à faire des courses ou des tâches ménagères. « Par contre, il vaut mieux éviter de tout prendre en charge, car cela peut empêcher la personne malade de se responsabiliser et de se prendre en main », souligne Julie Desrosiers, travailleuse sociale au Cercle polaire, un organisme qui offre du soutien aux proches des personnes atteintes de maladies mentales. Il est aussi important de poser vos limites et de prendre soin de vous. Si vous êtes épuisé, vous ne serez pas très aidant pour l’autre."
+            ]
+        },
+        {
+            "tag": "expliquer enfant souffre un problème de santé mentale",
+            "patterns": [
+                "Dois-je expliquer à mon enfant que je souffre d’un problème de santé mentale?"
+            ],
+            "responses": [
+                "Votre maladie fait partie de la vie de votre enfant. Il a donc besoin de savoir ce qui se passe. Par exemple, dès qu’il a 3 ans ou 4 ans, vous pouvez lui expliquer que vous avez une maladie qui vous donne parfois l’impression d’avoir de gros nuages dans la tête et dans le coeur. Un organisme spécialisé en santé mentale peut vous aider à trouver les bons mots en fonction de l’âge de votre enfant. « Il est très important de lui dire que ce n’est pas sa faute si vous êtes malade, affirme Angélina André, travailleuse sociale au Cercle polaire. Offrez-lui aussi la possibilité d’exprimer ses émotions, ses pensées et ses questions à propos de la maladie. Vous devriez également lui donner l’occasion d’être en contact avec d’autres adultes importants pour lui, comme une grand-mère ou un oncle. »"
+            ]
+        },
+        {
+            "tag": "risque perdre garde enfant souffre un trouble mental",
+            "patterns": [
+                "Est-ce que je risque de perdre la garde de mon enfant parce que je souffre d’un trouble mental?"
+            ],
+            "responses": [
+                "Ce n’est pas une raison suffisante pour qu’on vous retire la garde de votre tout-petit, affirme Isabelle Laviolette, psychologue au Centre jeunesse de Montréal – Institut universitaire. « La Direction de la protection de la jeunesse intervient seulement lorsque la sécurité ou le développement de l’enfant est compromis », précise-t-elle. Si c’est le cas, vous avez tout à gagner à collaborer avec l’intervenant et à accepter l’aide qu’on vous offre.Pour éviter d’en arriver là, vous pouvez faire attention à votre santé mentale en respectant votre traitement et en étant attentif aux signes qui annoncent une rechute. Il est aussi suggéré de faire un plan d’urgence qui indique qui pourrait vous aider et qui pourrait s’occuper de votre enfant en cas de besoin."
+            ]
+        },
+        {
+            "tag": "expliquer tout-petit papa maman hôpital raison santé mentale",
+            "patterns": [
+                "Comment expliquer à un tout-petit que son papa ou sa maman est à l’hôpital en raison de sa santé mentale?"
+            ],
+            "responses": [
+                "Parlez-lui avec des mots simples, comme vous le feriez pour n’importe quelle maladie : « Papa est malade dans sa tête et il est à l’hôpital pour que les médecins le soignent. » L’important, c’est de rassurer l’enfant en lui disant que son parent reçoit de l’aide, mais aussi qu’il pense très fort à lui. « L’enfant s’inquiètera sans doute des conséquences de l’hospitalisation sur la vie de tous les jours, souligne Angélina André, travailleuse sociale au Cercle polaire. C’est pourquoi il faut l’informer de ce qui sera fait pour assurer le plus possible la continuité de sa routine. » Il est aussi important de lui permettre de continuer à jouer et à avoir du plaisir. Même si l’un de ses parents est malade, il reste un enfant."
+            ]
+        },
+        {
+            "tag": "bon parent problème santé mentale",
+            "patterns": [
+                "Puis-je être un bon parent malgré mon problème de santé mentale?"
+            ],
+            "responses": [
+                "Bien sûr, à condition de faire ce qu’il faut pour guérir ou pour stabiliser votre état. « Une des étapes essentielles est d’accepter le diagnostic et de reconnaître que certains aspects de la maladie peuvent nuire à vos capacités parentales, estime Isabelle Laviolette, psychologue au Centre jeunesse de Montréal – Institut universitaire. Avec la volonté de vous améliorer, vous pouvez aller chercher de l’aide pour travailler sur vos difficultés et développer de meilleures habiletés parentales. »"
+            ]
+        },
+        {
+            "tag": "apprendre enfant retard développement accepter situation",
+            "patterns": [
+                "Je viens d’apprendre que mon enfant a un retard de développement. Comment accepter la situation?"
+            ],
+            "responses": [
+                "Déni, colère, tristesse, sentiment de culpabilité… Il est normal d’être envahi par les émotions après une telle nouvelle. « Les parents doivent faire le deuil de l’enfant rêvé, dit la psychologue Nancy Verreault. Ce processus est difficile et prend du temps. » Pendant cette période, il vaut mieux éviter de vous isoler. Vous confier à des personnes pouvant vous offrir soutien et réconfort vous fera peut-être du bien. Même si cela peut paraître difficile au début, vous devriez aussi essayer de continuer à faire des activités que vous aimez. Vous éviterez ainsi de glisser dans la dépression et vous serez plus disponible pour accompagner votre tout-petit dans ce qu’il vit. Peu à peu, vous surmonterez le choc et vous vous adapterez au problème de santé de votre enfant."
+            ]
+        },
+        {
+            "tag": "toutpetits avoir problèmes santé mentale",
+            "patterns": [
+                "Les tout-petits peuvent-ils avoir des problèmes de santé mentale?"
+            ],
+            "responses": [
+                "usqu’à 20 % des enfants et des adolescents sont atteints d’un trouble mental, dont certains dès la petite enfance. C’est beaucoup, mais il faut savoir que les troubles du déficit de l’attention avec ou sans hyperactivité (TDAH) et les troubles de comportement entrent dans cette catégorie. Parmi les autres problèmes de santé mentale pouvant toucher les enfants de 5 ans et moins, on trouve les troubles anxieux, les symptômes dépressifs et le trouble de l’attachement. Quels signes surveiller? En général, lorsqu’un comportement est envahissant et dure dans le temps, cela peut indiquer que quelque chose ne va pas, selon la pédopsychiatre Andrée-Anne Marcoux. « Lorsqu’on est dépassé par les émotions ou par les comportements de notre enfant, mieux vaut consulter », dit-elle. Cela pourrait être le cas, par exemple, si votre enfant est toujours triste, anxieux ou en colère, qu’il s’isole souvent, qu’il cesse de jouer, qu’il ne dort presque pas, qu’il fait exprès de se faire mal, qu’il a une peur intense d’être éloigné de vous, qu’il est incapable de fonctionner en milieu de garde à cause de son agressivité, etc."
+            ]
+        },
+        {
+            "tag": "séparation parents affecter santé mentale enfant",
+            "patterns": [
+                "La séparation des parents peut-elle affecter la santé mentale de leur enfant?"
+            ],
+            "responses": [
+                "Les études scientifiques démontrent que la rupture des parents augmente les symptômes d’anxiété et de dépression chez les enfants. Même si cette augmentation est plutôt faible, elle indique que la séparation est une source de stress et de tristesse pour les tout-petits. « Plus le conflit est intense, plus cela cause de tort à l’enfant, qui se sent déchiré entre ses deux parents », souligne la psychologue Nancy Verreault. Pour faciliter la transition, il est important de penser à l’enfant, d’être respectueux envers l’autre parent et de coopérer avec lui. Même si vous en voulez à votre ex, rappelez-vous que votre enfant a besoin de lui."
+            ]
+        },
+        {
+            "tag": "expliquer toutpetit suicide papa maman",
+            "patterns": [
+                "Comment expliquer à un tout-petit le suicide de son papa ou de sa maman?"
+            ],
+            "responses": [
+                "Mieux vaut éviter de cacher à l’enfant qu’il s’agit d’un suicide. « Vous pouvez lui expliquer que son papa avait une maladie dans sa tête qui le rendait très malheureux et que cela lui a fait prendre une mauvaise décision », suggère Josée Lake, travailleuse sociale à Ressource régionale suicide de Laval. Parfois, l’enfant peut croire que s’il avait été plus gentil ou s’il avait rangé ses jouets, sa maman ou son papa ne serait pas mort. Il est important de lui faire comprendre qu’il n’est pas responsable. Il se peut aussi qu’il réagisse peu à l’annonce du décès. « C’est typique, car la nouvelle est trop grosse à assimiler, dit la travailleuse sociale. Dans les semaines qui suivent, demeurez à son écoute et aidez-le à exprimer avec des mots ou des dessins ce qu’il ressent dans son coeur. »"
+            ]
+        },
+        {
+            "tag": "favoriser bonne santé mentale enfant",
+            "patterns": [
+                "Comment favoriser la bonne santé mentale de mon enfant?"
+            ],
+            "responses": [
+                "« Avant tout, vous devez prendre soin de votre propre santé mentale, car celle-ci a un impact sur celle de votre enfant, répond la pédopsychiatre Andrée-Anne Marcoux. Le mieux ensuite, c’est d’être attentif aux besoins de votre enfant selon son âge. » Par exemple, dans ses premiers mois de vie, votre bébé s’attache à vous et bâtit sa confiance en vous. Il est donc important de répondre rapidement à ses besoins (être réconforté, nourri, changé, etc.). Il est essentiel aussi, pour que son cerveau se développe bien, de lui donner de l’affection, d’échanger des sourires avec lui, de lui parler et de jouer avec lui.À mesure qu’il grandit, vous pouvez lui apprendre à reconnaître ses émotions, à parler de ce qu’il ressent, à entrer en relation avec les autres, à demander de l’aide… Pour qu’il développe une bonne estime de lui-même, vous gagnerez à valoriser ses efforts, à le féliciter pour ses réussites et à vous intéresser à ce qu’il fait. Et pour qu’il se sente en sécurité, il est recommandé de lui poser des limites. Mais attention : il ne s’agit pas d’une recette magique! Les maladies mentales sont complexes et peuvent apparaître, peu importe la façon dont vous élevez et encadrez votre enfant."
+            ]
+        },
+        {
+            "tag": "grossesse risque faire dépression",
+            "patterns": [
+                "La grossesse augmente-t-elle le risque de faire une dépression?"
+            ],
+            "responses": [
+                "Dans la plupart des cas, non. Environ 10 % des femmes enceintes souffrent d’une dépression, ce qui est le même taux que dans la population féminine en général, affirme la Dre Marie-Josée Poulin, chef du programme de psychiatrie périnatale de l’Institut universitaire en santé mentale de Québec. Toutefois, les femmes ayant déjà fait une dépression par le passé, ainsi que celles qui sont sensibles aux variations hormonales sont plus à risque. « Certaines femmes peuvent faire une dépression pendant le premier trimestre de la grossesse, au moment où le taux de progestérone augmente rapidement », indique la psychiatre. Les futurs pères doivent également être attentifs à leur santé mentale pendant la grossesse, car eux aussi sont sujets à la dépression."
+            ]
+        },
+        {
+            "tag": "maman souffre anorexie boulimie dangers enfant",
+            "patterns": [
+                "Quand une maman souffre d’anorexie ou de boulimie, y a-t-il des dangers pour elle et son enfant?"
+            ],
+            "responses": [
+                "Les troubles alimentaires entraînent un risque plus grand d’hypertension de grossesse, de fausse couche, d’accouchement prématuré et de malformations à la naissance. De plus, le bébé d’une mère anorexique ou boulimique risque de souffrir de malnutrition et de naître avec un faible poids, ce qui l’expose à divers problèmes de santé, à des retards de développement et à des problèmes de comportement.« L’enfant d’une mère anorexique ou boulimique est souvent moins tolérant au stress, dit le psychologue Howard Steiger, chef du programme des troubles de l’alimentation de l’Institut universitaire en santé mentale Douglas. Il est aussi plus à risque de souffrir d’un trouble alimentaire plus tard ou d’autres problèmes de santé mentale, comme la dépression et l’anxiété. »"
+            ]
+        },
+        {
+            "tag": "prendre antidépresseurs grossesse allaitement",
+            "patterns": [
+                "Puis-je prendre des antidépresseurs pendant ma grossesse et l’allaitement?"
+            ],
+            "responses": [
+                "« Comme les symptômes de l’anxiété et de la dépression ainsi que leur gravité varient selon les personnes, chaque cas est unique », affirme la Dre Marie-Josée Poulin. Certaines femmes vont mieux grâce à la psychothérapie et à l’exercice, mais d’autres ont besoin d’antidépresseurs pour se sentir bien. De façon générale, la prise d’antidépresseurs ne présente pas de risques pour le foetus. Votre médecin pourrait cependant changer vos médicaments vers la fin de votre grossesse, car certains antidépresseurs peuvent causer des difficultés temporaires au bébé à la naissance. Par ailleurs, le bébé absorbe de petites quantités d’antidépresseurs pendant l’allaitement. C’est habituellement sans danger, mais il se peut que votre médecin vous prescrive un antidépresseur qui s’élimine plus vite de l’organisme."
+            ]
+        },
+        {
+            "tag": "souffre maladie bipolaire consulter médecin tomber enceinte",
+            "patterns": [
+                "Je souffre de maladie bipolaire. Pourquoi dois-je consulter mon médecin avant de tomber enceinte?"
+            ],
+            "responses": [
+                "Vous devriez consulter parce qu’il est essentiel de revoir votre médication. En effet, certains des médicaments utilisés pour traiter la maladie bipolaire (maniaco-dépression) entraînent un risque de malformations pour le bébé. Un suivi en psychiatrie est aussi recommandé pendant toute votre grossesse et quelques semaines après l’accouchement. « La grossesse augmente le risque de rechute de la maladie bipolaire, souligne la psychiatre spécialisée en périnatalité, Marie-Josée Poulin. De plus, les femmes bipolaires sont beaucoup plus à risque de faire une dépression postpartum et même une psychose postpartum, un problème très grave. »"
+            ]
         }
-    
     ]
 }
-
-
