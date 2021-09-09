@@ -1,51 +1,1107 @@
 {
     "intents": [
-      {"tag": "salut",
-       "patterns": ["Salut", "Comment allez-vous", "Est-ce que quelqu'un est là-bas ?", "Hey", "Hola", "Bonjour", "Hi"],
-       "responses": ["Salut", "oui, comment puis-je aider", "", "Bonjour :)", "Hola", "Hey","Bonne journée"]
-      },
-      {"tag": "au revoir",
-       "patterns": ["Bye", "A plus tard", "Au revoir", "Ok bye", "Bye Bye"],
-       "responses": ["À bientôt!", "Bonne journée", "Bien sûr au revoir", "Plus tard mec", "A tout moment!","Heureux de vous aider!"]
-      },
-      {"tag": "merci",
-       "patterns": ["Merci", "C'est utile", "Super, merci", "Merci de m'avoir aidé"],
-       "responses": ["Heureux de vous aider!", "A tout moment!", "Mon plaisir", "Vous êtes le bienvenu", "Bien sûr mec"]
-      },
-      {"tag": "pas de réponse",
-       "patterns": [],
-       "responses": ["Désolé, je ne peux pas vous comprendre", "S'il vous plaît, donnez-moi plus d'informations", "Je ne suis pas sûr de comprendre", "Je suis toujours là mec"]
-       },
-       {"tag": "nom",
-        "patterns": ["Quel est ton nom", "Dis-moi ton nom", "Qui es-tu", "Parle-moi de toi", "Tu es","ton nom"],
-        "responses": ["Je suis Emily", "Mon nom est Emily", "Vous pouvez m'appeler Emily", "Je suis Emily", "Emily est mon nom"]
+        {
+            "tag": "salut",
+            "patterns": [
+                "Salut",
+                "Comment allez-vous",
+                "Est-ce que quelqu'un est là-bas ?",
+                "Hey",
+                "Hola",
+                "Bonjour",
+                "Hi"
+            ],
+            "responses": [
+                "Salut",
+                "oui, comment puis-je aider",
+                "",
+                "Bonjour :)",
+                "Hola",
+                "Hey",
+                "Bonne journée"
+            ]
         },
-        {"tag": "vivre l'instant",
-            "patterns": ["Vivre l'instant présent, est-ce point fort ?","Quelle est la force de vivre au présent ?","instant present et force","l'objectif en relation du l'instant present "],
-            "responses": ["Il me semble que, dans la vie, l’équilibre consiste à être attentif à la fois au chemin et au but. Si je ne regarde que le chemin, je vais n’importe où, mais si je ne pense qu’au but, je ne vois pas où je me situe, au présent, sur le chemin."]
+        {
+            "tag": "au revoir",
+            "patterns": [
+                "Bye",
+                "A plus tard",
+                "Au revoir",
+                "Ok bye",
+                "Bye Bye"
+            ],
+            "responses": [
+                "À bientôt!",
+                "Bonne journée",
+                "Bien sûr au revoir",
+                "Plus tard ",
+                "A tout moment!",
+                "Heureux de vous aider!"
+            ]
         },
-        {"tag": "vivre au present",
-            "patterns": ["À quels moments je sente vraiment que je suis  vivre dans le présent ?","Quand je sens vraiment vivant maintenant ?","comment vivre dans le present ?"],
-            "responses": ["Quand je joue au théâtre, parce que le public ne voit que ce que je lui donne ici et maintenant, donc si je n’y suis pas, c’est raté ! Mais aussi quand je suis avec les chevaux, et les animaux en général, car eux ne pensent pas à ce qu’ils vont faire après ou à ce qu’ils ont fait avant : ils sont là, ici et maintenant. Si je n’y suis pas également, ils le sentent et la relation en pâtit. Puis, au théâtre comme à cheval, quand on est trop obnubilé par le but à atteindre – par exemple créer une émotion au théâtre ; ou obtenir, à cheval, un mouvement spécifique de l’animal –, on risque de ne pas faire, au présent, ce qu’il faut pour l’obtenir. Si l’on est un bon « technicien », ça peut marcher une fois, peut-être deux, mais pas à chaque fois."]
+        {
+            "tag": "merci",
+            "patterns": [
+                "Merci",
+                "C'est utile",
+                "Super, merci",
+                "Merci de m'avoir aidé"
+            ],
+            "responses": [
+                "Heureux de vous aider!",
+                "A tout moment!",
+                "Mon plaisir",
+                "Vous êtes le bienvenu",
+                "Bien sûr "
+            ]
         },
-        {"tag": "la psychologie sociale ",
-            "patterns": ["Quelle est la définition de la psychologie sociale ?","la psychologie sociale","c quoi la psychologie sociale"],
-            "responses": [" Elle s’intéresse à étudier les influences du psychisme sur les relations que nous entretenons avec autrui."]
+        {
+            "tag": "pas de réponse",
+            "patterns": [],
+            "responses": [
+                "Désolé, je ne peux pas vous comprendre",
+                "S'il vous plaît, donnez-moi plus d'informations",
+                "Je ne suis pas sûr de comprendre",
+                "Je suis toujours là mec"
+            ]
         },
-        {"tag": "niveaux analyse",
-            "patterns": ["Combien de niveaux d'analyse existent en psychologie sociale ?","niveaux d'analyse en psychologie sociale"],
-            "responses": ["4"]
+        {
+            "tag": "nom",
+            "patterns": [
+                "Quel est ton nom",
+                "Dis-moi ton nom",
+                "Qui es-tu",
+                "Parle-moi de toi",
+                "Tu es",
+                "ton nom"
+            ],
+            "responses": [
+                "Je suis Emily",
+                "Mon nom est Emily",
+                "Vous pouvez m'appeler Emily",
+                "Je suis Emily",
+                "Emily est mon nom"
+            ]
         },
-        {"tag": "methodes utilise ",
-            "patterns": ["Quelles sont les méthodes utilisés pour la psychologie sociale ?"," méthodes utilisés dans la psychologie sociale"],
-            "responses": ["Clinique, Expérimentale, Enquête, Recherche action"]
+        {
+            "tag": "vivre l'instant",
+            "patterns": [
+                "Vivre l'instant présent, est-ce point fort ?",
+                "Quelle est la force de vivre au présent ?",
+                "instant present et force",
+                "l'objectif en relation du l'instant present "
+            ],
+            "responses": [
+                "Il me semble que, dans la vie, l’équilibre consiste à être attentif à la fois au chemin et au but. Si je ne regarde que le chemin, je vais n’importe où, mais si je ne pense qu’au but, je ne vois pas où je me situe, au présent, sur le chemin."
+            ]
         },
-        {"tag": "umeur",
-        "patterns": ["Quelles sont les 4 caractéristiques de la rumeur ?"],
-        "responses": ["Instabilité, Implication, Négativité du message, Attribution "]
+        {
+            "tag": "vivre au present",
+            "patterns": [
+                "À quels moments je sente vraiment que je suis  vivre dans le présent ?",
+                "Quand je sens vraiment vivant maintenant ?",
+                "comment vivre dans le present ?"
+            ],
+            "responses": [
+                "Quand je joue au théâtre, parce que le public ne voit que ce que je lui donne ici et maintenant, donc si je n’y suis pas, c’est raté ! Mais aussi quand je suis avec les chevaux, et les animaux en général, car eux ne pensent pas à ce qu’ils vont faire après ou à ce qu’ils ont fait avant : ils sont là, ici et maintenant. Si je n’y suis pas également, ils le sentent et la relation en pâtit. Puis, au théâtre comme à cheval, quand on est trop obnubilé par le but à atteindre – par exemple créer une émotion au théâtre ; ou obtenir, à cheval, un mouvement spécifique de l’animal –, on risque de ne pas faire, au présent, ce qu’il faut pour l’obtenir. Si l’on est un bon « technicien », ça peut marcher une fois, peut-être deux, mais pas à chaque fois."
+            ]
+        },
+        {
+            "tag": "la psychologie sociale ",
+            "patterns": [
+                "Quelle est la définition de la psychologie sociale ?",
+                "la psychologie sociale",
+                "c quoi la psychologie sociale"
+            ],
+            "responses": [
+                " Elle s’intéresse à étudier les influences du psychisme sur les relations que nous entretenons avec autrui."
+            ]
+        },
+        {
+            "tag": "niveaux analyse",
+            "patterns": [
+                "Combien de niveaux d'analyse existent en psychologie sociale ?",
+                "niveaux d'analyse en psychologie sociale"
+            ],
+            "responses": [
+                "4"
+            ]
+        },
+        {
+            "tag": "methodes utilise ",
+            "patterns": [
+                "Quelles sont les méthodes utilisés pour la psychologie sociale ?",
+                " méthodes utilisés dans la psychologie sociale"
+            ],
+            "responses": [
+                "Clinique, Expérimentale, Enquête, Recherche action"
+            ]
+        },
+        {
+            "tag": "umeur",
+            "patterns": [
+                "Quelles sont les 4 caractéristiques de l'umeur ?"
+            ],
+            "responses": [
+                "Instabilité, Implication, Négativité du message, Attribution "
+            ]
+        },
+        {
+            "tag": "problème rôles avec partenaire",
+            "patterns": [
+                "elle ne pourra pas assumer tous les rôles",
+                "ma partenaire ne pourra pas assumer tous les rôles",
+                "ma copine ne pourra pas jouer tous les rôles",
+                "j'ai un probleme avec ma partenaire ,Il ne pourra pas jouer tous les rôles"
+            ],
+            "responses": [
+                "On attend beaucoup de lui ou d’elle: qu’il ou elle soit notre âme sœur, notre meilleur-e ami-e, notre partenaire sexuel-le, notre binôme parental, qu’il ou elle nous offre un œil critique, nous conseille sur nos finances et notre carrière. Mais la vérité, c’est qu’il est presque impossible pour un être humain de remplir toutes ces fonctions Différentes personnes peuvent répondre à ces besoins, y compris vous-même”, précise-t-elle. “Si vous êtes extraverti-e et marié-e à un-e introverti-e, par exemple, il y a des chances que vous ayez besoin de quelques amis en plus de votre compagnon ou de votre compagne. Cela ne veut pas dire que vous ne pouvez pas sortir ensemble mais qu’il vous faut trouver une autre façon de satisfaire votre besoin d’extraversion."
+            ]
+        },
+        {
+            "tag": "problème téléphone avec partenaire",
+            "patterns": [
+                "téléphone de ma partenaire s'immiscer dans notre relation de couple",
+                "je suis triste dans ma vie ,téléphone de  ma partenaire s'immiscer dans notre relation de couple,s'il vous plait emily aide moi",
+                "le téléphone de  ma partenaire represente un grand probleme dans notre vie "
+            ],
+            "responses": [
+                " Au début d’une relation, votre téléphone est un intermédiaire bienvenu: vous vous écrivez des textos toute la nuit, et vous vous envoyez des emojis trop mignons avec des cœurs pendant la journée. Mais plus le temps passe, plus votre smartphone peut perturber la communication,Pour montrer à votre compagnon ou votre compagne que les moments en tête-à-tête sont plus importants à vos yeux que le temps passé devant l’écran, faîtes-lui la surprise de ranger votre téléphone et proposez-lui une conversation déconnectée.Concentrez-vous vraiment sur ce qu’il ou elle a à dire conseille-t-elle. Rappelez-vous que si ce qu’il ou elle dit est suffisamment important pour qu’il ou elle vous en parle cela mérite votre attention la plus complète."
+            ]
+        },
+        {
+            "tag": "relation sexuelle",
+            "patterns": [
+                "ma partenaire n'est pas toujours génial au lit ",
+                "Mon partenaire n'est pas toujours bon au lit",
+                "mon ex ne me satisfait plus sexuellement"
+            ],
+            "responses": [
+                "Préparez-vous à des parties de jambes en l’air un peu ternes à un certain stade de votre relation: changements liés au désir, emplois du temps incompatibles ou calendrier trop chargé, il est normal que la vie sexuelle soit reléguée au second plan au bout d’un moment. Pour surmonter cette dépression dans la sphère intime, le Dr Wachter conseille aux couples de se concentrer sur le toucher, même si cela ne mène pas forcément à des ébats torrides.Selon elle le manque d’intimité traduit souvent la présence de problèmes plus graves. Les couples doivent arrêter de considérer l’amour physique comme l’objectif ultime et approcher les choses de manière plus simple, en se prenant la main, en s’embrassant ou en se faisant des massages. Plus vous traitez l’autre comme un ami que vous prenez le temps de connaître sous tous ses aspects plus il y a de chances de raviver la flamme entre vous."
+            ]
+        },
+        {
+            "tag": "problémzs objectifs couples",
+            "patterns": [
+                "ma chérie  ne réussit pas à remplir tous nos objectifs couples.",
+                "Mon amant n'a pas atteint tous nos objectifs relationnels."
+            ],
+            "responses": [
+                "Vous vous êtes sûrement lancé-e dans cette relation avec plein d’idées préconçues sur l’amour: vous pensiez ne jamais passer trois nuits séparés l’un de l’autre, comme vos parents, ou vous espériez connaître sur le bout des doigts le langage amoureux de l’autre.Même le fait d’avoir des objectifs dans sa relation est une bonne chose, il est aussi probable que certains d’entres eux ne puissent être remplis.Mais voyez le bon côté des choses: sur quelques points, il est probable que votre relation dépasse certaines de vos attentes. “Il faut juste que vos attentes restent du côté du désir et non du besoin”, conseille-t-elle.  "
+            ]
+        },
+        {
+            "tag": "mauvaises habitudes",
+            "patterns": [
+                " elle ne se débarrassera pas de ses mauvaises habitudes.",
+                "il ne se débarrassera pas de ses mauvaises habitudes.",
+                "Mon proche n'arrivent pas à se débarrasser de leurs mauvaises habitudes."
+            ],
+            "responses": [
+                "Vous avez pété un plomb la première fois où elle a passé la nuit chez vous et laissé des cheveux dans la douche. Dans un monde idéal, vous lui feriez poliment la remarque une ou deux fois et elle rectifierait le tir sans tarder. Mais nous ne vivons pas dans un monde idéal. Aimer votre compagnon ou votre compagne, c’est aussi accepter ses mauvaises habitudes, selon Stephanie Buehler, psychologue et sexologue en Californie du Sud. Pour illustrer ses propos, elle utilise un exemple tiré de sa vie personnelle:Mon mari, à qui j’ai dit oui il y a trente ans, mange souvent une banane le matin et jette la peau dans l’évier. Il a beau m’avoir entrainée à mettre mes sachets de thé usés dans la poubelle et pas dans l’évier parce que ça le rendait fou, il fait la même chose avec sa peau de banane. C’est là qu’intervient l’amour, tout comme la compassion. Cela doit être difficile pour mon mari de se rappeler de mettre sa peau à la poubelle. J’ai de la compassion pour lui. Je l’aime. Je continue donc de le lui rappeler mais je m’occupe aussi de la peau de banane pour lui. C’est aussi ça, le mariage."
+            ]
+        },
+        {
+            "tag": "problèmes d'argent difficultés cause d'argent relation",
+            "patterns": [
+                "nous avons des problèmes d'argent entre nous ",
+                "j'ai plusieurs difficultés avec ma partenaire  a cause d'argent "
+            ],
+            "responses": [
+                "Les Beatles avaient tort quand ils chantaient “All you need is love”. On doit aussi être capable de naviguer sur les eaux tumultueuses des finances du couple, indique Amanda Deverich, spécialiste du mariage et de la famille, basée à Williamsburg, en Virginie.“De ce que j’ai vu, les angoisses liées à l’argent sont l’une des causes principales de la dépression chez les hommes, et la dépression entraîne souvent un éloignement dans le couple tout en rendant les choses plus difficiles à résoudre. Pour contrer les facteurs de stress liés à l’argent, faites face aux problèmes ensemble et résolvez-les au fur et à mesure, suggère-t-elle. “Si vous ne le faites pas, l’un de vous deux deviendra responsable des finances, et le déséquilibre engendré par cet état de fait entraînera lui-même rancœur et distance.” "
+            ]
+        },
+        {
+            "tag": "monogamie attire aux autres fidéle partenaire copine",
+            "patterns": [
+                "La monogamie est parfois source de tensions pour moi",
+                "je trouve des difficultés dans la monogamie, parfois je suis attires   aux autres personnes",
+                "comment reste fidéle a mon partenaire"
+            ],
+            "responses": [
+                "Rester fidèle est difficile. Vous vous sentirez inévitablement attiré-e par d’autres personnes, vous vous demanderez si vous avez bien fait de vous engager avec un seul homme ou une seule femme, et il est assez probable que l’un d’entre vous, voire les deux, soit tenté-e par une aventure romantique ou sexuelle. L’infidélité est moins rare que l’on ne croît, indique le Dr Buehler.Cependant, il est important de se souvenir que la monogamie, même si elle est difficile, en vaut vraiment la peine. A condition que ce soit ce que vous voulez tous deux.“Parlez-en franchement, parce que c’est un choix restrictif et probablement contre nature”, conclut le Dr Buehler. “Mais se rendre au travail en voiture tous les matins est aussi peu naturel, et pourtant nous le faisons quand même parce que, comme la monogamie, ça a ses avantages.” "
+            ]
+        },
+        {
+            "tag": "exercices estime de moi meme ",
+            "patterns": [
+                "donne moi des exercices m'aide à estime de moi meme",
+                "comment estimer moi même , s'il vous plait donne moi  exercice pour pratiquer "
+            ],
+            "responses": [
+                "ok t'inquiète pas, juste faire le pratique, l'exercice :lorsque l’on a besoin d’un renseignement, se faire violence et aller parler à des inconnus pour demander l’heure par exemple ou une direction dans le métro. Un bon moyen de lutter contre une timidité excessive.",
+                "ok bb, lister dans sa tête ou sur une feuille toutes les « fiertés » de votre vie. Votre diplôme avec mention, vos enfants magnifiques, votre vie de couple épanouie, vos amis formidables… De même avec vos qualités morales et physiques : votre capacité d’écoute, votre intelligence, vos intuition, vos longues jambes et filiformes…",
+                "ok cheri,pour avoir confiance en vous : apprenez à dire non ! Votre avis personnel doit être respecté autant que celui des autres et si vous ne souhaitez pas faire quelque chose, vous avez le droit de refuser. De manière intelligente bien sûr, tout particulièrement dans le monde du travail. Il ne s’agit pas de répondre « non » de manière agressive ou à tout va, mais d’expliquer à votre interlocuteur pourquoi vous ne souhaitez pas répondre positivement à sa demande. L’important étant d’arrêter de faire passer systématiquement votre opinion (ou vos désirs) après celle des autres."
+            ]
+        },
+        {
+            "tag": "la confianse de soi",
+            "patterns": [
+                "comment obtenir la confiance de soi"
+            ],
+            "responses": [
+                "La confiance en soi, c'est comme un muscle. Il faut la travailler au quotidien pour l'aider à se développer. Et cela passe par des petites phrases à se répéter tous les jours.par exemple <Je suis belle>Voilà une petite phrase à se répéter tous les matins devant le miroir. La confiance en soi passe avant tout par le fait de s'accepter. Et franchement, qu'est-ce qu'un peu de cellulite ou des rides naissantes, face à votre regard de braise, vos jolies courbes ou votre port de tête ? Focalisez-vous sur ce qui vous plaît chez vous, et surtout : aimez-vous !",
+                "Une rupture amoureuse, un problème au travail, une période de chômage qui se prolonge ou une simple dispute avec l'un de nos proches peuvent jouer sur notre moral et notre estime de soi.La solution ? Se répéter quelques mantras qui font du bien, et qui permettent de relever, l'air de rien, le niveau de la journée.exemple:<Je ne suis pas parfaite. Et alors ?>  La perfection est ennuyeuse. Et surtout, c'est un jugement particulièrement subjectif ! Pas besoin d'être parfaite, de rentrer dans tous les moules que la société veut nous imposer (taille mannequin, femme toujours souriante, super-épouse, super-maman, bosseuse invétérée...) pour être bien dans sa peau. Après tout, ce sont (aussi) nos petits défauts qui font notre charme."
+            ]
+        },
+        {
+            "tag": "amour propre la confiance lestime de soi",
+            "patterns": [
+                "L’amour propre, la confiance et l’estime de soi, qu’est-ce que cela signifie réellement ?",
+                "c quoi signifie  L'amour propre, la confiance et l'estime de soi?"
+            ],
+            "responses": [
+                "Ann Cuyvers, experte en développement personnel:L’amour de soi est pour moi la base essentielle en matière de développement personnel. Si vous vous aimez, vous serez plus heureuse, et cela renforcera vos relations avec les autres. L’acceptation de soi signifie simplement que l’on aime qui l’on est, physiquement et mentalement, avec nos qualités et nos défauts. Qu’on accepte nos bons comme nos mauvais côtés, nos forces comme nos faiblesses, nos joies comme nos peines. Quand nous intégrons le fait que, comme tout le monde, nous ne sommes pas parfaites, nous sommes alors capables de dire: ‘Je m’aime comme je suis’. Nous parvenons à mettre en avant nos qualités, tout en étant consciente de nos défauts."
+            ]
+        },
+        {
+            "tag": "aimer tout le temps tous les jours",
+            "patterns": [
+                "Faut-il s'aimer tout le temps à 100 % ou peut-on avoir des jours “sans” ?",
+                "Est - il nécessaire d' amour tout tout de l' heure ou est il possible d' avoir « off » jours?"
+            ],
+            "responses": [
+                "On peut, bien sûr, avoir des jours ‘sans’. Mais, c’est possible aussi de s’aimer en toute circonstance. Certains jours, on se sent bien dans sa peau alors que d’autres, il nous arrive de perdre toute notre confiance. Accepter le fait de vivre des moments difficiles fait aussi partie du processus d’acceptation de soi. Si vous vous aimez, alors vous serez la personne idéale pour vous remonter le moral, vous trouverez en vous la consolation nécessaire quand vous traversez des périodes sombres."
+            ]
+        },
+        {
+            "tag": "aimer soi même  aimer les autres",
+            "patterns": [
+                "Pourquoi dit-on qu’il faut s’aimer soi-même avant de pouvoir aimer les autres ?",
+                "Pourquoi est ce que nous est dit que nous devons d' abord aimer nous - mêmes avant que nous pouvons aimer les autres?"
+            ],
+            "responses": [
+                "Si vous êtes heureuse, alors vous serez capable de rendre les autres heureux. Et l’inverse est vrai aussi. Les autres ne pourront vous rendre heureuse que si vous êtes ouverte à l’amour et au bonheur.",
+                " Vous êtes la seule à pouvoir faire en sorte de vous accepter telle que vous êtes. Ce n’est pas la responsabilité de votre partenaire, de vos amis, de votre famille, ni de qui que ce soit d’autre. N’attendez pas cela des autres. C’est difficile d’être en couple avec quelqu’un qui a constamment besoin que l’on renforce son estime d’elle-même. Si vous n’êtes pas ouverte au bonheur et à l’amour parce que vous estimez que vous ne le méritez pas, même quand vous sentirez qu’on vous apprécie, ce ne sera jamais assez. Votre partenaire ne peut pas compenser votre manque d’amour propre. Si vous ne vous aimez pas, vous ne vous offrirez pas non plus ce que vous méritez. Et vous courrez le risque de tomber amoureuse de quelqu’un qui ne vous respecte pas. Car si vous ne vous respectez pas vous-même, pourquoi quelqu’un d’autre le ferait? En conclusion, c’est important d’accepter qui l’on est. C’est la condition nécessaire pour aimer les autres. Pouvoir être soi-même avec la personne qui partage notre vie, c’est indispensable pour qu’une relation fonctionne.”"
+            ]
+        },
+        {
+            "tag": "^pourquoi cherche lamour bonheur necessaire",
+            "patterns": [
+                "Et pourtant, on cherche tous l'amour, comme si c’était indispensable à notre bonheur. Pourquoi ?",
+                "Malgré cela, nous tous cherchons l' amour comme s'il était nécessaire pour notre bonheur.Pourquoi est- ce?"
+            ],
+            "responses": [
+                "Ce n’est pas parce qu’on a une haute estime de soi qu’on ne veut pas que quelqu’un d’autre nous aime, bien sûr. Mais, votre histoire d’amour ne peut pas être l’unique chose qui vous rende heureuse, même si une relation saine et épanouie peut largement contribuer à votre bonheur. C’est également parfaitement normal d’être flattée quand quelqu’un nous complimente.",
+                " L’amour de soi ne signifie pas qu’on n’apprécie plus l’amour des autres. S’aimer soi, c’est justement être ouvert à ce que l’autre a à nous offrir. Mais l’amour ne doit pas venir uniquement de votre partenaire. Cherchez du réconfort auprès de vos amis, de votre famille… L’amour entre femmes, entre sœurs, peut aussi être très fort. Car on se comprend, on s’encourage, et cela ne fait que renforcer notre confiance en nous"
+            ]
+        },
+        {
+            "tag": " cultiver estime de soi améliorée estime de soi",
+            "patterns": [
+                "Comment cultiver son estime de soi?",
+                "Comment peut un de la personne estime de soi être améliorée?"
+            ],
+            "responses": [
+                "L’idée n’est pas d’avoir « zéro défaut », mais de ne plus transformer ses complexes en obsessions. D’être capable de constater ses faiblesses sans s’en vouloir ni s’en punir, et de travailler tranquillement à les faire évoluer, sans oublier ses qualités. Il y a deux manières d’améliorer son estime de soi : en travaillant le lien à soi et le lien aux autres. La première passe par une chose à la fois très simple et très compliquée : l’acceptation de soi. Ce n’est pas de la résignation, c’est la capacité de faire avec ce que l’on est. Elle ne remplace pas l’action, mais la rend plus efficace. Ensuite, on progresse par le « jardinage de soi », des petites initiatives mises bout à bout, comme cesser de prétendre aller bien quand on va mal, essayer la sincérité et constater que l’on n’en est pas moins aimé. Pour développer son lien avec les autres, il faut apprendre à faire bon usage de leur regard sur nous, savoir admettre que leur désapprobation nous atteint, savoir entendre les compliments et les démonstrations d’amitié. Cultiver l’estime de soi est un travail de longue haleine, voire de toute une vie. Mais la pratique régulière est vite payante : les grands voyages sont faits de petits pas.",
+                "Ne vous comparez pas avec d’autres personnes parce que chaque personne est différente. Ne prenez pas trop au sérieux les commentaires négatifs des personnes qui ne vous connaissent pas vraiment.",
+                "Ne confondez pas l’estime de soi avec le fait d’être arrogant ou égoïste. Le fait d’avoir de l’estime de soi vous met dans une position dans laquelle vous comprenez et acceptez que chaque personne est différente.",
+                "Identifiez vos craintes et vos erreurs et faites-y face. Nous faisons tous des erreurs, mais le plus important est de trouver une solution et d’apprendre de ces erreurs.",
+                "Apprenez à dire NON et à exprimer vos opinions et vos désirs sans crainte, toujours dans un langage clair, sans offenser la personne avec laquelle vous parlez.Selon un proverbe Indien, “Il y a tant de bon dans le pire et tant de mal dans le meilleur qu’il est absurde de condamner personne”"
+            ]
+        },
+        {
+            "tag": "confience en soi  en moi problemes physiques corps ",
+            "patterns": [
+                "je manque  la confiance en moi même à cause de problème physique",
+                "j'ai des problèmes psychiques avec mon corps "
+            ],
+            "responses": [
+                "un relooking peut être une solution efficace. Souvent, les femmes qui bénéficient d’un relooking affirment retrouver en partie leur assurance grâce à de petits changements physiques. Car, si de prime abord, cette solution peut paraître superficielle, elle permet pourtant de se voir d’un autre œil. Tout particulièrement après une grossesse ou suite à une prise ou une perte de poids importante."
+            ]
+        },
+        {
+            "tag": "confience en soi   moi timidité extrême un stress récalcitrant difficultés  communication",
+            "patterns": [
+                "je manque  la confiance en moi même à cause  d’une timidité extrême et d’un stress récalcitrant",
+                "je trouve plusieurs difficultés lors de communication avec les autres"
+            ],
+            "responses": [
+                "contacter un coach de vie peut aider à retrouver confiance. Ce dernier vous poussera à faire ce que vous n’osez habituellement pas réaliser par manque de confiance et vous encouragera à sortir de votre zone de confort."
+            ]
+        },
+        {
+            "tag": "les signes  la bonne voie ",
+            "patterns": [
+                "A quoi voit-on que l’on est sur la bonne voie ?",
+                "Qu'est - ce que les signes ne nous avons que nous sommes sur la bonne voie?"
+            ],
+            "responses": [
+                "Il n’implique jamais de la mensonge, du vol ou de la violence, sous aucune forme. Parmi les valeurs qui permettent la réussite, l’honnêteté et la vertu ont une place de premier plan.",
+                "Il permet de servir et inspirer les autres. Le semple fait de se mettre au service des autres va vous permettre de les inspirer. Dans aucun cas on se retrouve dans une situation où on exploite ou on profite de quelqu’un.",
+                "Il implique une vision long terme. Le chemin peut être très très long ; il peut être le chemin d’une vie entière. Mais la joie et la sérénité que l’on ressent d’ être sur le bon chemin plus que compense l’effort de la marche. Des pics passagers d’excitation, et sauter sans cesse d’une chose à l’autre sont des signes que l’on est pas sur le bon chemin.",
+                "On est en accord avec la nature et les cycles naturels. Pour avancer dans la bonne direction et de manière équilibrée, il faut respecter ces rythmes naturels. Le printemps est le moment de lancer des projets, de créer quelque chose de nouveau ; l’été est le moment de socialiser, de connecter avec les autres, l’automne est le moment pour laisser derrière soi de vielles habitudes, et l’hiver est le moment de prendre le temps de la réflexion, et de recharger sa batterie."
+            ]
+        },
+        {
+            "tag": "varier changer estime de soi ",
+            "patterns": [
+                "L’estime de soi peut-elle varier avec le temps?",
+                "Est-il possible que l'estime de soi change avec le temps ?"
+            ],
+            "responses": [
+                "En effet, l’estime de soi varie tout au long de la vie, en fonction de votre situation personnelle, du travail, de votre état émotionnel, etc.vous pouvons dire que quand il y a une concordance entre ce que vous pensez,ce que vous ressentez  et ce que vous faites,votre estime de vous-même est plus élevée."
+            ]
+        },
+        {
+            "tag": " importance  estime de soi",
+            "patterns": [
+                "Quelle importance a l’estime de soi?",
+                "Quel importance ne auto-Estimé ont?"
+            ],
+            "responses": [
+                "il est très important d’avoir une bonne estime de soi. La faible estime de soi est un facteur qui déclenche souvent d’autres problèmes tels que l’insécurité, l’anxiété, la dépression, des troubles alimentaires, l’alcoolisme, les obsessions, etc.",
+                "l est très vital d'avoir une bonne estime de soi. La faible estime de soi est un facteur qui déclenche souvent d'autres problèmes tels que l'insécurité, l'anxiété, la dépression, des inconveniences alimentaires, l'alcoolisme, les fixations , etc."
+            ]
+        },
+        {
+            "tag": " mauvais estime de soi confiance de soi",
+            "patterns": [
+                "Est-il mauvais d’avoir beaucoup d’estime de soi?",
+                "confiance de soi en relation de l’égoïsme"
+            ],
+            "responses": [
+                "Avoir une bonne estime de soi ne signifie pas être égoïste. Certaines personnes confondent l’estime de soi avec l’égoïsme et il s’agit de choses différentes.L’égoïsme est le fait de penser constamment à nous, indépendamment de ce que les autres pensent, ressentent ou attendent de nous.A l’inverse, un bon niveau d’estime de soi nous pousse à nous considérer comme unique et différent, avec nos qualités et nos défauts.",
+                "Les personnes ayant une bonne estime de soi prennent des risques, font des erreurs et apprennent de celles-ci. Elles prennent en compte les opinions des autres, mais toujours en défendant leurs droits, leurs idées et leurs opinions.Elles ont confiance en elles-mêmes et s’il y a une chose qu’elles n’aiment pas ou qui ne leur convient pas, elles essaient de la corriger."
+            ]
+        },
+        {
+            "tag": " faible estime de sois ",
+            "patterns": [
+                "Comment puis-je savoir si j’ai une faible estime de moi?",
+                "comment je connais si j'ai une faible estime de moi"
+            ],
+            "responses": [
+                "Une faible estime de soi peut être détectée lorsque vous considérez que les autres sont mieux que vous et que vous n’avez que des défauts (avec un peu de chance, quelques vertus mais en supprimant tous leurs mérites).vous ne donnez pas votre avis de peur du rejet, vous recherchez l’approbation d’une tierce personne, vous évitez les responsabilités, vous ressentez de l’insécurité, vous ne vous croyez pas capable de faire bien les choses, vous avez peur de l’échec, etc."
+            ]
+        },
+        {
+            "tag": "évaluer niveau estime de soi",
+            "patterns": [
+                "Comment puis-je évaluer mon niveau d’estime de soi?",
+                "Comment évaluer mon niveau d'estime de soi ?"
+            ],
+            "responses": [
+                "Par exemple, vous pouvez faire une liste de vos qualités et de vos défauts. Il est important que vous essayiez d’atteindre un équilibre entre les deux listes.Personne n’est parfait et tous personnes ont  des qualités positives et des aspects à améliorer.",
+                "Il est important de garder à l’esprit que nous nous développons dans des contextes différents (amis, travail, famille, connaissances, inconnus, etc.) et il est possible que vous vous comportiez de la même manière dans chacun de ces contextes.Analysez ces comportements de manière attentive et cherchez leurs qualités. Rappelez-vous qu’une même qualité peut être positive pour vous tandis que pour d’autres elle peut être considérée comme neutre, voire négative. Vous pouvez également effectuer un test professionnel d’estime de soi, comme celui de Rosenberg."
+            ]
+        },
+        {
+            "tag": "raisons penir autre silence",
+            "patterns": [
+                "c est quoi les raisons qui peuvent pousser certaines personnes à en punir d’autres via le silence?",
+                "Qu'est-ce qui peut pousser certaines personnes à en punir d'autres par le silence ?"
+            ],
+            "responses": [
+                "parmi les principales raisons : 1.Il est préférable de cesser de parler à une personne plutôt que de participer à une dispute où sont échangées des insultes. 2.Cette personne n'écoute pas : plus je lui demande de changer, moins elle en tient compte. Alors, mieux vaut ne plus rien dire. A quoi bon ?",
+                "parmi les principales raisons :1.Il doit me présenter ses excuses pour ce qu’il m’a fait (ou m’a dit, ou ne m’a pas fait, ou ne m’a pas dit). Tant qu’il ne l’aura pas fait, je ne lui parlerai pas.2.Pourquoi parler si en arrive toujours au même point ? Mieux vaut arrêter de parler pour voir s’il comprend que je ne céderai pas."
+            ]
+        },
+        {
+            "tag": "optimisme forme inconsciente monde",
+            "patterns": [
+                "L'optimisme, dans notre monde, n'est-ce pas une forme d’inconscience ?",
+                "L'optimisme n'est-il pas une forme inconsciente dans notre monde ?"
+            ],
+            "responses": [
+                "Nous vivons dans un monde inquiet, qui redoute notamment les conséquences des découvertes technologiques pour la survie de la planète. Mais si on y réfléchit, le monde a toujours eu des raisons de s’inquiéter : les guerres, les grandes épidémies… Ce qui distingue les optimistes, quand ils regardent vers l’avenir, c’est qu’ils voient d’abord les progrès possibles ; les pessimistes, eux, ne voient que les dangers."
+            ]
+        },
+        {
+            "tag": "naît devient optimiste",
+            "patterns": [
+                "est ce que  naît-on optimiste, ou le devient-on ?",
+                "est ce que  nous avons Naît optimiste"
+            ],
+            "responses": [
+                "Les études sur les traits de caractère révèlent que l’optimisme est à 25 % génétique. Par ailleurs, la neuro-imagerie a mis en évidence, chez les optimistes, un niveau d’activation plus élevé de certaines zones profondes du cerveau en lien avec le cortex préfrontal. Mais le facteur le plus important, c’est l’attitude parentale : il a été démontré que, dès l’âge de cinq ans, un enfant élevé dans la pensée positive, la confiance en soi et une suffisante joie de vivre prend conscience des bénéfices de l’optimisme."
+            ]
+        },
+        {
+            "tag": "éducation des clés optimisme ",
+            "patterns": [
+                "est ce que l'éducation est une clé de l'optimisme ?",
+                "y a t il une relation entre l'éducation et l'optimiste?"
+            ],
+            "responses": [
+                "Incontestablement. Une des grandes différences entre les optimistes et les pessimistes est que, confrontés à une difficulté, les optimistes trouvent une explication limitée à l’événement en cause, alors que les pessimistes ont tendance à généraliser dans le sens du “Tout va mal, tout ira toujours mal ; avec moi, tout ne peut qu’aller mal…”. Pour ne pas pousser les enfants vers le pessimisme, il faut donc éviter d’encourager cette propension à la généralisation. Si un enfant a commis une bêtise, il convient évidemment de le lui faire remarquer, mais sans accompagner cette remontrance de commentaires du genre : “C’est toujours pareil avec toi”, “Tu ne fais jamais attention”, etc. Mieux vaut insister sur le fait qu’il s’agit d’une erreur ponctuelle et qu’il fera mieux la prochaine fois."
+            ]
+        },
+        {
+            "tag": "  bébé conjoint triste vie en noir  ",
+            "patterns": [
+                "J’ai un bébé en santé et un conjoint que j’aime, mais je suis triste et je vois la vie en noir. Qu’est-ce qui m’arrive?"
+            ],
+            "responses": [
+                "Environ 13 % des nouvelles mamans souffrent de dépression postpartum dans le premier mois suivant l’accouchement. Parmi les symptômes possibles : une grande tristesse, de l’irritabilité, une perte d’intérêt ou de plaisir pour les activités habituelles, des difficultés de sommeil, de la fatigue, un sentiment de vide, des pensées suicidaires, etc. « La dépression postpartum nécessite une attention médicale immédiate, insiste la psychiatre Marie-Josée Poulin, chef du programme de psychiatrie périnatale de l’Institut universitaire en santé mentale de Québec. La nouvelle mère n’ose pas toujours demander de l’aide, car elle a honte d’être malheureuse. » Si le conjoint ou d’autres proches voient que la maman va mal, il est important de l’amener à consulter. La dépression postpartum n’a rien à voir avec le baby blues, une légère déprime passagère qui touche jusqu’à 80 % des femmes et qui apparaît souvent au troisième jour après l’accouchement. « La nouvelle mère est de mauvaise humeur et pleure sans trop savoir pourquoi. Toutefois, elle n’a pas d’idées noires et elle est capable de s’occuper de son bébé », explique la psychologue Nancy Verreault. Par ailleurs, il existe une maladie rare et très grave : la psychose postpartum. Elle se déclare dans les jours suivant l’accouchement et se manifeste par de la confusion, des hallucinations, du délire et de l’agressivité. La mère doit être vite conduite à l’hôpital, car sa sécurité et celle de son enfant sont compromises."
+            ]
+        },
+        {
+            "tag": "conjointe souffre dépression santé mentale enfant",
+            "patterns": [
+                "Comment aider ma conjointe qui souffre de dépression? Sa santé mentale peut-elle affecter notre enfant?"
+            ],
+            "responses": [
+                "Il est avant tout important de reconnaître la souffrance de votre partenaire. « Si vous diminuez l’importance de ce qu’elle ressent, elle se sentira encore plus coupable et incompétente, avertit la Dre Marie-Josée Poulin. La dépression peut alors empirer. » Il est conseillé de l’écouter sans la juger, puis de l’encourager à consulter et de lui demander comment vous pouvez l’aider.« Une mère dépressive est moins disponible pour son enfant, dit la Dre Andrée-Anne Marcoux, pédopsychiatre au Pavillon Albert-Prévost de l’Hôpital du Sacré-Coeur de Montréal. Par exemple, elle a du mal à le réconforter, à lui donner de l’affection, à l’aider à gérer ses émotions ou à lui offrir la stimulation nécessaire au bon développement de son cerveau. Cela peut aussi nuire au lien d’attachement entre la mère et son enfant. » Il est donc important de donner à votre enfant beaucoup d’amour et d’attention le temps que sa maman aille mieux."
+            ]
+        },
+        {
+            "tag": "nouveau papa trouve difficile",
+            "patterns": [
+                "Je suis un nouveau papa et je trouve cela plus difficile que je le pensais. Devrais-je consulter?"
+            ],
+            "responses": [
+                "N’hésitez surtout pas! Une mauvaise santé mentale pourrait nuire à votre couple et au développement de votre bébé. Des études montrent que les pères dépressifs ont moins d’interactions positives avec leur tout-petit, ce qui pourrait entraîner des problèmes émotifs et de comportement chez l’enfant. Cela pourrait aussi nuire au lien d’attachement entre le père et son enfant. La dépression touche environ 10 % des pères avant ou après la naissance du bébé. « Les hommes ont tendance à exprimer leur détresse par de la colère, de l’impatience et de l’énervement plutôt que par de la tristesse et des pleurs comme le font les femmes, signale Nancy Verreault, psychologue. Cette différence explique que les hommes eux-mêmes et leur entourage ne voient pas toujours qu’il s’agit d’une dépression. »"
+            ]
+        },
+        {
+            "tag": "conjoint souffre maladie mentale enfant risque atteint",
+            "patterns": [
+                "Mon conjoint souffre d’une maladie mentale. Est-ce que notre enfant risque d’en être atteint?"
+            ],
+            "responses": [
+                "Votre enfant est plus à risque de développer un problème de santé mentale, mais ça ne signifie pas qu’il en aura un. La plupart des maladies mentales ont une part génétique. L’enfant n’hérite pas de la maladie, mais il est plus à risque de la développer. « Cependant, si la maladie du parent n’est pas soignée ou stabilisée, cela ajoute un facteur de risque. En raison de ses symptômes, le parent peut avoir de la difficulté à offrir à son enfant l’attention et le milieu sécurisant dont il a besoin », indique la pédopsychiatre Andrée-Anne Marcoux. Comme cette situation fait vivre à l’enfant beaucoup de stress, cela le rend encore plus vulnérable à la maladie mentale."
+            ]
+        },
+        {
+            "tag": "inquiète toujours enfant souffre anxiété",
+            "patterns": [
+                "Je m’inquiète toujours pour mon enfant. Est-ce que je souffre d’anxiété?"
+            ],
+            "responses": [
+                "Il est normal de s’inquiéter de temps en temps pour son enfant. L’anxiété devient toutefois un problème quand on n’arrive pas à la contrôler, qu’elle nous envahit et qu’elle nous empêche de fonctionner dans notre vie de tous les jours, explique la psychiatre Marie- Josée Poulin. Il s’agit alors d’anxiété généralisée ou pathologique.L’anxiété généralisée s’accompagne souvent d’autres symptômes : fatigue, irritabilité, difficultés à dormir et à se concentrer, agitation, palpitations au coeur, tremblements, nausées, etc. Si vous croyez en souffrir, n’hésitez pas à consulter."
+            ]
+        },
+        {
+            "tag": "maman deux jeunes enfants bout desouffle risque faire un burnout",
+            "patterns": [
+                "Je suis la maman de deux jeunes enfants et je suis à bout de souffle. Suis-je à risque de faire un burnout?"
+            ],
+            "responses": [
+                "« Déjà, mener de front le travail et la vie de famille, c’est essoufflant. Mais certaines femmes s’épuisent encore davantage à tenter d’être des mères parfaites, constate la psychologue Nancy Verreault. Elles idéalisent leur rôle maternel. Cela peut mener à des déceptions, car la vie de parent n’est pas toujours facile. » Des mamans en viennent à ressentir une fatigue physique et mentale intense, accompagnée de stress. C’est le burnout maternel. Comment prévenir cette situation? La clé, c’est de prendre des moments de détente et d’essayer d’avoir des attentes moins élevées. Vous gagnerez à écouter vos limites et à partager autant que possible les tâches et les responsabilités parentales avec votre conjoint. Si vous êtes une maman seule, n’hésitez pas à demander de l’aide à votre entourage."
+            ]
+        },
+        {
+            "tag": "soeur trouble de personnalité inquiète aider",
+            "patterns": [
+                "Ma soeur a un trouble de personnalité limite et je m’inquiète pour elle. Comment l’aider?"
+            ],
+            "responses": [
+                "Qu’il s’agisse d’un trouble de personnalité limite (aussi appelé TPL ou borderline) ou d’un autre problème de santé mentale, vous pouvez l’encourager à consulter ou à poursuivre ses traitements, lui offrir du répit en vous occupant de son enfant ou en l’aidant à faire des courses ou des tâches ménagères. « Par contre, il vaut mieux éviter de tout prendre en charge, car cela peut empêcher la personne malade de se responsabiliser et de se prendre en main », souligne Julie Desrosiers, travailleuse sociale au Cercle polaire, un organisme qui offre du soutien aux proches des personnes atteintes de maladies mentales. Il est aussi important de poser vos limites et de prendre soin de vous. Si vous êtes épuisé, vous ne serez pas très aidant pour l’autre."
+            ]
+        },
+        {
+            "tag": "expliquer enfant souffre un problème de santé mentale",
+            "patterns": [
+                "Dois-je expliquer à mon enfant que je souffre d’un problème de santé mentale?"
+            ],
+            "responses": [
+                "Votre maladie fait partie de la vie de votre enfant. Il a donc besoin de savoir ce qui se passe. Par exemple, dès qu’il a 3 ans ou 4 ans, vous pouvez lui expliquer que vous avez une maladie qui vous donne parfois l’impression d’avoir de gros nuages dans la tête et dans le coeur. Un organisme spécialisé en santé mentale peut vous aider à trouver les bons mots en fonction de l’âge de votre enfant. « Il est très important de lui dire que ce n’est pas sa faute si vous êtes malade, affirme Angélina André, travailleuse sociale au Cercle polaire. Offrez-lui aussi la possibilité d’exprimer ses émotions, ses pensées et ses questions à propos de la maladie. Vous devriez également lui donner l’occasion d’être en contact avec d’autres adultes importants pour lui, comme une grand-mère ou un oncle. »"
+            ]
+        },
+        {
+            "tag": "risque perdre garde enfant souffre un trouble mental",
+            "patterns": [
+                "Est-ce que je risque de perdre la garde de mon enfant parce que je souffre d’un trouble mental?"
+            ],
+            "responses": [
+                "Ce n’est pas une raison suffisante pour qu’on vous retire la garde de votre tout-petit, affirme Isabelle Laviolette, psychologue au Centre jeunesse de Montréal – Institut universitaire. « La Direction de la protection de la jeunesse intervient seulement lorsque la sécurité ou le développement de l’enfant est compromis », précise-t-elle. Si c’est le cas, vous avez tout à gagner à collaborer avec l’intervenant et à accepter l’aide qu’on vous offre.Pour éviter d’en arriver là, vous pouvez faire attention à votre santé mentale en respectant votre traitement et en étant attentif aux signes qui annoncent une rechute. Il est aussi suggéré de faire un plan d’urgence qui indique qui pourrait vous aider et qui pourrait s’occuper de votre enfant en cas de besoin."
+            ]
+        },
+        {
+            "tag": "expliquer tout-petit papa maman hôpital raison santé mentale",
+            "patterns": [
+                "Comment expliquer à un tout-petit que son papa ou sa maman est à l’hôpital en raison de sa santé mentale?"
+            ],
+            "responses": [
+                "Parlez-lui avec des mots simples, comme vous le feriez pour n’importe quelle maladie : « Papa est malade dans sa tête et il est à l’hôpital pour que les médecins le soignent. » L’important, c’est de rassurer l’enfant en lui disant que son parent reçoit de l’aide, mais aussi qu’il pense très fort à lui. « L’enfant s’inquiètera sans doute des conséquences de l’hospitalisation sur la vie de tous les jours, souligne Angélina André, travailleuse sociale au Cercle polaire. C’est pourquoi il faut l’informer de ce qui sera fait pour assurer le plus possible la continuité de sa routine. » Il est aussi important de lui permettre de continuer à jouer et à avoir du plaisir. Même si l’un de ses parents est malade, il reste un enfant."
+            ]
+        },
+        {
+            "tag": "bon parent problème santé mentale",
+            "patterns": [
+                "Puis-je être un bon parent malgré mon problème de santé mentale?"
+            ],
+            "responses": [
+                "Bien sûr, à condition de faire ce qu’il faut pour guérir ou pour stabiliser votre état. « Une des étapes essentielles est d’accepter le diagnostic et de reconnaître que certains aspects de la maladie peuvent nuire à vos capacités parentales, estime Isabelle Laviolette, psychologue au Centre jeunesse de Montréal – Institut universitaire. Avec la volonté de vous améliorer, vous pouvez aller chercher de l’aide pour travailler sur vos difficultés et développer de meilleures habiletés parentales. »"
+            ]
+        },
+        {
+            "tag": "apprendre enfant retard développement accepter situation",
+            "patterns": [
+                "Je viens d’apprendre que mon enfant a un retard de développement. Comment accepter la situation?"
+            ],
+            "responses": [
+                "Déni, colère, tristesse, sentiment de culpabilité… Il est normal d’être envahi par les émotions après une telle nouvelle. « Les parents doivent faire le deuil de l’enfant rêvé, dit la psychologue Nancy Verreault. Ce processus est difficile et prend du temps. » Pendant cette période, il vaut mieux éviter de vous isoler. Vous confier à des personnes pouvant vous offrir soutien et réconfort vous fera peut-être du bien. Même si cela peut paraître difficile au début, vous devriez aussi essayer de continuer à faire des activités que vous aimez. Vous éviterez ainsi de glisser dans la dépression et vous serez plus disponible pour accompagner votre tout-petit dans ce qu’il vit. Peu à peu, vous surmonterez le choc et vous vous adapterez au problème de santé de votre enfant."
+            ]
+        },
+        {
+            "tag": "toutpetits avoir problèmes santé mentale",
+            "patterns": [
+                "Les tout-petits peuvent-ils avoir des problèmes de santé mentale?"
+            ],
+            "responses": [
+                "usqu’à 20 % des enfants et des adolescents sont atteints d’un trouble mental, dont certains dès la petite enfance. C’est beaucoup, mais il faut savoir que les troubles du déficit de l’attention avec ou sans hyperactivité (TDAH) et les troubles de comportement entrent dans cette catégorie. Parmi les autres problèmes de santé mentale pouvant toucher les enfants de 5 ans et moins, on trouve les troubles anxieux, les symptômes dépressifs et le trouble de l’attachement. Quels signes surveiller? En général, lorsqu’un comportement est envahissant et dure dans le temps, cela peut indiquer que quelque chose ne va pas, selon la pédopsychiatre Andrée-Anne Marcoux. « Lorsqu’on est dépassé par les émotions ou par les comportements de notre enfant, mieux vaut consulter », dit-elle. Cela pourrait être le cas, par exemple, si votre enfant est toujours triste, anxieux ou en colère, qu’il s’isole souvent, qu’il cesse de jouer, qu’il ne dort presque pas, qu’il fait exprès de se faire mal, qu’il a une peur intense d’être éloigné de vous, qu’il est incapable de fonctionner en milieu de garde à cause de son agressivité, etc."
+            ]
+        },
+        {
+            "tag": "séparation parents affecter santé mentale enfant",
+            "patterns": [
+                "La séparation des parents peut-elle affecter la santé mentale de leur enfant?"
+            ],
+            "responses": [
+                "Les études scientifiques démontrent que la rupture des parents augmente les symptômes d’anxiété et de dépression chez les enfants. Même si cette augmentation est plutôt faible, elle indique que la séparation est une source de stress et de tristesse pour les tout-petits. « Plus le conflit est intense, plus cela cause de tort à l’enfant, qui se sent déchiré entre ses deux parents », souligne la psychologue Nancy Verreault. Pour faciliter la transition, il est important de penser à l’enfant, d’être respectueux envers l’autre parent et de coopérer avec lui. Même si vous en voulez à votre ex, rappelez-vous que votre enfant a besoin de lui."
+            ]
+        },
+        {
+            "tag": "expliquer toutpetit suicide papa maman",
+            "patterns": [
+                "Comment expliquer à un tout-petit le suicide de son papa ou de sa maman?"
+            ],
+            "responses": [
+                "Mieux vaut éviter de cacher à l’enfant qu’il s’agit d’un suicide. « Vous pouvez lui expliquer que son papa avait une maladie dans sa tête qui le rendait très malheureux et que cela lui a fait prendre une mauvaise décision », suggère Josée Lake, travailleuse sociale à Ressource régionale suicide de Laval. Parfois, l’enfant peut croire que s’il avait été plus gentil ou s’il avait rangé ses jouets, sa maman ou son papa ne serait pas mort. Il est important de lui faire comprendre qu’il n’est pas responsable. Il se peut aussi qu’il réagisse peu à l’annonce du décès. « C’est typique, car la nouvelle est trop grosse à assimiler, dit la travailleuse sociale. Dans les semaines qui suivent, demeurez à son écoute et aidez-le à exprimer avec des mots ou des dessins ce qu’il ressent dans son coeur. »"
+            ]
+        },
+        {
+            "tag": "favoriser bonne santé mentale enfant",
+            "patterns": [
+                "Comment favoriser la bonne santé mentale de mon enfant?"
+            ],
+            "responses": [
+                "« Avant tout, vous devez prendre soin de votre propre santé mentale, car celle-ci a un impact sur celle de votre enfant, répond la pédopsychiatre Andrée-Anne Marcoux. Le mieux ensuite, c’est d’être attentif aux besoins de votre enfant selon son âge. » Par exemple, dans ses premiers mois de vie, votre bébé s’attache à vous et bâtit sa confiance en vous. Il est donc important de répondre rapidement à ses besoins (être réconforté, nourri, changé, etc.). Il est essentiel aussi, pour que son cerveau se développe bien, de lui donner de l’affection, d’échanger des sourires avec lui, de lui parler et de jouer avec lui.À mesure qu’il grandit, vous pouvez lui apprendre à reconnaître ses émotions, à parler de ce qu’il ressent, à entrer en relation avec les autres, à demander de l’aide… Pour qu’il développe une bonne estime de lui-même, vous gagnerez à valoriser ses efforts, à le féliciter pour ses réussites et à vous intéresser à ce qu’il fait. Et pour qu’il se sente en sécurité, il est recommandé de lui poser des limites. Mais attention : il ne s’agit pas d’une recette magique! Les maladies mentales sont complexes et peuvent apparaître, peu importe la façon dont vous élevez et encadrez votre enfant."
+            ]
+        },
+        {
+            "tag": "grossesse risque faire dépression",
+            "patterns": [
+                "La grossesse augmente-t-elle le risque de faire une dépression?"
+            ],
+            "responses": [
+                "Dans la plupart des cas, non. Environ 10 % des femmes enceintes souffrent d’une dépression, ce qui est le même taux que dans la population féminine en général, affirme la Dre Marie-Josée Poulin, chef du programme de psychiatrie périnatale de l’Institut universitaire en santé mentale de Québec. Toutefois, les femmes ayant déjà fait une dépression par le passé, ainsi que celles qui sont sensibles aux variations hormonales sont plus à risque. « Certaines femmes peuvent faire une dépression pendant le premier trimestre de la grossesse, au moment où le taux de progestérone augmente rapidement », indique la psychiatre. Les futurs pères doivent également être attentifs à leur santé mentale pendant la grossesse, car eux aussi sont sujets à la dépression."
+            ]
+        },
+        {
+            "tag": "maman souffre anorexie boulimie dangers enfant",
+            "patterns": [
+                "Quand une maman souffre d’anorexie ou de boulimie, y a-t-il des dangers pour elle et son enfant?"
+            ],
+            "responses": [
+                "Les troubles alimentaires entraînent un risque plus grand d’hypertension de grossesse, de fausse couche, d’accouchement prématuré et de malformations à la naissance. De plus, le bébé d’une mère anorexique ou boulimique risque de souffrir de malnutrition et de naître avec un faible poids, ce qui l’expose à divers problèmes de santé, à des retards de développement et à des problèmes de comportement.« L’enfant d’une mère anorexique ou boulimique est souvent moins tolérant au stress, dit le psychologue Howard Steiger, chef du programme des troubles de l’alimentation de l’Institut universitaire en santé mentale Douglas. Il est aussi plus à risque de souffrir d’un trouble alimentaire plus tard ou d’autres problèmes de santé mentale, comme la dépression et l’anxiété. »"
+            ]
+        },
+        {
+            "tag": "prendre antidépresseurs grossesse allaitement",
+            "patterns": [
+                "Puis-je prendre des antidépresseurs pendant ma grossesse et l’allaitement?"
+            ],
+            "responses": [
+                "« Comme les symptômes de l’anxiété et de la dépression ainsi que leur gravité varient selon les personnes, chaque cas est unique », affirme la Dre Marie-Josée Poulin. Certaines femmes vont mieux grâce à la psychothérapie et à l’exercice, mais d’autres ont besoin d’antidépresseurs pour se sentir bien. De façon générale, la prise d’antidépresseurs ne présente pas de risques pour le foetus. Votre médecin pourrait cependant changer vos médicaments vers la fin de votre grossesse, car certains antidépresseurs peuvent causer des difficultés temporaires au bébé à la naissance. Par ailleurs, le bébé absorbe de petites quantités d’antidépresseurs pendant l’allaitement. C’est habituellement sans danger, mais il se peut que votre médecin vous prescrive un antidépresseur qui s’élimine plus vite de l’organisme."
+            ]
+        },
+        {
+            "tag": "souffre maladie bipolaire consulter médecin tomber enceinte",
+            "patterns": [
+                "Je souffre de maladie bipolaire. Pourquoi dois-je consulter mon médecin avant de tomber enceinte?"
+            ],
+            "responses": [
+                "Vous devriez consulter parce qu’il est essentiel de revoir votre médication. En effet, certains des médicaments utilisés pour traiter la maladie bipolaire (maniaco-dépression) entraînent un risque de malformations pour le bébé. Un suivi en psychiatrie est aussi recommandé pendant toute votre grossesse et quelques semaines après l’accouchement. « La grossesse augmente le risque de rechute de la maladie bipolaire, souligne la psychiatre spécialisée en périnatalité, Marie-Josée Poulin. De plus, les femmes bipolaires sont beaucoup plus à risque de faire une dépression postpartum et même une psychose postpartum, un problème très grave. »"
+            ]
+        },
+        {
+            "tag": "maladie mentale déficience intellectuelle  intimement liées.",
+            "patterns": [
+                "La maladie mentale et la déficience intellectuelle sont intimement liées?"
+            ],
+            "responses": [
+                "non,la maladie mentale et la déficience intellectuelle sont deux états complètement différents, qu’il ne faut pas confondre."
+            ]
+        },
+        {
+            "tag": "majorité personnes souffrant  troubles mentaux  consultent pas.",
+            "patterns": [
+                "La majorité des personnes souffrant de troubles mentaux ne consultent pas?"
+            ],
+            "responses": [
+                "oui, Les préjugés entourant la maladie mentale incitent près de 2/3 des personnes atteintes à ne pas chercher l’aide dont elles ont tant besoin. De plus, 42% des gens aux prises avec un problème de santé mentale ne l’ont pas dit à leur famille de peur d’être jugés."
+            ]
+        },
+        {
+            "tag": "personnes touchées maladie mentale  plus pauvres  moins intelligentes ",
+            "patterns": [
+                "Les personnes touchées par la maladie mentale sont en général plus pauvres et moins intelligentes"
+            ],
+            "responses": [
+                " Faux,la maladie mentale touche sans discrimination des individus de toute provenance et condition sociale."
+            ]
+        },
+        {
+            "tag": "maladie mentale  principale cause absentéisme travail",
+            "patterns": [
+                "La maladie mentale est la principale cause d’absentéisme au travail"
+            ],
+            "responses": [
+                "C'est vrai,Près de 50 % des absences en milieu de travail sont liées à la maladie mentale, un problème grandissant qui se doit d’être attaqué de front."
+            ]
+        },
+        {
+            "tag": " majorité  crimes violents  commis personnes souffrant maladie mentale",
+            "patterns": [
+                "La majorité des crimes violents sont commis par des personnes souffrant de maladie mentale"
+            ],
+            "responses": [
+                "pas vrai , Bien que les croyances populaires et la couverture médiatique des tels crimes puissent le laisser supposer, les personnes souffrant de maladie mentales ne sont pas enclines à commettre des crimes violents."
+            ]
+        },
+        {
+            "tag": "ne peut rien faire  personne souffrant maladie mentale",
+            "patterns": [
+                "On ne peut rien faire pour une personne souffrant de maladie mentale"
+            ],
+            "responses": [
+                "carrément pas vrai ,  Les proches d’une personne souffrant de maladie mentale jouent un rôle de premier plan dans le rétablissement de celle-ci. Le soutien d’un proche, d’un ami ou d’un collègue peut faire toute la différence."
+            ]
+        },
+        {
+            "tag": "antidépresseurs créer dépendance",
+            "patterns": [
+                "Les antidépresseurs créent une dépendance."
+            ],
+            "responses": [
+                "non, il existe à ce jour aucune preuve que les antidépresseurs créent une dépendance."
+            ]
+        },
+        {
+            "tag": "dépression faire plus victimes   accidents de la route",
+            "patterns": [
+                "La dépression fait plus de victimes que les accidents de la route "
+            ],
+            "responses": [
+                "décès de malheureusement, Le nombre de suicides reliés à la dépression dépasse le nombre de r les routes du Québec. En effet, 80% des gens qui se sont suicidés souffraient de dépression."
+            ]
+        },
+        {
+            "tag": "calmer  crise de nerf",
+            "patterns": [
+                "Comment calmer une crise de nerf ?"
+            ],
+            "responses": [
+                "Pour calmer une crise de nerfs, il faut l'accueillir quand elle se déclare et ne pas la réprimer. Vous pouvez tout à fait pleurer, crier, taper dans un coussin, écrire, sortir courir, trouvez ce qui vous fait du bien pour gérer vos émotions. Et quand la crise est là, prenez une grande inspiration et respirer calmement pour tenter de retrouver le calme, recommande Valérie Sengler. Et d'ajouter Les médicaments ne sont pas forcément la bonne solution car s'ils soulagent sur le moment, ils ne permettent pas de traiter la cause en profondeur. Il est important de consulter un thérapeute afin d'identifier ce qui n'est pas dit et de mettre des mots sur cette douleur explosive. Il est également possible de pratiquer une séance d'EMDR  afin de voir ce qui se passe dans le corps au moment de la crise de nerf"
+            ]
+        },
+        {
+            "tag": "Crise  nerf  bébé ",
+            "patterns": [
+                "Crise de nerf chez le bébé : que faire ?"
+            ],
+            "responses": [
+                "On entend souvent des parents décrire des crises de nerfs chez des bébés de 2 ans à 6 ans. Comme l'explique Valérie Sengler, à ces âges-là, ce sont surtout des manifestations normales du développement de l'enfant. A deux ans, un enfant attend qu'on lui fixe des limites afin de l'aider à dépasser le <stade animal>, stade où il n'a incorporé aucun interdit, il tape, hurle. En lui donnant les règles, il intègre <la loi> et devient ainsi un humain. Les impressionnantes crises que peuvent faire les enfants sont donc souvent le signe que la loi n'a pas encore été intégrée. Les enfants doivent comprendre qu'ils ne peuvent pas de cette manière se rouler par terre, crier, taper, etc L'adulte qui par comparaison a intégré la loi, va se conduire en citoyen respectueux de l'Autre."
+            ]
+        },
+        {
+            "tag": "Crise nerf cadolescent Neurasthénie",
+            "patterns": [
+                "Crise de nerf chez l'adolescent : que faire ?",
+                "Neurasthénie de l'adolescent : que faire ? "
+            ],
+            "responses": [
+                "Comme chez les enfants, les crises de nerfs chez les adolescents sont souvent le signe d'un besoin de cadre et de règles.Les adolescents peuvent également ressentir un trop plein d'émotion. Les parents doivent rester attentifs et parler avec leurs enfants. Ils ne doivent pas hésiter à solliciter un professionnel si le comportement de leur adolescent devient inquiétant  car la présence d'un tiers va permettre à l'adolescent de s'exprimer en toute liberté, recommande la spécialiste."
+            ]
+        },
+        {
+            "tag": "Crise  nerf ossesse : ",
+            "patterns": [
+                "Crise de nerf pendant la grossesse : que faire ?"
+            ],
+            "responses": [
+                "La grossesse est une période particulière où l'afflux hormonal peut engendrer certaines réactions.Pendant la grossesse, nombre de femmes sont très connectées à leur insconscient. De ce fait, chez certaines d'entre elles, cette période peut-être compliquée et engendrer une résurgence de vécus douloureux survenus dans l'enfance, il est alors utile pour vivre sa grossesse sereinement de consulter un psychanalyste"
+            ]
+        },
+        {
+            "tag": "qu'est-ce choc émotionnel ",
+            "patterns": [
+                " qu'est-ce qu'un choc émotionnel ?",
+                "c quoi choc émotionnel ?"
+            ],
+            "responses": [
+                "En psychologie, le choc émotionnel résulte d'un évènement traumatisant qui submerge la faculté que possède un individu à faire face aux émotions qu'il ressent lorsque celui-ci survient. Le traumatisme psychique ainsi vécu peut engendrer des séquelles importantes à plus ou moins long terme. Il faut savoir que le choc émotionnel est l'un des facteurs favorisants l'apparition de la dépression. Il peut être déclenché à la suite d'un deuil, d'une déception amoureuse, d'un problème familial, d'un accident. Dans la plupart des cas, le choc est provoqué par un évènement négatif."
+            ]
+        },
+        {
+            "tag": " étapes choc émotionnel ",
+            "patterns": [
+                "quelles sont les étapes d'un choc émotionnel ?"
+            ],
+            "responses": [
+                "physiologiques qui nous préparent à l'action (fuite ou combat). Lorsque nous sommes confrontés à une situation traumatisante, cette réaction de stress est dépassée et inadaptée. Schématiquement, cela se traduit par 3 grandes types de réactions explique le Dr Gérard Macqueron. La présence de ces symptômes doit alerter car ils indiquent une évolution vers un état post traumatique:1.La sidération psychique : la victime en état de choc, stupéfaite, immobile est incapable d'agir et de raisonner. 2.L'agitation désordonnée : la personne s'agite de manière inefficace, crie, court sans but. 3.La dissociation psychique : Le sujet paraît agir de manière adaptée mais fonctionne en fait sur un mode automatique sans aucune réflexion. C'est comme s'il était présent physiquement mais absent psychiquement."
+            ]
+        },
+        {
+            "tag": "causes  choc émotionnel ",
+            "patterns": [
+                "Quelles sont les causes du choc émotionnel ? "
+            ],
+            "responses": [
+                "Ce sont souvent les événements qui confrontent brutalement à la mort ou à une menace de mort ainsi que les violences sexuelles qui sont susceptibles d'entraîner un choc émotionnel.Pour autant, il n'y a pas de rapport entre la gravité objective d'un évènement et les conséquences de cet évènement sur l'équilibre psychique d'une personne, nuance le psychiatre. Ce qui importe n'est pas tant ce qu'il s'est effectivement passé mais ce qu'a ressenti l'individu. Cela explique que des témoins, de soignants ou des proches peuvent aussi être traumatisés, explique notre interlocuteur."
+            ]
+        },
+        {
+            "tag": " les conséquences choc émotionnel pour la santé    ",
+            "patterns": [
+                "Quelles sont les conséquences du choc émotionnel pour la santé ?  "
+            ],
+            "responses": [
+                "Le choc émotionnel disparaît généralement en quelques heures voire quelques jours. Lorsque ces symptômes persistent un mois après l'événement, on parle d'un syndrome de stress post-traumatique.Sans prise en charge, cet état peut devenir chronique et se compliquer par l'apparition d'autres pathologies comme des troubles de l'humeur, une dépression, des modifications de la personnalité, l'alcoolisme ou la toxicomanie, précise le spécialiste."
+            ]
+        },
+        {
+            "tag": " faire  consulter  choc émotionnel",
+            "patterns": [
+                "Que faire et qui consulter en cas de choc émotionnel?"
+            ],
+            "responses": [
+                "La prise en charge du choc émotionnel repose sur différents piliers : outre le fait d'être entouré affectivement, il est important de verbaliser, de mettre des mots sur ce qui a été vécu mais aussi de dormir et de s'hydrater, indique le Dr Gérard Macqueron. En parallèle, il faut consulter un psychiatre ou un psychologue spécialisé dans le psycho traumatisme avec des techniques telles que : EMDR, thérapie cognitive et comportementale (TCC) ou encore hypnose. Selon l'état émotionnel du patient, des antidépresseurs peuvent être prescrits."
+            ]
+        },
+        {
+            "tag": "qu'est-ce qu'un Trouble Anxieux Généralisé",
+            "patterns": [
+                "qu'est-ce qu'un Trouble Anxieux Généralisé ? "
+            ],
+            "responses": [
+                "Le Trouble Anxieux Généralisé (TAG) fait partie de la catégorie des troubles anxieux. Selon le manuel diagnostic et statistique des troubles mentaux (DSM-5), il se caractérise par la présence d'une anxiété et de soucis excessifs survenant la plupart du temps durant au moins 6 mois, explique le Dr Pierre-Louis Sunhary de Verville, Interne en Psychiatrie. La personne éprouve des difficultés à contrôler ses préoccupations"
+            ]
+        },
+        {
+            "tag": "diagnostic  le trouble anxieux généralisé symptômes ",
+            "patterns": [
+                "comment diagnostic  le trouble anxieux généralisé ? "
+            ],
+            "responses": [
+                "Pour que le diagnostic soit posé, au moins trois symptômes parmi les suivants doivent être présents la plupart du temps depuis 6 mois :agitation/sensation d'être survolté ou à bout,fatigabilité,difficultés de concentration ou trous de mémoire,irritabilité,tension musculaire, perturbation du sommeil (difficultés à l'endormissement, réveils nocturnes fréquents, sommeil agité, sensation subjective de sommeil inefficace)."
+            ]
+        },
+        {
+            "tag": "Phobie sociale blemmophobie ",
+            "patterns": [
+                " definition du phobie sociale svp?",
+                "c est quoi la Phobie sociale ?"
+            ],
+            "responses": [
+                "La phobie sociale ou blemmophobie désigne un trouble anxieux qui se caractérise par une peur intense du regard des autres."
+            ]
+        },
+        {
+            "tag": " Symptômes du phobie sociale ",
+            "patterns": [
+                "c est quoi Symptômes du phobie sociale ?"
+            ],
+            "responses": [
+                "La phobie sociale se caractérise par plusieurs appréhensions :la peur du rejet,la peur de l'échec,la peur d'être ridicule,la peur d'être perçu comme anormal,la peur de perdre le contrôle..."
+            ]
+        },
+        {
+            "tag": "les causes du phobie sociale ?",
+            "patterns": [
+                "les causes du phobie sociale ?"
+            ],
+            "responses": [
+                "Les racines de la phobie sociale sont multiples:un terrain familial anxieux,une personnalité introvertie (attention toutefois à ne pas confondre timidité et phobie sociale),un manque de compétences relationnelles et émotionnelles, une remise en question de soi dévalorisante,des exigences inatteignables,un vécu traumatique de harcèlement scolaire ou de maltraitance..."
+            ]
+        },
+        {
+            "tag": " traitements  vaincre  phobie sociale hypnose état hypnotique Thérapie cognitive et comportementale (TTC)",
+            "patterns": [
+                "quels traitements pour vaincre une phobie sociale ?"
+            ],
+            "responses": [
+                "L'hypnose ou l'état hypnotique :favorise la mobilisation des ressources naturelles pour apaiser l'hypersensibilité, pour améliorer le rapport aux contextes sociaux phobogènes et augmenter le sentiment d'habileté relationnelle.Thérapie cognitive et comportementale (TTC) :Un entraînement régulier à l'affirmation de soi, à la transformation de ses perceptions mentales et une pratique quotidienne de pleine présence à sa respiration, à ses sensations, et à ses émotions favorisent la régulation des manifestations phobiques dans un contexte social. Ces ateliers issus des thérapies cognitives et comportementales se déroulent soit en individuel avec un accompagnement dynamique du psychologue, soit en groupe, avec des mises en situation comme le jeu de l'éloquence.En complément à la thérapie cognitive et comportementale, des exercices de sophrologie et de cohérence cardiaque, favorables à la progression de l'estime et de la confiance en soi, peuvent être proposés,précise la psychologue.Groupe de parole:Une participation ponctuelle ou régulière à un groupe de parole autour de la question de l'anxiété sociale réduit considérablement le sentiment d'être l'unique personne à subir les manifestations phobiques, de mieux contextualiser et évaluer l'intensité des difficultés relationnelles et de profiter des expériences et des progrès des participants afin de trouver des réponses adaptées à ses réels besoins, souligne Édith Rosset."
+            ]
+        },
+        {
+            "tag": " tests faire  phobie sociale ",
+            "patterns": [
+                "Quels tests faire pour  phobie sociale ?",
+                "Quels tests nécessaires en cas  phobie sociale ?"
+            ],
+            "responses": [
+                "A partir de tests validés scientifiquement, le psychologue peut évaluer l'intensité des manifestations de la phobie sociale avant et après les entraînements thérapeutiques. Les échelles fréquemment utilisées sont :L'échelle d'anxiété sociale de Liebowitz (Social Anxiety Scale ou LSAS),Le questionnaire des conduites interpersonnelles (QCI, Arrindell et al., 1984, 1987),L'échelle d'affirmation de soi de Rathus"
+            ]
+        },
+        {
+            "tag": " la crise de la quarantaine crise du milieu de vie ",
+            "patterns": [
+                "qu'est-ce que la crise de la quarantaine  ?",
+                "c quoi crise du milieu de vie?"
+            ],
+            "responses": [
+                "Entre 35 et 50 ans, certaines personnes éprouvent un certain mal-être existentiel qui se traduit par une impression de stagner, d'être perpétuellement insatisfait(e) ou de sentir enfermé(e) dans une routine qui ne leur convient plus. C'est ce qu'on appelle <la crise de la quarantaine> ou <crise du milieu de vie>. Hommes et femmes peuvent être concernés. La durée de cette crise et les symptômes sont variables d'une personne à l'autre : certains vont tout remettre en question (couple, vie de famille, vie professionnelle, loisirs...), d'autres vont chercher un nouveau sens à leur vie et vont avoir envie de gros changements."
+            ]
+        },
+        {
+            "tag": "sauver sa vie de couple  cas de crise quarantaine crise du milieu de vie",
+            "patterns": [
+                "Comment sauver sa vie de couple en cas de crise quarantaine ?",
+                "Comment sauver sa vie de couple en cas de crise du milieu de vie ?"
+            ],
+            "responses": [
+                "La crise de la quarantaine est souvent marquée par une remise en question de son couple. Peut se créer ainsi un décalage entre les deux partenaires. Le conjoint se sent souvent démuni face à celui ou celle qui traverse une crise de la quarantaine et ne sait pas comment agir pour l'aider. Il peut également avoir peur de se retrouver seul, que son conjoint le quitte, parte avec quelqu'un d'autre ou connaisse une relation extra-conjugale. De son côté, la personne <en crise> vit avec l'impression que son conjoint ne la comprend pas, se sent étouffé(e) et souhaite bien souvent donner du piment à sa vie. Pour autant, fuir sa vie actuelle sur un coup de tête n'est pas une solution sur le long terme. Au début comme tout ce qui est nouveau, ce changement de vie peut paraître excitant et peut vous donner l'impression que votre mal-être a disparu, mais cette euphorie ne dure généralement qu'un certain temps et les doutes reviennent tôt ou tard. Dans tous les cas, la solution vient rarement de l'extérieur, mais de vous-même. Il faut essayer au maximum de prendre du recul et de se poser les bonnes questions pour être le plus en phase avec soi-même. De quoi ai-je réellement envie ? Avec qui me sentirais-je le (la) plus heureux (se) ? Seul(e) ou en couple ? Si je ne suis plus avec la personne avec laquelle je vis, serais-je plus épanoui(e) ou au contraire, me sentirais-je incomplet(e) ? Quels sont mes désirs les plus profonds ? Mon conjoint m'empêche-t-il de les assouvir ? Est-il un frein à la concrétisation de mes projets ?... Ces différentes réponses vous permettront d'y voir plus clair, de faire le bilan de votre vie actuelle et de trouver des petits ajustements qui vous aideront à être plus épanoui(e)."
+            ]
+        },
+        {
+            "tag": "conseils couple retenir crise de quarantaine crise du milieu de vie",
+            "patterns": [
+                "donnez moi  des conseils couple à retenir en  crise de quarantaine?",
+                "donnez moi  des conseils couple à retenir en crise du milieu de vie?"
+            ],
+            "responses": [
+                "1.Consacrez des temps de dialogue avec votre conjoint : parlez-lui le plus sincèrement possible, communiquez vos doutes et vos peurs, faites-lui part de vos envies qui selon vous, pourrait permettre de retrouver un mieux-être à deux, et demandez-lui ce qu'il en pense.2.Ne reportez pas la faute sur votre conjoint : cette remise en cause émane de vous et votre mal-être est personnel. Votre conjoint est un soutien précieux, mais le gros du travail doit venir de vous.3.Remettez le couple un peu plus au centre de la sphère familiale : on priorise souvent les enfants au détriment de notre couple et de la vie à deux. Or, avant d'être des parents, vous êtes avant tout deux personnes qui s'aiment et qui ont décidé de faire de jolis projets ensemble.4.Surtout, ne prenez pas des décisions que vous pourrez ensuite regretter. Pesez toujours le pour et le contre et faites mûrir vos décisions afin de ne pas franchir les limites fixées dans votre couple. Et ce, même si cela prend du temps et nécessite une grande patience."
+            ]
+        },
+        {
+            "tag": "conseils  sortir la crise de la quarantaine  crise du milieu de vie ",
+            "patterns": [
+                "donnez moi des conseils pour sortir de la crise de la quarantaine ?",
+                "donnez moi des conseils pour sortir de lacrise du milieu de vie?"
+            ],
+            "responses": [
+                "1.Accepter le mal-être et ne plus le subir :n'ayez pas peur de verbaliser vos angoisses ou vos frustrations et essayez d'en chercher les causes. Posez-vous les bonnes questions en y répondant avec honnêteté : est-ce que je me sens utile dans mon travail ? Ai-je accompli trop de choses trop vite ? Suis-je vraiment épanoui(e) dans mon couple ? Et dans mon poste actuel ?...2.En parler:selon le niveau de malaise et l'intensité des manifestations, la personne pourra réussir à trouver du réconfort auprès d'un proche (ami, membre de la famille du même âge idéalement qui auront sans doute les mêmes doutes ou préoccupations) ou de son conjoint. Il peut également éprouver le besoin d'en discuter avec une personne neutre comme un psychologue pour travailler sur ses émotions,sur ses manifestations anxieuses ou aller en profondeur de sa propre histoire,conseille la psychologue.3.Lister ses accomplissements. On a souvent tendance à pointer du doigt ce qu'on a mal fait et à se concentrer sur ses échecs. Or,il est important de rester bienveillant avec soi-même, d'accepter ses erreurs et de souligner ce que l'on pense avoir réussi dans la vie, développe notre interlocutrice.",
+                "1.Accepter que le temps passe. Il faut se le dire : il y a potentiellement des rêves ou des projets qu'on ne pourra plus réaliser et il y a un deuil à faire par rapport à ça. Toutefois, dites-vous qu'il y a 1 001 façon de construire une vie épanouissante.Dans tous les cas, il faut retrouver du plaisir pour mettre à distance la frustration : il est encore temps de vivre des passions nouvelles et de concrétiser des désirs inassouvis, rassure Johanna Rozenblum. Les injonctions de la société peuvent parfois être aliénantes et peser sur notre mal-être : il faut se libérer le plus possible de ces schémas sociétaux et prendre les décisions qui sont en accord avec nos valeurs et nos aspirations profondes, pas celles qui sont dictées par la société.2.Faire des projets, c'est important pour avoir la sensation d'être proactif et de ne pas subir sa vie.Pour certains, cela consistera à changer de travail, à vivre dans un nouveau pays, se marier, avoir un enfant, faire un projet immobilier... Pour d'autres, il sera question de consacrer plus du temps à des activités personnelles, rencontrer de nouvelles personnes ou prendre du temps à la réalisation de n'importe quel projet en attente (participer à une association, s'engager politiquement, faire un long voyage...), liste la psychologue."
+            ]
+        },
+        {
+            "tag": " la crise de la trentaine ? ",
+            "patterns": [
+                "C'est quoi la crise de la trentaine ? "
+            ],
+            "responses": [
+                "La crise de la trentaine n'est pas une pathologie, c'est un état émotionnel transitoire qui a vocation à s'améliorer avec le temps définit Johanna Rozenblum, psychologue.C'est une forme de remise en question, un tiraillement entre ce que nous projetions de notre vie à 30 ans et le bilan, parfois acerbe, que l'on peut faire de notre vie réelle."
+            ]
+        },
+        {
+            "tag": "les causes de la crise de la trentaine la vie fantasmée  la réalité Rupture séparation ",
+            "patterns": [
+                "quelles sont les causes de la crise de la trentaine ? "
+            ],
+            "responses": [
+                "La principale cause d'une crise de la trentaine réside dans le décalage entre la vie fantasmée et la réalité qui peut parfois susciter une forme de souffrance psychique. En somme, si à 30 ans, le bilan de votre vie n'est pas celui que vous vous imaginiez, cela peut déclencher une crise, une remise en question.Selon l'impact du malaise, les personnes vont réagir différemment. Certains vont prendre de la distance et développer une forme d'acceptation lorsque d'autres passeront par une vraie remise en question qui pourra avoir des conséquences sur les sphères sociales, privées et professionnelles : une rupture, un changement total de travail…"
+            ]
+        },
+        {
+            "tag": " les signes et symptômes  la crise de la trentaine",
+            "patterns": [
+                "Quels sont les signes et symptômesde la crise de la trentaine ?"
+            ],
+            "responses": [
+                "Il y a globalement deux manifestations classiques d'une crise de la trentaine selon Johanna Rozenblum :Le repli sur soi, lorsque la tristesse ou la morosité sont au premier plan.Une forme plus théâtrale avec remise en question et prise de décisions, parfois excessives, comme par exemple plaquer son travail pour changer de pays et partir à l'inconnu sur un coup de tête ou rompre avant son mariage pour avoir le sentiment de rester libre."
+            ]
+        },
+        {
+            "tag": "Combien temps dure la crise de trentaine ",
+            "patterns": [
+                "Combien de temps dure la crise de trentaine ?"
+            ],
+            "responses": [
+                "La durée d'une crise de la trentaine dépend de la prise en charge de cette période particulière indique la psychologue.Se préoccuper de son bien-être et travailler à comprendre ce qui crée la souffrance permettra d'avancer en pleine conscience et de restaurer un équilibre émotionnel qui fera sortir de la crise plus rapidement.En effet, Johanna Rozenblum explique que lorsqu'on est dans le déni et que l'on ne perçoit pas les signaux qui indiquent une souffrance ou une grande remise en question, on ne travaille pas à comprendre se qui crée le malaise.Les émotions négatives peuvent alors se chroniciser et le trouble s'installer. C'est en verbalisant avec un proche ou si besoin un psychologue, que l'on peut trouver un éclairage, une compréhension de ce que l'on traverse pour prendre les bonnes décisions et ne pas agir sur un coup de tête."
+            ]
+        },
+        {
+            "tag": " particularités la femme dans la crise de trentaine ",
+            "patterns": [
+                "Quelles particularités chez la femme dans la crise de trentaine ?"
+            ],
+            "responses": [
+                "La crise de la trentaine chez la femme n'est pas la même que chez l'homme.Chez les femmes, la crise commence souvent par une période de doute et de bilan, parfois de perte de repère : ce qui semblait être évident ne l'est plus.Il s'agit d'une prise de conscience du parcours de notre vie, et, chez la femme, on retrouve souvent des questions liées à la parentalité, à la maternité, ou à l'épanouissement professionnel."
+            ]
+        },
+        {
+            "tag": " particularités chomme dans la crise de trentaine",
+            "patterns": [
+                "Quelles particularités chez l'homme dans la crise de trentaine ?"
+            ],
+            "responses": [
+                "Pour les hommes, c'est différent.La crise de la trentaine est une première 'crise de la culture de la jeunesse' qui se traduit par la peur d'entrer subitement dans un monde d'adultes avec des responsabilités .Ainsi, certains hommes peuvent avoir l'impression de ne pas avoir assez profité de leur jeunesse, et décident donc de rattraper le temps perdu."
+            ]
+        },
+        {
+            "tag": "test la crise de trentaine ",
+            "patterns": [
+                "Quel test faire dans la crise de trentaine "
+            ],
+            "responses": [
+                "Il n'y a pas de test psychométrique en psychologie car il ne s'agit pas d'un trouble mental."
+            ]
+        },
+        {
+            "tag": "Crise de la trentaine en couple ",
+            "patterns": [
+                "Crise de la trentaine en couple : c'est quoi ? "
+            ],
+            "responses": [
+                "Il s'agit d'une crise de la trentaine ressentie par une ou deux personnes au sein d'un même couple. Elle a un impact dans le couple car elle amène à une remise en question de soi-même mais aussi de sa relation.Ce qui peut causer la crise au sein du couple, c'est souvent le décalage entre ce que nous projetons de faire à l'avenir et la situation actuelle, ce qui amène à prendre des décisions pour s'accomplir tel qu'on l'envisage explique Johanna Rozenblum.Par exemple si l'un se projette dans la parentalité et dans la stabilité professionnelle tandis que l'autre envisage de voyager et remet à plus tard le désir d'enfant."
+            ]
+        },
+        {
+            "tag": " surmonter sortir une crise de la trentaine ",
+            "patterns": [
+                "Comment surmonter une crise de la trentaine ? "
+            ],
+            "responses": [
+                "Sortir de la crise demande un travail sur soi-même, une introspection, qui peut se faire seul ou accompagné grâce à l'aide d'un psychologue.Il faut d'abord faire le bilan pour comprendre ce qui ne nous convient plus, puis se demander de quoi on a besoin pour retrouver une forme d'épanouissement et être en adéquation avec ses projections dans l'avenir."
+            ]
+        },
+        {
+            "tag": " une dépression saisonnière ",
+            "patterns": [
+                " qu'est-ce qu'une dépression saisonnière ?"
+            ],
+            "responses": [
+                "La dépression saisonnière est une forme de dépression qui intervient à certains moments de l'année. Elle survient à l'automne lorsque la lumière du jour commence à diminuer, dure jusqu'au printemps, s'amende en été et reprend à chaque automne.Elle touche des personnes qui sont très sensibles à la luminosité. Dès lors que celle-ci commence à diminuer, vers le mois d'octobre ou de novembre, elles vont présenter les mêmes symptômes que la dépression classique. La différence, c'est que sa survenue chez elles est liée à la luminosité qui joue très clairement sur leur moral , commente le Pr Bénédicte Gohier. On parle aussi de <blues de l'hiver> ou de <déprime hivernale>"
+            ]
+        },
+        {
+            "tag": "les causes dépression saisonnière ",
+            "patterns": [
+                "Quelles sont les causes du dépression saisonnière ?"
+            ],
+            "responses": [
+                "La dépression saisonnière est directement liée à la baisse de la lumière du jour. Les personnes qui y sont sujettes sont particulièrement sensibles à la mélatonine, un neuromédiateur dans le cerveau qui permet d'avoir un rythme circadien pertinent.Or, la mélatonine étant activée par l'impact lumineux sur la rétine, leur horloge biologique interne se retrouve déréglée, ce qui conduit progressivement à cette forme de dépression. Par exemple, ce sont des patients qui supportent très mal le décalage horaire. "
+            ]
+        },
+        {
+            "tag": " les symptômes dépression saisonnière?",
+            "patterns": [
+                "Quels sont les symptômes du dépression saisonnière ?"
+            ],
+            "responses": [
+                "Les symptômes sont ceux de la dépression : Des troubles de l'humeur,L'irritabilité ,Le manque d'envie,Une fatigue intense,Une tristesse permanente,Une baisse de libido,Une dévalorisation de soi,Des troubles de la concentration"
+            ]
+        },
+        {
+            "tag": " Différence  une dépression classique  une  dépression saisonnière",
+            "patterns": [
+                "quel est la Différence entre une dépression classique et une  dépression saisonnière?"
+            ],
+            "responses": [
+                "La principale caractéristique de ce type de dépression, c'est qu'elle survient toujours à la même saison, explique la spécialiste. Dans la dépression classique, on observe un ralentissement général, des problèmes de sommeil entraînant parfois de l'insomnie ainsi qu'un manque d'appétit. Alors que chez les patients atteints de dépression saisonnière, c'est plutôt le contraire qui peut se produire, ils vont avoir tendance à se réfugier dans le sommeil et à manger davantage"
+            ]
+        },
+        {
+            "tag": "saison dépression saisonnière ",
+            "patterns": [
+                "À quelle saison dépression saisonnière ?"
+            ],
+            "responses": [
+                "La dépression saisonnière s'installe à l'automne ou au début de l'hiver et dure jusqu'au printemps."
+            ]
+        },
+        {
+            "tag": " dépression saisonnière Qui et quand consulter ",
+            "patterns": [
+                "en cas de dépression saisonnière Qui et quand consulter ?"
+            ],
+            "responses": [
+                "Un médecin généraliste va pouvoir faire le diagnostic de dépression mais pas forcément celui de dépression saisonnière alors que la subtilité du traitement est vraiment très particulière, incluant des séances de luminothérapie et une psychothérapie, remarque le Pr Gohier. Il est donc préférable de consulter un psychiatre dont c'est la spécialité dès lors que la dépression influe sur la vie quotidienne"
+            ]
+        },
+        {
+            "tag": "dépression saisonnière  faire  diagnostic  test",
+            "patterns": [
+                "en cas de dépression saisonnière comment peut  faire le diagnostic et test"
+            ],
+            "responses": [
+                "Le diagnostic est effectué à partir de questions très simples. Il est posé lorsque les symptômes durent depuis plus de deux semaines et qu'ils entravent considérablement la vie quotidienne"
+            ]
+        },
+        {
+            "tag": " lutter contre dépression saisonnière ",
+            "patterns": [
+                "Que je fais  pour lutter contre dépression saisonnière ?"
+            ],
+            "responses": [
+                "Le traitement de la dépression saisonnière repose sur l'association psychothérapie et luminothérapie, essentielle pour compenser le manque de luminosité sur la rétine. Des séances sont mises en place le matin à partir du mois d'octobre ou de novembre lorsqu'il fait plus sombre, jusqu'au printemps.Il est également recommandé de marcher le matin pour prendre la lumière du jour au maximum. La vitamine D ayant aussi un impact sur le moral, les capacités de concentration, d'attention et de mémoire, on en prescrit une cure au début de l'hiver.Parfois sont associés des traitements médicamenteux lorsque la dépression est très sévère. "
+            ]
+        },
+        {
+            "tag": "  la mélancolie grave de dépression ",
+            "patterns": [
+                " qu'est-ce que la mélancolie ?"
+            ],
+            "responses": [
+                "La mélancolie est aujourd'hui considérée comme une forme extrêmement grave de dépression, qui s'inscrit relativement souvent dans un trouble bipolaire.Concrètement, le trouble bipolaire se caractérise par une alternance entre des épisodes dépressifs majeurs, et des épisodes maniaques, c'est-à-dire d'agitation, d'excitation, d'accélération générale de la pensée des actions menées, d'impossibilité de se poser, de réfléchir, de dormir voire parfois même de manger. La mélancolie n'est pas toujours en alternance avec ces épisodes maniaques mais cela est fréquent car, quand un patient est mélancolique ou très gravement déprimé, les dosages forts d'antidépresseurs peuvent faire basculer dans des états opposés de manie, explique le Dr Véronica Olivieri-Daniel. Dans le cas de la mélancolie, les états dépressifs sont d'une gravité telle que le risque de suicide est quasiment permanent. "
+            ]
+        },
+        {
+            "tag": "La mélancolie  une maladie véritable souffre suicide grave de dépression",
+            "patterns": [
+                "La mélancolie est-elle une maladie ?"
+            ],
+            "responses": [
+                "Loin d'être un simple coup de blues comme beaucoup l'imaginent, la mélancolie est une véritable maladie qui peut mener celui qui en souffre jusqu'au suicide.La mélancolie est une maladie dans la mesure où elle constitue une forme grave de dépression qui s'inscrit dans un type de personnalité dit psychotique, c'est-à-dire un fonctionnement qui tend à une dépressivité permanente, et dans lequel le lien avec la réalité est souvent altéré, commente la psychologue clinicienne."
+            ]
+        },
+        {
+            "tag": "mélancolie délirante mélancolie anxieuse",
+            "patterns": [
+                "c'est quoi la mélancolie délirante?"
+            ],
+            "responses": [
+                "La mélancolie délirante, également appelée mélancolie anxieuse, se caractérise par une anxiété débordante, une agitation accrue, une perte de l'estime de soi, un profond désespoir, une culpabilité intense et des pensées suicidaires. Dans cette forme de mélancolie, tous les signes de la maladie sont exacerbés, elle est donc plus grave que sa forme classique."
+            ]
+        },
+        {
+            "tag": "mélancolie souriante",
+            "patterns": [
+                "c'est quoi la mélancolie souriante?"
+            ],
+            "responses": [
+                "Le terme de mélancolie souriante n'est pas employé par les psychologues, psychiatres et psychanalystes. Ce type de dépression se traduit par la capacité du sujet à se sentir mieux temporairement, lorsque des événements positifs surviennent dans sa vie. La mélancolie souriante touche les personnes qui, en apparence, semblent heureuses, alors qu'en réalité, elles sont rongées par la dépression.Je ne connais pas le terme de mélancolie souriante. Une chose est sûre, il ne faut pas s'imaginer des gens qui pleurent ou qui se désespèrent. La mélancolie est plutôt une sorte d'annihilation, de perte absolue et totale d'envie de vivre, d'incapacité à imaginer autre chose que des situations morbides, douloureuses, catastrophiques. Ce n'est pas l'expression symptomatique qui détermine une pathologie, c'est son fond. Autrement dit, on peut être gravement mélancolique sans jamais pleurer"
+            ]
+        },
+        {
+            "tag": "les symptômes mélancolie souriante",
+            "patterns": [
+                "Quels sont les symptômes du mélancolie souriante?"
+            ],
+            "responses": [
+                "Une personne atteinte de mélancolie est dans un état de grande souffrance psychologique, entrainant un dégout généralisé de l'existence. Les symptômes les plus révélateurs de la mélancolie sont une perte majeure de l'élan vital, l'absence de réaction aux stimulations agréables, un laisser-aller important avec anorexie et amaigrissement, une culpabilisation importante, une humeur dépressive marquée. La mélancolie peut engendrer, en cas d'évolution chronique, une diminution des capacités intellectuelles, voire même pousser au suicide. <Dans les états mélancoliques, un désespoir total, l'impossibilité de croire à la guérison, des idées délirantes de catastrophe, de fin de vie ou de fin du monde surviennent>, ajoute le Dr Véronica Olivieri-Daniel. "
+            ]
+        },
+        {
+            "tag": "la cause de la mélancolie ",
+            "patterns": [
+                "Quelle est la cause de la mélancolie ?"
+            ],
+            "responses": [
+                "La mélancolie survient souvent à la suite d'un événement traumatique. Mais la plupart du temps, la maladie était déjà préexistante, et l'événement en question a permis de la révéler."
+            ]
+        },
+        {
+            "tag": "la mélancolie Quand et qui consulter un psychiatre symptômes",
+            "patterns": [
+                "en cas de la mélancolie quand et qui consulter ?"
+            ],
+            "responses": [
+                "La dépression mélancolique nécessite une prise en charge rapide, dès les premiers symptômes, afin de favoriser les chances de guérison. Dès lors que la dévalorisation de soi, le découragement, la perte d'intérêt pour soi et les autres, l'incapacité à se projeter, la tristesse, l'agitation et autres signes caractéristiques de la mélancolie entravent les activités du quotidien, il est nécessaire de consulter un psychiatre."
+            ]
+        },
+        {
+            "tag": "le diagnostic de la mélancolie personnalité épisodes dépressifs répétition",
+            "patterns": [
+                "Quel est le diagnostic de la mélancolie ?"
+            ],
+            "responses": [
+                "La mélancolie ne passe jamais inaperçue, mais il n'existe pas de diagnostic à proprement parler. Cette dépression sévère s'inscrit au sein d'une personnalité qui fait des épisodes dépressifs à répétition, qui a toujours eu un fonctionnement de type dépressivité, et qui a du mal à s'inscrire dans la vie, à se projeter dans quelque chose de bon, indique le Dr Véronica Olivieri-Daniel. On ne devient pas mélancolique du jour au lendemain, cela s'inscrit dans un tableau complexe de dépression majeure, associée à une personnalité définie comme borderline ou psychotique"
+            ]
+        },
+        {
+            "tag": " traitements de la mélancolie hospitalisation  antidépresseur sismothérapie",
+            "patterns": [
+                "Quels sont les traitements de la mélancolie ?"
+            ],
+            "responses": [
+                "Cette  forme de dépression nécessite une hospitalisation en urgence et la mise en place d'un traitement antidépresseur. Dans certaines formes de mélancolie, notamment celles avec un versant délirant ou un phénomène de stupeur avec immobilité et mutisme, un traitement appelé sismothérapie ou électroconvulsivothérapie utilisant des stimulations électriques délivrées sur le crâne peut être envisagé en urgence."
+            ]
         }
-    
+       
     ]
 }
-
-
