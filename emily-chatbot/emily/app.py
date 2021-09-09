@@ -11,29 +11,10 @@ app.config['SECRET_KEY'] = 'enter-a-very-secretive-key-3479373'
 def index():
     return render_template('index.html', **locals())
 
-@app.route('/login', methods=["GET", "POST"])
-def login():
-    if request.method == 'GET':
-     name = request.form['name']
-     password = request.form['password']
-    response={'name':name}
-    return jsonify({"user": response })
-    
+@app.route('/emilybot', methods=["GET", "POST"])
+def emilybot():
+    return render_template('emily_bot.html', **locals())    
 
-@app.route('/auth/signup', methods=[ "POST"])
-def signup():
-
-    if request.method == 'POST':
-        name = request.form['name']
-        email = request.form['email']
-        password = request.form['password']
-        response={'name':name,'email':email}
-
-    return jsonify({"user": response })
-
-@app.route('/register', methods=["GET", "POST"])
-def register():
-    return render_template('register.html', **locals())
 
 @app.route('/contact', methods=["GET", "POST"])
 def contact():

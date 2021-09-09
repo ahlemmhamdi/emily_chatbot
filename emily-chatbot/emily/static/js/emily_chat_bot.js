@@ -1,5 +1,4 @@
 jQuery(document).ready(function() {
-alert('I m here');
     $("#submit-button").click(function(e) {
       e.preventDefault();
 
