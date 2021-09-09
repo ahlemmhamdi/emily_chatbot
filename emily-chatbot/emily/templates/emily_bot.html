@@ -285,11 +285,32 @@
               question: $("#question").val()
           },
           success: function(result) {
-            $("#chat_body").append("<br>Me: "+$("#question").val()+ "<br> Emily: "+result.response);
-            $("#question").val("")
+            let _question=$("#question").val();
+            let _response=result.response;
+            $("#chat_body").append(`
+            <div class="d-flex justify-content-end mb-4">
+                <div class="msg_cotainer_send">${_question}</div>   
+                <div class="img_cont_msg">
+                  <img src="static/images/curious.png" class="rounded-circle user_img_msg">
+                </div>;
+            </div>`);
+            $("#chat_body").append(`
+            <div class="d-flex justify-content-start mb-4">
+                <div class="msg_cotainer_send">${_response}</div>   
+                <div class="img_cont_msg">
+                  <img src="static/images/emily.jpg" class="rounded-circle user_img_msg">
+                </div>
+            </div>`);
+            
           },
           error: function(result) {
-              alert('error');
+            $("#chat_body").append(`
+            <div class="d-flex justify-content-start mb-4">
+                <div class="msg_cotainer_send"><span>sorry i did not understand your question :) </span></div>   
+                <div class="img_cont_msg">
+                  <img src="static/images/emily.jpg" class="rounded-circle user_img_msg">
+                </div>
+            </div>`);  
           }
       });
 
